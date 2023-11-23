@@ -127,7 +127,7 @@ def split_train_in_two_cold_items(URM_all, ICM_list = None, train_item_percentag
 
     train_items = _select_train_warm_items(URM_all, train_item_percentage, train_interaction_percentage = train_interaction_percentage)
 
-    validation_items_mask = np.ones(n_items, dtype=np.bool)
+    validation_items_mask = np.ones(n_items, dtype=bool)
     validation_items_mask[train_items] = False
     validation_items = np.arange(0, n_items, dtype = int)[validation_items_mask]
 

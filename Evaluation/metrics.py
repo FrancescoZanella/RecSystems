@@ -302,7 +302,7 @@ class _Global_Item_Distribution_Counter(_Metrics_Object):
 
         recommended_counter = self.recommended_counter.copy()
 
-        recommended_counter_mask = np.ones_like(recommended_counter, dtype = np.bool)
+        recommended_counter_mask = np.ones_like(recommended_counter, dtype = bool)
         recommended_counter_mask[self.ignore_items] = False
 
         recommended_counter = recommended_counter[recommended_counter_mask]
@@ -425,7 +425,7 @@ class Coverage_User(_Metrics_Object):
 
     def __init__(self, n_users, ignore_users):
         super(Coverage_User, self).__init__()
-        self.users_mask = np.zeros(n_users, dtype=np.bool)
+        self.users_mask = np.zeros(n_users, dtype=bool)
         self.n_ignore_users = len(ignore_users)
 
     def add_recommendations(self, recommended_items_ids, user_id):
@@ -454,7 +454,7 @@ class Coverage_User_HIT(_Metrics_Object):
 
     def __init__(self, n_users, ignore_users):
         super(Coverage_User_HIT, self).__init__()
-        self.users_mask = np.zeros(n_users, dtype=np.bool)
+        self.users_mask = np.zeros(n_users, dtype=bool)
         self.n_ignore_users = len(ignore_users)
 
     def add_recommendations(self, is_relevant, user_id):
@@ -589,7 +589,7 @@ def _compute_shannon_entropy(recommended_counter):
 
     # Ignore from the computation both ignored items and items with zero occurrence.
     # Zero occurrence items will have zero probability and will not change the result, butt will generate nans if used in the log
-    recommended_counter_mask = np.ones_like(recommended_counter, dtype = np.bool)
+    recommended_counter_mask = np.ones_like(recommended_counter, dtype = bool)
     recommended_counter_mask[recommended_counter == 0] = False
 
     recommended_counter = recommended_counter[recommended_counter_mask]
