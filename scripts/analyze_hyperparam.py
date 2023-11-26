@@ -15,6 +15,7 @@ def generate_random_forest(path_csv_file_to_analyze):
 
 
     X = data.drop(['accuracy'], axis=1)
+    X = data.drop(['trialid'], axis = 1)
     y = data['accuracy']
 
 
