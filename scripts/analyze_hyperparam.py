@@ -66,7 +66,7 @@ def create_3D_graph(path_input_csv):
     df = pd.read_csv(path_input_csv, header = 3)
 
     # Create an interactive 3D scatter plot with color-coded points based on the 'result' column
-    fig = px.scatter_3d(df, x='topK', y='l1_ratio', z='alpha', color='result', opacity=0.7, color_continuous_scale='viridis')
+    fig = px.scatter_3d(df, x='topK', y='l1_ratio', z='alpha', color='accuracy', opacity=0.7, color_continuous_scale='viridis')
 
     # Set axis labelsa
     fig.update_layout(scene=dict(xaxis_title='topK', yaxis_title='l1_ratio', zaxis_title='alpha'))
