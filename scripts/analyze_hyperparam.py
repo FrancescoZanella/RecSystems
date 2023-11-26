@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 from sklearn.metrics import mean_squared_error
 
 
-def generate_random_forest(path_csv_file_to_analyze, rows_to_skip=3, target = 'accuracy', columns_to_drop = ['trialid']):
+def generate_random_forest(path_csv_file_to_analyze, columns_to_drop, rows_to_skip=3, target = 'accuracy'):
     
 
     # Carica i dati da CSV
