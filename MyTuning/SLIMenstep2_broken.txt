@@ -1,9 +1,3 @@
-[I 2023-11-25 11:15:34,101] A new study created in memory with name: no-name-6b31758d-6134-4c15-88c2-32b95c5ec06d
-SLIMElasticNetRecommender: URM Detected 164 ( 1.3%) users with no interactions.
-SLIMElasticNetRecommender: URM Detected 1 ( 0.0%) items with no interactions.
-SLIMElasticNetRecommender: Processed 20000 (100.0%) in 4.41 min. Items per second: 75.63
-100%|██████████| 12621/12621 [00:43<00:00, 289.30it/s]
-[I 2023-11-25 11:20:42,201] Trial 0 finished with value: 0.08210874273905319 and parameters: {'topK': 6797, 'l1_ratio': 0.2020244353536092, 'alpha': 0.04230839114187708}. Best is trial 0 with value: 0.08210874273905319.
 SLIMElasticNetRecommender: URM Detected 164 ( 1.3%) users with no interactions.
 SLIMElasticNetRecommender: URM Detected 1 ( 0.0%) items with no interactions.
 SLIMElasticNetRecommender: Processed 8202 (41.0%) in 5.00 min. Items per second: 27.33

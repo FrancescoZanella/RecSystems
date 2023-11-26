@@ -15,6 +15,8 @@ def function(input_path, output_path):
 
     matches = pattern.findall(log_content)
 
+    
+
 
 
 

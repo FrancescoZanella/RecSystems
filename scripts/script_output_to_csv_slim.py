@@ -8,12 +8,14 @@ script per prendere da output hyperparameters e salvarli in un excel
 
 
 def function(input_path, output_path):
-    with open(input_path, 'r') as file:
+    with open(input_path, 'r',encoding='utf-8') as file:
         log_content = file.read()
     # Definisci il modello di regex per estrarre i valori di accuracy e i parametri
     pattern = re.compile(r'Trial (\d+) finished with value: ([\d.]+) and parameters: ({.+?}).*?')
 
     matches = pattern.findall(log_content)
+
+    print(matches)
 
 
 
@@ -21,7 +23,7 @@ def function(input_path, output_path):
     # Creazione delle liste per le colonne del dataframe
     trialid = []
     accuracy = []
-    topk = []
+    topK = []
     l1_ratio = []
     alpha = [] 
    
@@ -30,22 +32,26 @@ def function(input_path, output_path):
     for row in matches:
         trialid.append(row[0])
         accuracy.append(row[1])
-        topk.append(row[2])
-        l1_ratio.append(row[3])
-        alpha.append(row[4])
+        params = ast.literal_eval(row[2])  # Convertire la stringa di parametri in un dizionario
+        topK.append(params.get('topK', None))
+        l1_ratio.append(params.get('l1_ratio', None))
+        alpha.append(params.get('alpha', None))
         
 
     # Creazione del dataframe
     df = pd.DataFrame({
         'trialid': trialid,
         'accuracy': accuracy,
-        'topk': topk,
+        'topK': topK,
         'l1_ratio': l1_ratio,
         'alpha': alpha
     })
 
     # Visualizza il dataframe
     df.to_csv(output_path, index=False)
+
+
+function("C:\\Users\\franc\\Desktop\\RecSys\\DATASETS\\RecSys_Course_AT_PoliMi\\MyTuning\\SLIMenstep2_broken.txt","output1.csv")
 
 
 
