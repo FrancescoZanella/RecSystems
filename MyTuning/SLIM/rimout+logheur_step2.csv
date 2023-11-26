@@ -1,6 +1,6 @@
 SLIM + toppop(cold start) + rimozione outliers + log heuristic + secondo step hyperpar optimization
-topK': 8530, 'l1_ratio': 0.15043627455495323, 'alpha': 0.009644207182365711
-range: TODO
+range:topK[5500, 10000],l1 [1e-5, 0.3], alpha[1e-3, 0.25]
+topK': 8530, 'l1_ratio': 0.15043627455495323, 'alpha': 0.009644207182365711, 'accuracy': 08832257551163741
 trialid,accuracy,topK,l1_ratio,alpha
 1,0.0867564322732928,7471,0.02539043335963321,0.00831811505197633
 2,0.07265131315868793,9998,0.2803771665176411,0.09257103468283463
