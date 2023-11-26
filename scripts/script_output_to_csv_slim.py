@@ -51,7 +51,6 @@ def function(input_path, output_path):
     df.to_csv(output_path, index=False)
 
 
-function("C:\\Users\\franc\\Desktop\\RecSys\\DATASETS\\RecSys_Course_AT_PoliMi\\MyTuning\\SLIMenstep2_broken.txt","output1.csv")
 
 
 
