@@ -67,6 +67,8 @@ def function(input_path, output_path):
     # Salva il dataframe su un file Excel
     df.to_csv(output_path, index=False)
 
+function("C:\\Users\\franc\\Desktop\\TODO.txt","C:\\Users\\franc\\Desktop\\step1.csv")
+
 
 
 
