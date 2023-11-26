@@ -1,6 +1,6 @@
 collaborative item-item + log/outliers + hyper_param 1 optmization
 range: Non ce li abbiamo piu :D
-best -> topk= 46, shrink = 182, asymmetric = 0.244, accuracy = 08159249375114809
+best -> topk= 46, shrink = 182, asymmetric = 0.244 accuracy= 0.08159249375114809
 trialid,accuracy,similarity,topk,shrink,asymmetric_alpha,normalize,tversky_alpha,tversky_beta,normalize_avg_row,similarity_from_distance_mode
 0,0.06960293290866308,dice,211,162,,,,,,
 1,0.0654230528743905,asymmetric,690,866,0.39544737243866956,,,,,
