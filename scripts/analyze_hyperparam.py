@@ -17,7 +17,7 @@ def generate_random_forest(path_csv_file_to_analyze, rows_to_skip=3, target = 'a
     X = data.drop([target], axis=1)
     for col in columns_to_drop:
         X = data.drop([col], axis = 1)
-    
+    X = data.drop(['accuracy'], axis=1)
     y = data[target]
 
 
