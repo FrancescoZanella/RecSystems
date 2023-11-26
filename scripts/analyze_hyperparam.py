@@ -6,17 +6,19 @@ import matplotlib.pyplot as plt
 from sklearn.metrics import mean_squared_error
 
 
-def generate_random_forest(path_csv_file_to_analyze):
+def generate_random_forest(path_csv_file_to_analyze, rows_to_skip=3, target = 'accuracy', columns_to_drop = ['trialid']):
     
 
     # Carica i dati da CSV
-    data = pd.read_csv(path_csv_file_to_analyze, header = 3)
+    data = pd.read_csv(path_csv_file_to_analyze, header = rows_to_skip)
 
 
 
-    X = data.drop(['accuracy'], axis=1)
-    X = data.drop(['trialid'], axis = 1)
-    y = data['accuracy']
+    X = data.drop([target], axis=1)
+    for col in columns_to_drop:
+        X = data.drop([col], axis = 1)
+    
+    y = data[target]
 
 
 
@@ -59,18 +61,18 @@ def generate_random_forest(path_csv_file_to_analyze):
     
     
 
-def create_3D_graph(path_input_csv):
+def create_3D_graph(path_input_csv, rows_to_skip=3, target_col = 'accuracy', dimensions = ['topK', 'l1_ratio', 'alpha']):
     
 
     # Load your dataset
     # Replace 'your_dataset.csv' with the actual path to your CSV file
-    df = pd.read_csv(path_input_csv, header = 3)
+    df = pd.read_csv(path_input_csv, header = rows_to_skip)
 
     # Create an interactive 3D scatter plot with color-coded points based on the 'result' column
-    fig = px.scatter_3d(df, x='topK', y='l1_ratio', z='alpha', color='accuracy', opacity=0.7, color_continuous_scale='viridis')
+    fig = px.scatter_3d(df, x=dimensions[0], y=dimensions[1], z=dimensions[2], color= target_col, opacity=0.7, color_continuous_scale='viridis')
 
     # Set axis labelsa
-    fig.update_layout(scene=dict(xaxis_title='topK', yaxis_title='l1_ratio', zaxis_title='alpha'))
+    fig.update_layout(scene=dict(xaxis_title=dimensions[0], yaxis_title=dimensions[1], zaxis_title=dimensions[2]))
 
     # Show the plot
     fig.show()
