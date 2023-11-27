@@ -6,13 +6,13 @@ import matplotlib.pyplot as plt
 from sklearn.metrics import mean_squared_error
 
 
-def generate_random_forest(path_csv_file_to_analyze, columns_to_drop = [], rows_to_skip=3, target = 'accuracy'):
+def generate_random_forest(path_csv_file_to_analyze, columns_to_drop = [], rows_to_skip=3, target = 'accuracy', threshold=None):
     
 
     # Carica i dati da CSV
     data = pd.read_csv(path_csv_file_to_analyze, header = rows_to_skip)
-
-
+    if threshold is not None:
+        data = data[data[target] >= threshold]
 
     X = data.drop(target, axis=1)
     X = data.dropna(axis=1, how='all')
