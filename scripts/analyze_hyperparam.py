@@ -6,13 +6,11 @@ import matplotlib.pyplot as plt
 from sklearn.metrics import mean_squared_error
 
 
-def generate_random_forest(path_csv_file_to_analyze, columns_to_drop = [], rows_to_skip=3, target = 'accuracy', threshold=None):
+def generate_random_forest(path_csv_file_to_analyze, columns_to_drop = [], rows_to_skip=3, target = 'accuracy'):
     
 
     # Carica i dati da CSV
     data = pd.read_csv(path_csv_file_to_analyze, header = rows_to_skip)
-    if threshold is not None:
-        data = data[data[target] >= threshold]
 
     X = data.drop(target, axis=1)
     X = data.dropna(axis=1, how='all')
@@ -63,13 +61,14 @@ def generate_random_forest(path_csv_file_to_analyze, columns_to_drop = [], rows_
     
     
 
-def create_3D_graph(path_input_csv, rows_to_skip=3, target_col = 'accuracy', dimensions = ['topK', 'l1_ratio', 'alpha']):
+def create_3D_graph(path_input_csv, rows_to_skip=3, target_col = 'accuracy', dimensions = ['topK', 'l1_ratio', 'alpha'],threshold=None):
     
 
     # Load your dataset
     # Replace 'your_dataset.csv' with the actual path to your CSV file
     df = pd.read_csv(path_input_csv, header = rows_to_skip)
-
+    if threshold is not None:
+        df = df[df[target_col] >= threshold]
     # Create an interactive 3D scatter plot with color-coded points based on the 'result' column
     fig = px.scatter_3d(df, x=dimensions[0], y=dimensions[1], z=dimensions[2], color= target_col, opacity=0.7, color_continuous_scale='viridis')
 
