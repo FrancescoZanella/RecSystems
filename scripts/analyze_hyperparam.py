@@ -15,6 +15,7 @@ def generate_random_forest(path_csv_file_to_analyze, columns_to_drop = [], rows_
 
 
     X = data.drop(target, axis=1)
+    X = data.dropna(axis=1, how='all')
     for col in columns_to_drop:
         X = data.drop(col, axis = 1)
     
