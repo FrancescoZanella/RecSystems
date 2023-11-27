@@ -1,3 +1,6 @@
+SLIMElasticNet senza nessun preprocessing sulla URM (step3) (note: probably got stuck on a local minima..)
+topK[7000, 1e4], l1[1e-5, 0.08], alpha[0.0001, 0.0026]
+best: accuracy: 0.09525340374344587, topK:8961, l1_ratio:0.06784550883957426, alpha:0.0013492716206350524
 trialid,accuracy,topK,l1_ratio,alpha
 0,0.09485477953663847,8171,0.04121624107668459,0.001999152336457023
 1,0.094989288816666,8724,0.06152051755483133,0.001200355966218069
