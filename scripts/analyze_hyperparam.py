@@ -1,4 +1,4 @@
-import plotly.express as px
+#import plotly.express as px
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestRegressor
@@ -93,4 +93,3 @@ def create_3D_graph(path_input_csv, rows_to_skip=3, target_col = 'accuracy', dim
     fig.show()
 
 
-generate_random_forest("C:\\Users\\franc\\Desktop\\RecSys\\DATASETS\\RecSys_Course_AT_PoliMi\\MyTuning\collaborative_item_item\\step1.csv",rows_to_skip = 3,columns_to_drop= [],columns_to_categorical = ['similarity'],target='result')
