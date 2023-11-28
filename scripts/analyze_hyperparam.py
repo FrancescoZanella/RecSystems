@@ -6,30 +6,36 @@ import matplotlib.pyplot as plt
 from sklearn.metrics import mean_squared_error
 
 
-def generate_random_forest(path_csv_file_to_analyze,colums_to_categorical = [], columns_to_drop = [], rows_to_skip=3, target = 'accuracy'):
+def generate_random_forest(path_csv_file_to_analyze,columns_to_categorical = [], columns_to_drop = [], rows_to_skip=3, target = 'accuracy'):
     
 
     # Carica i dati da CSV
     data = pd.read_csv(path_csv_file_to_analyze, header = rows_to_skip)
+    data = data[data['similarity'] != 'euclidean']
+
 
     #drop the target column
     X = data.drop(target, axis=1)
-    #drop any empty column
-    X = data.dropna(axis=1, how='all')
+    #drop any empty column name
+    X = X.dropna(axis=1, how='all')
+    
 
     # convert into categorical
-    for col in colums_to_categorical:
-        X = pd.get_dummies(data, columns=[col], prefix=col)
+    for col in columns_to_categorical:
+        X = pd.get_dummies(X, columns=[col], prefix=col)
 
     #drop columns to drop
     for col in columns_to_drop:
-        X = data.drop(col, axis = 1)
-    
+        X = X.drop(col, axis = 1)
+
+    X = X.fillna(0)
 
     y = data[target]
+    print(X)
 
 
-
+    
+    
     # Dividi i dati in set di addestramento e test
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
@@ -85,3 +91,6 @@ def create_3D_graph(path_input_csv, rows_to_skip=3, target_col = 'accuracy', dim
 
     # Show the plot
     fig.show()
+
+
+generate_random_forest("C:\\Users\\franc\\Desktop\\RecSys\\DATASETS\\RecSys_Course_AT_PoliMi\\MyTuning\collaborative_item_item\\step1.csv",rows_to_skip = 3,columns_to_drop= [],columns_to_categorical = ['similarity'],target='result')
