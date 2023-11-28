@@ -31,7 +31,7 @@ def generate_random_forest(path_csv_file_to_analyze,columns_to_categorical = [],
     X = X.fillna(0)
 
     y = data[target]
-    print(X)
+    
 
 
     
