@@ -1,6 +1,6 @@
 collaborative item-item + hyper_param 2 optmization
 range -> similarity = "tversky", topK = [1, 1000], shrink = [0, 100],tversky_alpha = [1.6, 3] tversky_beta = [1.5,3]
-best -> {'topK': 36, 'shrink': 29, 'tversky_alpha': 1.741341923073262, 'tversky_beta': 2.9148336121214324, 'result'= 0.08971920329907228
+best -> 'topK': 36, 'shrink': 29, 'tversky_alpha': 1.741341923073262, 'tversky_beta': 2.9148336121214324, 'result'= 0.08971920329907228
 topK,shrink,tversky_alpha,tversky_beta,result
 352,40,1.756875922,2.126099936,0.082880991
 92,8,2.429675457,1.985696322,0.08259172
