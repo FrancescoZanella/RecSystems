@@ -1,3 +1,6 @@
+First try with SVD++
+validation_every_n: 5,stop_on_validation: True,evaluator_object: evaluator_validation,lower_validations_allowed: 5,validation_metric: "MAP",epochs: 100,num_factors[1, 200],sgd_mode["sgd", "adagrad", "adam"],batch_size =[1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024],item_reg =[1e-5, 1e-2]log=True,user_reg =[1e-5, 1e-2]log=True,learning_rate[1e-4, 1e-1]log=True
+best: accuracy=0.00407120062156471 parameters: {'num_factors': 49, 'sgd_mode': 'adagrad', 'batch_size': 256, 'item_reg': 4.026258326041249e-05, 'user_reg': 0.00033353911950718127, 'learning_rate': 0.0005846079900566369}
 num_factors,sgd_mode,batch_size,item_reg,user_reg,learning_rate,result,epochs
 164,adagrad,128,2.6991734214070123e-05,4.077908889783234e-05,0.00017097161567663455,0.0001360515551959727,100
 95,adam,2,0.001191846411321528,0.00020565646656970832,0.002952053297483767,2.623831355627472e-05,5
