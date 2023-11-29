@@ -182,9 +182,9 @@ def _prune_users(URM_test, ignore_items_ID, min_ratings_per_user):
     :return:
     """
 
-    users_to_evaluate_mask = np.zeros(URM_test.shape[0], dtype=bool)
+    users_to_evaluate_mask = np.ones(URM_test.shape[0], dtype=bool)
 
-    URM_test = _remove_item_interactions(URM_test, ignore_items_ID)
+    #URM_test = _remove_item_interactions(URM_test, ignore_items_ID)
     URM_test = sps.csr_matrix(URM_test)
 
     rows = URM_test.indptr
