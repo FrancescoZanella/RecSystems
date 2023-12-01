@@ -5,7 +5,7 @@ def function(input_path, output_path):
     with open(input_path, 'r') as file:
         content = file.read()
 
-    blocks = re.findall(r'\[I.*?Trial (\d+).*?value: (.*?)(?=\[I|$)([\s\S]*?)(?=\[I|$)', content)
+    blocks = re.findall(r'Trial (\d+).*?value: (.*?)(?=\[I|$)([\s\S]*?)(?=\[I|$)', content)
 
     with open(output_path, 'w', newline='') as csvfile:
         fieldnames = ['trial_id', 'accuracy', 'num_factors', 'confidence_scaling', 'alpha', 'epsilon', 'reg']
