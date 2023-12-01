@@ -27,5 +27,3 @@ def function(input_path, output_path):
                 'reg': params_dict['reg']
             })
 
-# Example usage:
-parse_txt_to_csv('input.txt', 'output.csv')
