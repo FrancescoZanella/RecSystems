@@ -1,7 +1,7 @@
 import csv
 import re
 
-def parse_txt_to_csv(input_path, output_path):
+def function(input_path, output_path):
     with open(input_path, 'r') as file:
         content = file.read()
 
