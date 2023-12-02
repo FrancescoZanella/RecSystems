@@ -1,3 +1,6 @@
+IALS first try
+"validation_every_n": 3,"stop_on_validation": True,"evaluator_object": evaluator_validation,"lower_validations_allowed": 5,"validation_metric": "MAP", "epochs": 500,num_factors[1, 200],confidence_scaling["linear", "log"],alpha=[1e-3,50.0]log=True,epsilon=[1e-3,10.0]log=True,reg=[1e-5,1e-2]log=True
+best: 0.028552565010624604 and parameters: {'num_factors': 183, 'confidence_scaling': 'log', 'alpha': 0.5078497804679399, 'epsilon': 0.010250389368481442, 'reg': 0.004694471088493774}
 trialid,accuracy,num_factors,confidence_scaling,alpha,epsilon,reg
 0,0.025653740028170856,119,log,0.008502381055304464,0.06000913400367788,3.686838632933196e-05
 1,0.024678211262244457,58,linear,0.0014459175236451508,0.18345636195285073,0.0017528185621476663
