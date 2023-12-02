@@ -2,26 +2,40 @@ import re
 import ast
 import pandas as pd
 
-def function(log_file_path, output_csv_path):
-    # Read log text from the file
-    with open(log_file_path, 'r') as file:
-        log_text = file.read()
+def function(input_path, output_path):
+    with open(input_path, 'r') as file:
+        log_content = file.read()
 
-    # Extract data between curly braces using regular expression
-    pattern = re.compile(r"\{([^}]+)\}")
-    matches = pattern.findall(log_text)
+    # Define the regex pattern to extract trial information and parameters
+    pattern = re.compile(r'Trial (\d+) finished with value: ([\d.]+) and parameters: {\'topK\': (\d+), \'l2_norm\': ([\d.]+), \'normalize_matrix\': (True|False)}.*?')
 
-    # Create a list of dictionaries using ast.literal_eval
-    data = []
-    for match in matches:
-        # Remove line breaks and whitespaces
-        clean_match = match.replace('\n', '').replace(' ', '')
-        # Evaluate the cleaned string
-        evaluated_dict = ast.literal_eval(clean_match)
-        data.append(evaluated_dict)
+    matches = pattern.findall(log_content)
 
-    # Create a Pandas DataFrame
-    df = pd.DataFrame(data)
+    # Lists for DataFrame columns
+    trialid = []
+    accuracy = []
+    topK = []
+    l2_norm = []
+    normalize_matrix = []
+
+    # Extract data from rows
+    for row in matches:
+        trialid.append(row[0])
+        accuracy.append(row[1])
+        topK.append(row[2])
+        l2_norm.append(row[3])
+        normalize_matrix.append(row[4] == 'True')
+
+    # Create the DataFrame
+    df = pd.DataFrame({
+        'trialid': trialid,
+        'accuracy': accuracy,
+        'topK': topK,
+        'l2_norm': l2_norm,
+        'normalize_matrix': normalize_matrix
+    })
 
     # Save the DataFrame to a CSV file
-    df.to_csv(output_csv_path, index_label='index')
+    df.to_csv(output_path, index=False)
+
+
