@@ -1,29 +1,48 @@
-import csv
 import re
+import pandas as pd
+import ast
 
 def function(input_path, output_path):
-    with open(input_path, 'r') as file:
-        content = file.read()
+    with open(input_path, 'r', encoding='utf-8') as file:
+        log_content = file.read()
 
-    blocks = re.findall(r'Trial (\d+).*?value: (.*?)(?=\[I|$)([\s\S]*?)(?=\[I|$)', content)
+    pattern = re.compile(r'Trial (\d+) finished with value: ([\d.]+) and parameters: ({.+?}).*?')
 
-    with open(output_path, 'w', newline='') as csvfile:
-        fieldnames = ['trial_id', 'accuracy', 'num_factors', 'confidence_scaling', 'alpha', 'epsilon', 'reg']
-        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
-        writer.writeheader()
+    matches = pattern.findall(log_content)
 
-        for block in blocks:
-            trial_id, accuracy, rest_of_block = block
-            params_match = re.search(r"'num_factors': (\d+).*?'confidence_scaling': '(.*?)'.*?'alpha': ([\d.]+).*?'epsilon': ([\d.]+).*?'reg': ([\d.e+-]+)", rest_of_block)
+    # Lists for DataFrame columns
+    trialid = []
+    accuracy = []
+    num_factors = []
+    confidence_scaling = []
+    alpha = []
+    epsilon = []
+    reg = []
 
-            if params_match:
-                writer.writerow({
-                    'trial_id': trial_id,
-                    'accuracy': accuracy,
-                    'num_factors': params_match.group(1),
-                    'confidence_scaling': params_match.group(2),
-                    'alpha': params_match.group(3),
-                    'epsilon': params_match.group(4),
-                    'reg': params_match.group(5)
-                })
+    # Extract data from the log
+    for row in matches:
+        trialid.append(row[0])
+        accuracy.append(row[1])
+        params = ast.literal_eval(row[2])  # Convert the parameter string to a dictionary
+        num_factors.append(params.get('num_factors', None))
+        confidence_scaling.append(params.get('confidence_scaling', None))
+        alpha.append(params.get('alpha', None))
+        epsilon.append(params.get('epsilon', None))
+        reg.append(params.get('reg', None))
+
+    # Create the DataFrame
+    df = pd.DataFrame({
+        'trialid': trialid,
+        'accuracy': accuracy,
+        'num_factors': num_factors,
+        'confidence_scaling': confidence_scaling,
+        'alpha': alpha,
+        'epsilon': epsilon,
+        'reg': reg
+    })
+
+    # Save the DataFrame to a CSV file
+    df.to_csv(output_path, index=False)
+
+
 
