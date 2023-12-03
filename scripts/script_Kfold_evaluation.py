@@ -63,7 +63,7 @@ def kFold_evaluation(URM_all, model, parameters_dict_list, k=10):
         for i in range(k):
             recommender=model(URM_train_list[i])
             recommender.fit(**parameters_dict_list[j])
-            res=evaluate_algorithm(parameters_dict_list[i],recommender, at=10)
+            res=evaluate_algorithm(URM_validation_list[i],recommender, at=10)
             acc=acc+res
             print("Fold" + str(i)+" evaluation ended with value " + str(res))
         print("Evaluation on all folded ended. Average accracy is: "+ str(acc/k))
