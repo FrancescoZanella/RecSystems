@@ -1,41 +1,31 @@
 import re
-import ast
-import pandas as pd
+import csv
 
-def function(input_path, output_path):
-    with open(input_path, 'r') as file:
-        log_content = file.read()
+def function(log_file_path, output_csv_path):
+    # Regular expression pattern to extract trial, topK, l2_norm, and accuracy from log lines
+    pattern = re.compile(r'Trial (\d+) finished with value: (\d+\.\d+) and parameters: {\'topK\': (\d+), \'l2_norm\': ([\d.]+)}.')
 
-    # Define the regex pattern to extract trial information and parameters
-    pattern = re.compile(r'Trial (\d+) finished with value: ([\d.]+) and parameters: {\'topK\': (\d+), \'l2_norm\': ([\d.]+), \'normalize_matrix\': (True|False)}.*?')
+    # Columns for the CSV file
+    columns = ['trial', 'topK', 'l2_norm', 'accuracy']
 
-    matches = pattern.findall(log_content)
+    # List to store extracted data
+    data = []
 
-    # Lists for DataFrame columns
-    trialid = []
-    accuracy = []
-    topK = []
-    l2_norm = []
-    normalize_matrix = []
+    # Read the log file
+    with open(log_file_path, 'r') as log_file:
+        for line in log_file:
+            match = pattern.search(line)
+            if match:
+                trial, accuracy, topK, l2_norm = match.groups()
+                data.append([int(trial), int(topK), float(l2_norm), float(accuracy)])
 
-    # Extract data from rows
-    for row in matches:
-        trialid.append(row[0])
-        accuracy.append(row[1])
-        topK.append(row[2])
-        l2_norm.append(row[3])
-        normalize_matrix.append(row[4] == 'True')
+    # Sort the data based on the 'trial' column
+    data.sort(key=lambda x: x[0])
 
-    # Create the DataFrame
-    df = pd.DataFrame({
-        'trialid': trialid,
-        'accuracy': accuracy,
-        'topK': topK,
-        'l2_norm': l2_norm,
-        'normalize_matrix': normalize_matrix
-    })
-
-    # Save the DataFrame to a CSV file
-    df.to_csv(output_path, index=False)
+    # Write data to CSV file
+    with open(output_csv_path, 'w', newline='') as csv_file:
+        writer = csv.writer(csv_file)
+        writer.writerow(columns)
+        writer.writerows(data)
 
 
