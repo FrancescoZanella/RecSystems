@@ -48,6 +48,7 @@ def evaluate_algorithm(URM_test, recommender_object, at=5):
             cumulative_AP += AP(recommended_items, relevant_items)
             
     MAP = cumulative_AP / num_eval
+    return MAP
 
 
 def kFold_evaluation(URM_all, model, parameters_dict_list, k=10):
