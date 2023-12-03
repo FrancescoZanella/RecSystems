@@ -4,7 +4,6 @@ import numpy as np
 from Data_manager.split_functions.split_train_validation_random_holdout import split_train_in_two_percentage_global_sample
 
 def create_folds(URM_all, k):
-    k=10
     n_el=URM_all.nnz
     URM_train_list=[]
     URM_validation_list=[]
