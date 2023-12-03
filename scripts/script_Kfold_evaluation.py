@@ -1,14 +1,16 @@
 from tqdm import tqdm
 import numpy as np
 
-def create_folds(URM_all, k, splitter_function):
+from Data_manager.split_functions.split_train_validation_random_holdout import split_train_in_two_percentage_global_sample
+
+def create_folds(URM_all, k):
     k=10
     n_el=URM_all.nnz
     URM_train_list=[]
     URM_validation_list=[]
     URM_remaining=URM_all
     for i in range(k):
-        URM_remaining, URM_validation = splitter_function(URM_remaining, train_percentage = ((n_el-(i+1)*n_el/k)/URM_remaining.nnz) )
+        URM_remaining, URM_validation = split_train_in_two_percentage_global_sample(URM_remaining, train_percentage = ((n_el-(i+1)*n_el/k)/URM_remaining.nnz) )
         URM_train_list.append(URM_all - URM_validation)
         URM_validation_list.append(URM_validation)
 
@@ -49,8 +51,8 @@ def evaluate_algorithm(URM_test, recommender_object, at=5):
     MAP = cumulative_AP / num_eval
 
 
-def kFold_evaluation(URM_all, model, parameters_dict_list, splitter_function, k=10):
-    URM_train_list,URM_validation_list = create_folds(URM_all,k,splitter_function)
+def kFold_evaluation(URM_all, model, parameters_dict_list, k=10):
+    URM_train_list,URM_validation_list = create_folds(URM_all,k)
     res=0
     acc=0
     for j in range(len(parameters_dict_list)):
