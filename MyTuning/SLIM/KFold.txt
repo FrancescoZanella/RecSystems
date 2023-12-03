@@ -1,0 +1,12 @@
+KFOLD CROSS VALIDATION, k=10
+Parameters set tested:
+best_pars = [
+    {"topK": 7223, "l1_ratio": 0.06907809571101771, "alpha": 0.001247929408227769}, #actual best on leaderboard
+    {"topK":  3685, "l1_ratio": 0.08125810000853637, "alpha":  0.0013503945179548192}, #previous best (n.2 on private leaderboard)
+    {"topK":  8668, "l1_ratio": 0.04379366458351434, "alpha":  0.002121564814086149}, #new potential best 
+]
+
+Results:
+Evaluation on all folded ended. Average accracy is: 0.09119297909710995
+Evaluation on all folded ended. Average accracy is: 0.09113419956666105
+Evaluation on all folded ended. Average accracy is: 0.09096215774903456
