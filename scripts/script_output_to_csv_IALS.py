@@ -44,5 +44,5 @@ def function(input_path, output_path):
     # Save the DataFrame to a CSV file
     df.to_csv(output_path, index=False)
 
-
+function("C:\\Users\\franc\\Desktop\\RecSys\\DATASETS\\RecSys_Course_AT_PoliMi\\MyTuning\\IALS\\step1_fra.txt","C:\\Users\\franc\\Desktop\\RecSys\\DATASETS\\RecSys_Course_AT_PoliMi\\MyTuning\\IALS\\step1_fra.csv")
 

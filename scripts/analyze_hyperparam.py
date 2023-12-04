@@ -93,3 +93,4 @@ def create_3D_graph(path_input_csv, rows_to_skip=3, target_col = 'accuracy', dim
     fig.show()
 
 
+create_3D_graph("C:\\Users\\franc\\Desktop\\RecSys\\DATASETS\\RecSys_Course_AT_PoliMi\\MyTuning\\P3_alpha\\step2.csv",rows_to_skip=0,target_col='result',dimensions=["topK","alpha","alpha"])

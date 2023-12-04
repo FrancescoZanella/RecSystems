@@ -65,7 +65,8 @@ def function(input_path, output_path):
     df.to_csv(output_path, index=False)
 
 
-function("C:\\Users\\franc\\Desktop\\RecSys\\DATASETS\\RecSys_Course_AT_PoliMi\\scripts\\prova (2).txt","C:\\Users\\franc\\Desktop\\RecSys\\DATASETS\\RecSys_Course_AT_PoliMi\\scripts\\prova.csv")
+function("C:\\Users\\franc\\Desktop\\RecSys\\DATASETS\\RecSys_Course_AT_PoliMi\\scripts\\mapping.txt","C:\\Users\\franc\\Desktop\\RecSys\\DATASETS\\RecSys_Course_AT_PoliMi\\scripts\\mapping.csv")
+#create_3D_graph("C:\\Users\\franc\\Desktop\\RecSys\\DATASETS\\RecSys_Course_AT_PoliMi\\scripts\\mapping.txt",dimensions=['topK','lambda_i','lambda_j'],rows_to_skip=0)
 
 
 
