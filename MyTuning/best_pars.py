@@ -5,10 +5,10 @@ best_pars_dict = {
       'alpha': 0.001247929408227769
     },
   'RP3betaRecommender': {
-      'topK': 35,
-      'alpha': 0.3640454616932409,
-      'beta': 0.24726782706950345
-    },
+    'topK': 47,
+    'alpha': 0.38902987595136235,
+    'beta': 0.239545804948921
+  },
   'EASE_R_Recommender': {
       'topK': 17599, 
       'l2_norm': 94.71018506892186
