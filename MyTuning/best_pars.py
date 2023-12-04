@@ -19,7 +19,7 @@ best_pars_dict = {
     'normalize_similarity' : True,
   },
   'ItemKNNCFRecommender': {
-    'similarity': tversky,
+    'similarity': "tversky",
     'topK': 36,
     'shrink': 29,
     'tversky_alpha': 1.741341923073262,
