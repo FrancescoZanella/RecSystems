@@ -25,7 +25,7 @@ best_pars_dict = {
     'tversky_alpha': 1.741341923073262,
     'tversky_beta': 2.9148336121214324,
   },
-  'SLIM_BPR_Recommender: {
+  'SLIM_BPR_Recommender': {
     'epochs': 445,
     'lambda_i':0.00357814405695588,
     'lambda_j':0.0000517456087547006,
