@@ -14,9 +14,8 @@ best_pars_dict = {
       'l2_norm': 94.71018506892186
     },
   'P3alphaRecommender': {
-    'topk': 48,
-    'alpha': 0.30190506275582196,
-    'normalize_similarity' : True,
+    'topK': 70,
+    'alpha': 0.31624473413346754
   },
   'ItemKNNCFRecommender': {
     'similarity': "tversky",
