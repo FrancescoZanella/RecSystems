@@ -1,3 +1,6 @@
+P3A search with Kfold
+topK [15, 70],alpha[0.15,0.35]log=False,normalize_similarity= True
+best: 0.08152706169923771 and parameters: {'topK': 70, 'alpha': 0.31624473413346754}
 topK,alpha,result
 42.0,0.34456954608871865,0.08040045272743321
 55.0,0.3286557438180375,0.08121961106368401
