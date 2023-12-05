@@ -1,6 +1,7 @@
-trialid,accuracy,weight
-hybryd dove similarity_slim * weight + similarity_rp3_beta * (1-weight), tunato anche il topK della matrice ibrida,
+best 0.079311345, weight = 0.580109851
+hybryd dove similarity_slim * weight + similarity_rp3_beta * (1-weight)
 NO TOPK
+trialid,accuracy,weight
 146,0.079311345,0.580109851
 133,0.079304682,0.579573436
 168,0.079303733,0.579657519

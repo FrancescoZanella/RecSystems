@@ -1,7 +1,7 @@
-trialid,accuracy,alpha,beta
 best -> 0.08028442378047912, alpha = 0.442949599358078
 hybrid similarities, alpha * slim + beta * rp3_beta + (1-alpha-beta) * knn,
 NO TOPK
+trialid,accuracy,alpha,beta
 32,0.080284424,0.442949599,0.229285295
 161,0.080277342,0.446542537,0.215288821
 181,0.080270297,0.448114046,0.212754779
