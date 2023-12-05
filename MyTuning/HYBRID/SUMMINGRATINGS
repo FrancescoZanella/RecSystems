@@ -1,3 +1,6 @@
+Hybrid creato sommando i rating risultanti da:
+recommender_SLIM.fit(topK = 7223, l1_ratio = 0.06907809571101771, alpha = 0.001247929408227769)
+recommender_Rp3_beta.fit(topK=47, alpha= 0.38902987595136235, beta= 0.239545804948921)
 439.2s 41 [I 2023-12-04 18:54:54,577] A new study created in memory with name: no-name-b9797b88-d02a-4d9a-b9af-47aca9e2fde6
 439.4s 42 ScoresHybridRecommender: URM Detected 348 ( 2.8%) users with no interactions.
 439.4s 43 ScoresHybridRecommender: URM Detected 188 ( 0.8%) items with no interactions.
