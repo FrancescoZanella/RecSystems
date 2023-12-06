@@ -81,6 +81,7 @@ def Kfold_hybrid(URM_all, models_in_hybrid, dict_of_dict_parameters,model_hybrid
             recommender.fit(**(dict_of_dict_parameters[model]))
             trained_recommenders.append(recommender)
         
+        
         # extract the topK value for the hybrid matrix
         selectTopK = False
         topK = 0
