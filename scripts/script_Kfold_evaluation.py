@@ -2,7 +2,7 @@ from tqdm import tqdm
 import numpy as np
 
 from Data_manager.split_functions.split_train_validation_random_holdout import split_train_in_two_percentage_global_sample
-
+from Recommenders.Recommender_import_list import *
 def create_folds(URM_all, k):
     n_el=URM_all.nnz
     URM_train_list=[]
@@ -69,39 +69,14 @@ def kFold_evaluation(URM_all, model, parameters_dict_list, k=10):
         print("Evaluation on all folded ended. Average accracy is: "+ str(acc/k))
 
 
-def Kfold_hybrid(URM_all, models_in_hybrid, dict_of_dict_parameters,model_hybrid,parameters_hybrid, k):
-    acc = 0
+def Kfold_hybrid(URM_all, k):
+    URM_train_list = []
+    URM_validation_list = []
     for i in range(k):
         URM_train,URM_validation = split_train_in_two_percentage_global_sample(URM_all,train_percentage=0.15)
-        
-        # train every model composing the hybrid
-        trained_recommenders = []
-        for model in models_in_hybrid:
-            recommender = globals()[model](URM_train)
-            recommender.fit(**(dict_of_dict_parameters[model]))
-            trained_recommenders.append(recommender)
+        URM_train_list.append(URM_train)
+        URM_validation_list.append(URM_validation)
         
 
-        # extract the topK value for the hybrid matrix
-        selectTopK = False
-        topK = 0
-        if parameters_hybrid['topK'] is not None:
-            topK = parameters_hybrid['topK']
-            del parameters_hybrid['topK']
-            selectTopK = True
-
-        
-        # build and train the hybrid
-        new_similarity = sum(weight * recommender.W_sparse for weight, recommender in zip(parameters_hybrid.values(), trained_recommenders))
-        m = globals()[model_hybrid](URM_train)
-        m.fit(new_similarity,selectTopK=selectTopK,topK=topK)
-
-        #evaluate the hybrid
-        res = evaluate_algorithm(URM_validation,m,at=10)
-        acc+=res
-
-        print("Fold {} evaluation ended with value {}".format(i,res))
-
-    
-    print("Su {} folds hanno un accuracy media di {}".format(k,acc/k))
-    return acc/k
+    return URM_train_list,URM_validation_list
+  
