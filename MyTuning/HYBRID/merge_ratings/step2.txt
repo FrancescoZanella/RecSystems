@@ -1,3 +1,21 @@
+Hybrid created merging retings of:
+ 'SLIMElasticNetRecommender': {
+      'topK': 7223, 
+      'l1_ratio': 0.06907809571101771, 
+      'alpha': 0.001247929408227769
+    },
+  'RP3betaRecommender': {
+    'topK': 47,
+    'alpha': 0.38902987595136235,
+    'beta': 0.239545804948921
+  },
+  'ItemKNNCFRecommender': {
+    'similarity': "tversky",
+    'topK': 36,
+    'shrink': 29,
+    'tversky_alpha': 1.741341923073262,
+    'tversky_beta': 2.9148336121214324,
+  }
 642.3s 43 [I 2023-12-05 16:23:27,612] A new study created in memory with name: no-name-f3b69d64-19ab-408b-8d4e-05e405a5c85e
 642.5s 44 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
 642.5s 45 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
