@@ -79,5 +79,6 @@ def Kfold(URM_all, model, parameters_dict,k):
         acc+=res
         print("Fold {} evaluation ended with value {}".format(i,res))
 
-    print("I parametri {} su {} folds hanno un accuracy media di {}".format(**parameters_dict,k,acc/k))
+    
+    print("Su {} folds hanno un accuracy media di {}".format(k,acc/k))
     return acc/k
