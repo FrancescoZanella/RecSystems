@@ -69,7 +69,7 @@ def kFold_evaluation(URM_all, model, parameters_dict_list, k=10):
         print("Evaluation on all folded ended. Average accracy is: "+ str(acc/k))
 
 
-def Kfold_hybrid(URM_all, models_in_hybrid, dict_of_dict_parameters,model_hybrid, parameters_dict_hybrid,k):
+def Kfold_hybrid(URM_all, models_in_hybrid, dict_of_dict_parameters,model_hybrid,parameters_hybrid, k):
     acc = 0
     for i in range(k):
         URM_train,URM_validation = split_train_in_two_percentage_global_sample(URM_all,train_percentage=0.15)
@@ -84,14 +84,14 @@ def Kfold_hybrid(URM_all, models_in_hybrid, dict_of_dict_parameters,model_hybrid
         # extract the topK value for the hybrid matrix
         selectTopK = False
         topK = 0
-        if parameters_dict_hybrid['topK'] is not None:
-            topK = parameters_dict_hybrid['topK']
-            del parameters_dict_hybrid['topK']
+        if parameters_hybrid['topK'] is not None:
+            topK = parameters_hybrid['topK']
+            del parameters_hybrid['topK']
             selectTopK = True
-            
+
         
         # build and train the hybrid
-        new_similarity = sum(weight * recommender.W_sparse for weight, recommender in zip(parameters_dict_hybrid.values(), trained_recommenders))
+        new_similarity = sum(weight * recommender.W_sparse for weight, recommender in zip(parameters_hybrid.values(), trained_recommenders))
         m = model_hybrid(URM_train)
         m.fit(new_similarity,selectTopK=selectTopK,topK=topK)
 
