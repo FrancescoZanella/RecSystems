@@ -1,0 +1,1210 @@
+642.3s 43 [I 2023-12-05 16:23:27,612] A new study created in memory with name: no-name-f3b69d64-19ab-408b-8d4e-05e405a5c85e
+642.5s 44 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+642.5s 45 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+711.8s 46 [I 2023-12-05 16:24:37,063] Trial 0 finished with value: 0.07854184335061382 and parameters: {'weight_1': 0.3022162892596669, 'weight_2': 0.3727192166938597}. Best is trial 0 with value: 0.07854184335061382.
+712.0s 47 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+712.0s 48 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+782.2s 49 [I 2023-12-05 16:25:47,487] Trial 1 finished with value: 0.07902728859962621 and parameters: {'weight_1': 0.589440909313884, 'weight_2': 0.035373612106910944}. Best is trial 1 with value: 0.07902728859962621.
+782.4s 50 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+782.4s 51 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+853.7s 52 [I 2023-12-05 16:26:58,967] Trial 2 finished with value: 0.07911523703511975 and parameters: {'weight_1': 0.5665070062869803, 'weight_2': 0.11260902626447171}. Best is trial 2 with value: 0.07911523703511975.
+853.9s 53 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+853.9s 54 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+925.1s 55 [I 2023-12-05 16:28:10,345] Trial 3 finished with value: 0.07863074756041817 and parameters: {'weight_1': 0.42516940444087015, 'weight_2': 0.14762097080563485}. Best is trial 2 with value: 0.07911523703511975.
+925.3s 56 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+925.3s 57 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+995.8s 58 [I 2023-12-05 16:29:21,096] Trial 4 finished with value: 0.0775793026034663 and parameters: {'weight_1': 0.3968283774089959, 'weight_2': 0.015653967449676752}. Best is trial 2 with value: 0.07911523703511975.
+996.0s 59 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+996.0s 60 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+1067.3s 61 [I 2023-12-05 16:30:32,533] Trial 5 finished with value: 0.07820999477586284 and parameters: {'weight_1': 0.8627826635788496, 'weight_2': 0.010136280604546452}. Best is trial 2 with value: 0.07911523703511975.
+1067.5s 62 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+1067.5s 63 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+1139.1s 64 [I 2023-12-05 16:31:44,342] Trial 6 finished with value: 0.07470250029113704 and parameters: {'weight_1': 0.20588542089959705, 'weight_2': 0.009130277131790276}. Best is trial 2 with value: 0.07911523703511975.
+1139.3s 65 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+1139.3s 66 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+1211.5s 67 [I 2023-12-05 16:32:56,778] Trial 7 finished with value: 0.07919719733610563 and parameters: {'weight_1': 0.3834657336580296, 'weight_2': 0.33042206707295674}. Best is trial 7 with value: 0.07919719733610563.
+1211.7s 68 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+1211.7s 69 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+1283.7s 70 [I 2023-12-05 16:34:09,003] Trial 8 finished with value: 0.07802490231047426 and parameters: {'weight_1': 0.8903829803806681, 'weight_2': 0.028914839087064267}. Best is trial 7 with value: 0.07919719733610563.
+1283.9s 71 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+1283.9s 72 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+1356.3s 73 [I 2023-12-05 16:35:21,580] Trial 9 finished with value: 0.07544541496746753 and parameters: {'weight_1': 0.017449697064462644, 'weight_2': 0.6467384843316768}. Best is trial 7 with value: 0.07919719733610563.
+1356.6s 74 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+1356.6s 75 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+1429.6s 76 [I 2023-12-05 16:36:34,827] Trial 10 finished with value: 0.07917792819687311 and parameters: {'weight_1': 0.6823559157240164, 'weight_2': 0.2315044350945788}. Best is trial 7 with value: 0.07919719733610563.
+1429.8s 77 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+1429.8s 78 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+1502.4s 79 [I 2023-12-05 16:37:47,678] Trial 11 finished with value: 0.07928782507055539 and parameters: {'weight_1': 0.6686969046476621, 'weight_2': 0.24941592351729647}. Best is trial 11 with value: 0.07928782507055539.
+1502.6s 80 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+1502.6s 81 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+1575.2s 82 [I 2023-12-05 16:39:00,486] Trial 12 finished with value: 0.07868132720358201 and parameters: {'weight_1': 0.7205168617366271, 'weight_2': 0.2790042528151418}. Best is trial 11 with value: 0.07928782507055539.
+1575.4s 83 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+1575.4s 84 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+1647.9s 85 [I 2023-12-05 16:40:13,165] Trial 13 finished with value: 0.07946422718872029 and parameters: {'weight_1': 0.4743896156847702, 'weight_2': 0.3205495300168896}. Best is trial 13 with value: 0.07946422718872029.
+1648.1s 86 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+1648.1s 87 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+1721.1s 88 [I 2023-12-05 16:41:26,380] Trial 14 finished with value: 0.07735860383643646 and parameters: {'weight_1': 0.9849444459381992, 'weight_2': 0.0008300541903724246}. Best is trial 13 with value: 0.07946422718872029.
+1721.3s 89 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+1721.3s 90 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+1793.4s 91 [I 2023-12-05 16:42:38,666] Trial 15 finished with value: 0.07944733289836242 and parameters: {'weight_1': 0.5110716069809939, 'weight_2': 0.24921695464522756}. Best is trial 13 with value: 0.07946422718872029.
+1793.6s 92 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+1793.6s 93 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+1866.7s 94 [I 2023-12-05 16:43:51,955] Trial 16 finished with value: 0.07933948361158963 and parameters: {'weight_1': 0.528582392321247, 'weight_2': 0.3651841466391579}. Best is trial 13 with value: 0.07946422718872029.
+1866.9s 95 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+1866.9s 96 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+1940.2s 97 [I 2023-12-05 16:45:05,482] Trial 17 finished with value: 0.07923894358199748 and parameters: {'weight_1': 0.5030387823085053, 'weight_2': 0.1914779023067913}. Best is trial 13 with value: 0.07946422718872029.
+1940.4s 98 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+1940.4s 99 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+1940.4s 100 Error: Weights sum is 0.9999999999999999, but must be 1.0
+2013.3s 101 [I 2023-12-05 16:46:18,522] Trial 18 finished with value: 0.07831560071797858 and parameters: {'weight_1': 0.26102712929904376, 'weight_2': 0.43924379961201254}. Best is trial 13 with value: 0.07946422718872029.
+2013.5s 102 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+2013.5s 103 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+2013.5s 104 Error: Weights sum is 0.9999999999999999, but must be 1.0
+2085.9s 105 [I 2023-12-05 16:47:31,146] Trial 19 finished with value: 0.07948978414668513 and parameters: {'weight_1': 0.4784911619804168, 'weight_2': 0.29891522932359715}. Best is trial 19 with value: 0.07948978414668513.
+2086.1s 106 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+2086.1s 107 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+2160.0s 108 [I 2023-12-05 16:48:45,279] Trial 20 finished with value: 0.07729162077789771 and parameters: {'weight_1': 0.1649921427295964, 'weight_2': 0.4404848265613681}. Best is trial 19 with value: 0.07948978414668513.
+2160.2s 109 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+2160.2s 110 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+2234.0s 111 [I 2023-12-05 16:49:59,236] Trial 21 finished with value: 0.07933665390438312 and parameters: {'weight_1': 0.4574016055925391, 'weight_2': 0.29920471218013406}. Best is trial 19 with value: 0.07948978414668513.
+2234.2s 112 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+2234.2s 113 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+2310.3s 114 [I 2023-12-05 16:51:15,603] Trial 22 finished with value: 0.07943180159378758 and parameters: {'weight_1': 0.5888272099152007, 'weight_2': 0.21210291693960143}. Best is trial 19 with value: 0.07948978414668513.
+2310.5s 115 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+2310.5s 116 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+2383.4s 117 [I 2023-12-05 16:52:28,704] Trial 23 finished with value: 0.07896862260248932 and parameters: {'weight_1': 0.37314912595947625, 'weight_2': 0.2827523104281696}. Best is trial 19 with value: 0.07948978414668513.
+2383.6s 118 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+2383.6s 119 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+2455.5s 120 [I 2023-12-05 16:53:40,753] Trial 24 finished with value: 0.07947227801642233 and parameters: {'weight_1': 0.4912286248625383, 'weight_2': 0.24891484456092156}. Best is trial 19 with value: 0.07948978414668513.
+2455.7s 121 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+2455.7s 122 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+2527.8s 123 [I 2023-12-05 16:54:53,098] Trial 25 finished with value: 0.07784987331953955 and parameters: {'weight_1': 0.3331178259559328, 'weight_2': 0.1628601331502475}. Best is trial 19 with value: 0.07948978414668513.
+2528.0s 124 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+2528.0s 125 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+2599.8s 126 [I 2023-12-05 16:56:05,098] Trial 26 finished with value: 0.0791757809421052 and parameters: {'weight_1': 0.4589228978716764, 'weight_2': 0.2152807651004542}. Best is trial 19 with value: 0.07948978414668513.
+2600.0s 127 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+2600.0s 128 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+2600.0s 129 Error: Weights sum is 0.9999999999999999, but must be 1.0
+2673.0s 130 [I 2023-12-05 16:57:18,311] Trial 27 finished with value: 0.07942929567177742 and parameters: {'weight_1': 0.45434216228984886, 'weight_2': 0.314939791886942}. Best is trial 19 with value: 0.07948978414668513.
+2673.2s 131 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+2673.2s 132 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+2744.6s 133 [I 2023-12-05 16:58:29,850] Trial 28 finished with value: 0.07945401007547229 and parameters: {'weight_1': 0.6266047752314488, 'weight_2': 0.2569655323594638}. Best is trial 19 with value: 0.07948978414668513.
+2744.8s 134 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+2744.8s 135 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+2816.5s 136 [I 2023-12-05 16:59:41,736] Trial 29 finished with value: 0.07863113555931214 and parameters: {'weight_1': 0.30227499258692236, 'weight_2': 0.3884233544172238}. Best is trial 19 with value: 0.07948978414668513.
+2816.7s 137 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+2816.7s 138 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+2890.5s 139 [I 2023-12-05 17:00:55,750] Trial 30 finished with value: 0.07946421098050212 and parameters: {'weight_1': 0.5286701878006005, 'weight_2': 0.27720665278751844}. Best is trial 19 with value: 0.07948978414668513.
+2890.7s 140 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+2890.7s 141 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+2963.2s 142 [I 2023-12-05 17:02:08,490] Trial 31 finished with value: 0.07945186750361545 and parameters: {'weight_1': 0.537148104776541, 'weight_2': 0.27345867850832634}. Best is trial 19 with value: 0.07948978414668513.
+2963.4s 143 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+2963.4s 144 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+3035.8s 145 [I 2023-12-05 17:03:21,068] Trial 32 finished with value: 0.07945594913664031 and parameters: {'weight_1': 0.49528341399036413, 'weight_2': 0.32100728796291583}. Best is trial 19 with value: 0.07948978414668513.
+3036.0s 146 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+3036.0s 147 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+3108.0s 148 [I 2023-12-05 17:04:33,288] Trial 33 finished with value: 0.07943255480535165 and parameters: {'weight_1': 0.6308708998189844, 'weight_2': 0.25625109348601977}. Best is trial 19 with value: 0.07948978414668513.
+3108.2s 149 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+3108.2s 150 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+3181.4s 151 [I 2023-12-05 17:05:46,614] Trial 34 finished with value: 0.07951321118008653 and parameters: {'weight_1': 0.5731726450584586, 'weight_2': 0.2941171117185631}. Best is trial 34 with value: 0.07951321118008653.
+3181.6s 152 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+3181.6s 153 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+3254.1s 154 [I 2023-12-05 17:06:59,336] Trial 35 finished with value: 0.07909729896754926 and parameters: {'weight_1': 0.579905397240114, 'weight_2': 0.07974734261606983}. Best is trial 34 with value: 0.07951321118008653.
+3254.3s 155 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+3254.3s 156 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+3327.5s 157 [I 2023-12-05 17:08:12,747] Trial 36 finished with value: 0.07879411533437644 and parameters: {'weight_1': 0.4241001168790569, 'weight_2': 0.17397457439278105}. Best is trial 34 with value: 0.07951321118008653.
+3327.7s 158 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+3327.7s 159 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+3400.4s 160 [I 2023-12-05 17:09:25,695] Trial 37 finished with value: 0.07846216529686177 and parameters: {'weight_1': 0.40955196596423127, 'weight_2': 0.13025829181033421}. Best is trial 34 with value: 0.07951321118008653.
+3400.6s 161 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+3400.6s 162 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+3473.1s 163 [I 2023-12-05 17:10:38,382] Trial 38 finished with value: 0.07947604568010624 and parameters: {'weight_1': 0.5728662492119405, 'weight_2': 0.22921630345379146}. Best is trial 34 with value: 0.07951321118008653.
+3473.3s 164 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+3473.3s 165 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+3546.1s 166 [I 2023-12-05 17:11:51,344] Trial 39 finished with value: 0.07940342142470616 and parameters: {'weight_1': 0.5719203080272203, 'weight_2': 0.2064292813181109}. Best is trial 34 with value: 0.07951321118008653.
+3546.3s 167 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+3546.3s 168 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+3619.0s 169 [I 2023-12-05 17:13:04,235] Trial 40 finished with value: 0.07901475637768549 and parameters: {'weight_1': 0.7577595294903385, 'weight_2': 0.04085205077077009}. Best is trial 34 with value: 0.07951321118008653.
+3619.2s 170 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+3619.2s 171 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+3691.5s 172 [I 2023-12-05 17:14:16,765] Trial 41 finished with value: 0.07942997743704873 and parameters: {'weight_1': 0.6121429247889068, 'weight_2': 0.23149682714452058}. Best is trial 34 with value: 0.07951321118008653.
+3691.7s 173 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+3691.7s 174 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+3763.4s 175 [I 2023-12-05 17:15:28,615] Trial 42 finished with value: 0.07949370903077975 and parameters: {'weight_1': 0.566537245175799, 'weight_2': 0.3024434059623975}. Best is trial 34 with value: 0.07951321118008653.
+3763.6s 176 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+3763.6s 177 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+3834.6s 178 [I 2023-12-05 17:16:39,879] Trial 43 finished with value: 0.07938591034240867 and parameters: {'weight_1': 0.5554210635499632, 'weight_2': 0.2375571587501824}. Best is trial 34 with value: 0.07951321118008653.
+3834.8s 179 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+3834.8s 180 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+3906.5s 181 [I 2023-12-05 17:17:51,748] Trial 44 finished with value: 0.0793742665662223 and parameters: {'weight_1': 0.6355822382667451, 'weight_2': 0.26295805319278037}. Best is trial 34 with value: 0.07951321118008653.
+3906.7s 182 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+3906.7s 183 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+3978.1s 184 [I 2023-12-05 17:19:03,364] Trial 45 finished with value: 0.0794446768426413 and parameters: {'weight_1': 0.557188519940044, 'weight_2': 0.2886108366899631}. Best is trial 34 with value: 0.07951321118008653.
+3978.3s 185 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+3978.3s 186 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+4050.0s 187 [I 2023-12-05 17:20:15,237] Trial 46 finished with value: 0.0789626287083728 and parameters: {'weight_1': 0.7072523838079398, 'weight_2': 0.24089703296520928}. Best is trial 34 with value: 0.07951321118008653.
+4050.2s 188 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+4050.2s 189 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+4121.7s 190 [I 2023-12-05 17:21:26,908] Trial 47 finished with value: 0.07922978368318445 and parameters: {'weight_1': 0.6739661111686063, 'weight_2': 0.2615459384991322}. Best is trial 34 with value: 0.07951321118008653.
+4121.8s 191 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+4121.8s 192 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+4193.6s 193 [I 2023-12-05 17:22:38,827] Trial 48 finished with value: 0.07946495115156223 and parameters: {'weight_1': 0.4855307996385315, 'weight_2': 0.3010283242099467}. Best is trial 34 with value: 0.07951321118008653.
+4193.8s 194 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+4193.8s 195 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+4265.4s 196 [I 2023-12-05 17:23:50,632] Trial 49 finished with value: 0.07943111702236054 and parameters: {'weight_1': 0.5927490210942951, 'weight_2': 0.22255557230295597}. Best is trial 34 with value: 0.07951321118008653.
+4265.6s 197 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+4265.6s 198 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+4337.3s 199 [I 2023-12-05 17:25:02,574] Trial 50 finished with value: 0.07916230540464883 and parameters: {'weight_1': 0.3757370298583758, 'weight_2': 0.3515965725141287}. Best is trial 34 with value: 0.07951321118008653.
+4337.5s 200 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+4337.5s 201 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+4410.9s 202 [I 2023-12-05 17:26:16,164] Trial 51 finished with value: 0.07945823264290978 and parameters: {'weight_1': 0.4742462395267477, 'weight_2': 0.30356888465924525}. Best is trial 34 with value: 0.07951321118008653.
+4411.1s 203 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+4411.1s 204 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+4482.5s 205 [I 2023-12-05 17:27:27,806] Trial 52 finished with value: 0.07945557178202377 and parameters: {'weight_1': 0.5144204718667618, 'weight_2': 0.29395917364250185}. Best is trial 34 with value: 0.07951321118008653.
+4482.7s 206 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+4482.7s 207 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+4554.9s 208 [I 2023-12-05 17:28:40,160] Trial 53 finished with value: 0.07929072795803588 and parameters: {'weight_1': 0.43593768743262995, 'weight_2': 0.3268408695092426}. Best is trial 34 with value: 0.07951321118008653.
+4555.1s 209 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+4555.1s 210 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+4626.9s 211 [I 2023-12-05 17:29:52,180] Trial 54 finished with value: 0.07945922663119695 and parameters: {'weight_1': 0.49241955460225983, 'weight_2': 0.3098892425132886}. Best is trial 34 with value: 0.07951321118008653.
+4627.1s 212 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+4627.1s 213 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+4699.5s 214 [I 2023-12-05 17:31:04,778] Trial 55 finished with value: 0.07945988523824805 and parameters: {'weight_1': 0.5351216353708638, 'weight_2': 0.26911252703832866}. Best is trial 34 with value: 0.07951321118008653.
+4699.7s 215 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+4699.7s 216 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+4771.4s 217 [I 2023-12-05 17:32:16,542] Trial 56 finished with value: 0.07873520017972124 and parameters: {'weight_1': 0.4097087126914346, 'weight_2': 0.18673533983883242}. Best is trial 34 with value: 0.07951321118008653.
+4771.5s 218 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+4771.5s 219 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+4843.3s 220 [I 2023-12-05 17:33:28,538] Trial 57 finished with value: 0.07945647644007349 and parameters: {'weight_1': 0.47647550741598466, 'weight_2': 0.344378197660023}. Best is trial 34 with value: 0.07951321118008653.
+4843.5s 221 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+4843.5s 222 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+4914.7s 223 [I 2023-12-05 17:34:39,988] Trial 58 finished with value: 0.07948379988231194 and parameters: {'weight_1': 0.5701740781687583, 'weight_2': 0.28581268337619853}. Best is trial 34 with value: 0.07951321118008653.
+4914.9s 224 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+4914.9s 225 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+4986.3s 226 [I 2023-12-05 17:35:51,588] Trial 59 finished with value: 0.07949003261072868 and parameters: {'weight_1': 0.5644052814091344, 'weight_2': 0.2849253097306096}. Best is trial 34 with value: 0.07951321118008653.
+4986.5s 227 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+4986.5s 228 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+5057.9s 229 [I 2023-12-05 17:37:03,200] Trial 60 finished with value: 0.07930268909646512 and parameters: {'weight_1': 0.6471025888986991, 'weight_2': 0.28952911485381705}. Best is trial 34 with value: 0.07951321118008653.
+5058.1s 230 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+5058.1s 231 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+5129.7s 232 [I 2023-12-05 17:38:14,978] Trial 61 finished with value: 0.07954546861474306 and parameters: {'weight_1': 0.5809761525348209, 'weight_2': 0.246764285343529}. Best is trial 61 with value: 0.07954546861474306.
+5129.9s 233 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+5129.9s 234 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+5201.2s 235 [I 2023-12-05 17:39:26,413] Trial 62 finished with value: 0.07945602368300578 and parameters: {'weight_1': 0.5986282835768448, 'weight_2': 0.285815918172043}. Best is trial 61 with value: 0.07954546861474306.
+5201.3s 236 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+5201.3s 237 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+5273.3s 238 [I 2023-12-05 17:40:38,550] Trial 63 finished with value: 0.07950873007351066 and parameters: {'weight_1': 0.5577374752709532, 'weight_2': 0.2778117107690386}. Best is trial 61 with value: 0.07954546861474306.
+5273.5s 239 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+5273.5s 240 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+5346.2s 241 [I 2023-12-05 17:41:51,411] Trial 64 finished with value: 0.07952100356331754 and parameters: {'weight_1': 0.5474616166528631, 'weight_2': 0.2678509508486783}. Best is trial 61 with value: 0.07954546861474306.
+5346.3s 242 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+5346.3s 243 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+5420.0s 244 [I 2023-12-05 17:43:05,208] Trial 65 finished with value: 0.07930458645200655 and parameters: {'weight_1': 0.5336555169615348, 'weight_2': 0.24906530660012544}. Best is trial 61 with value: 0.07954546861474306.
+5420.1s 245 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+5420.1s 246 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+5492.1s 247 [I 2023-12-05 17:44:17,384] Trial 66 finished with value: 0.079409626071495 and parameters: {'weight_1': 0.6087305138399942, 'weight_2': 0.27545590785579155}. Best is trial 61 with value: 0.07954546861474306.
+5492.3s 248 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+5492.3s 249 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+5563.8s 250 [I 2023-12-05 17:45:29,084] Trial 67 finished with value: 0.07927897771903476 and parameters: {'weight_1': 0.6470395800403643, 'weight_2': 0.26961363817017675}. Best is trial 61 with value: 0.07954546861474306.
+5564.0s 251 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+5564.0s 252 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+5635.9s 253 [I 2023-12-05 17:46:41,190] Trial 68 finished with value: 0.07943768120560868 and parameters: {'weight_1': 0.5175290801505279, 'weight_2': 0.3049352873245519}. Best is trial 61 with value: 0.07954546861474306.
+5636.1s 254 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+5636.1s 255 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+5707.8s 256 [I 2023-12-05 17:47:53,040] Trial 69 finished with value: 0.07945755958544617 and parameters: {'weight_1': 0.44899859874669046, 'weight_2': 0.3206889829342457}. Best is trial 61 with value: 0.07954546861474306.
+5708.0s 257 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+5708.0s 258 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+5779.9s 259 [I 2023-12-05 17:49:05,197] Trial 70 finished with value: 0.07937197681338637 and parameters: {'weight_1': 0.5442596835037767, 'weight_2': 0.24704128448665122}. Best is trial 61 with value: 0.07954546861474306.
+5780.1s 260 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+5780.1s 261 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+5851.5s 262 [I 2023-12-05 17:50:16,765] Trial 71 finished with value: 0.07945417375203866 and parameters: {'weight_1': 0.6064583917272385, 'weight_2': 0.27858616568307615}. Best is trial 61 with value: 0.07954546861474306.
+5851.7s 263 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+5851.7s 264 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+5923.4s 265 [I 2023-12-05 17:51:28,649] Trial 72 finished with value: 0.0794478115618747 and parameters: {'weight_1': 0.5788285489692474, 'weight_2': 0.2640534138570489}. Best is trial 61 with value: 0.07954546861474306.
+5923.6s 266 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+5923.6s 267 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+5994.7s 268 [I 2023-12-05 17:52:39,950] Trial 73 finished with value: 0.0795051845157286 and parameters: {'weight_1': 0.5613517273798988, 'weight_2': 0.3009028637299037}. Best is trial 61 with value: 0.07954546861474306.
+5994.9s 269 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+5994.9s 270 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+6066.7s 271 [I 2023-12-05 17:53:51,912] Trial 74 finished with value: 0.0795041670145008 and parameters: {'weight_1': 0.5140064156279675, 'weight_2': 0.3341468569703297}. Best is trial 61 with value: 0.07954546861474306.
+6066.9s 272 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+6066.9s 273 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+6137.9s 274 [I 2023-12-05 17:55:03,133] Trial 75 finished with value: 0.07943974175083868 and parameters: {'weight_1': 0.5107378070426657, 'weight_2': 0.3321464935768717}. Best is trial 61 with value: 0.07954546861474306.
+6138.1s 275 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+6138.1s 276 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+6209.4s 277 [I 2023-12-05 17:56:14,688] Trial 76 finished with value: 0.07943483262339583 and parameters: {'weight_1': 0.5550192101507706, 'weight_2': 0.3135384022065797}. Best is trial 61 with value: 0.07954546861474306.
+6209.6s 278 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+6209.6s 279 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+6280.6s 280 [I 2023-12-05 17:57:25,824] Trial 77 finished with value: 0.07920450996619845 and parameters: {'weight_1': 0.6534602255418105, 'weight_2': 0.29321567004448257}. Best is trial 61 with value: 0.07954546861474306.
+6280.8s 281 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+6280.8s 282 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+6351.6s 283 [I 2023-12-05 17:58:36,847] Trial 78 finished with value: 0.07934315432579526 and parameters: {'weight_1': 0.6290647369438771, 'weight_2': 0.2991779533908371}. Best is trial 61 with value: 0.07954546861474306.
+6351.8s 284 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+6351.8s 285 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+6423.5s 286 [I 2023-12-05 17:59:48,786] Trial 79 finished with value: 0.07910395498216165 and parameters: {'weight_1': 0.6786568643902589, 'weight_2': 0.27849304207643283}. Best is trial 61 with value: 0.07954546861474306.
+6423.7s 287 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+6423.7s 288 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+6497.9s 289 [I 2023-12-05 18:01:03,121] Trial 80 finished with value: 0.07945969790121887 and parameters: {'weight_1': 0.5534344448125682, 'weight_2': 0.256071636641617}. Best is trial 61 with value: 0.07954546861474306.
+6498.1s 290 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+6498.1s 291 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+6572.1s 292 [I 2023-12-05 18:02:17,342] Trial 81 finished with value: 0.0793718656148651 and parameters: {'weight_1': 0.5122303706515497, 'weight_2': 0.3143959932646195}. Best is trial 61 with value: 0.07954546861474306.
+6572.3s 293 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+6572.3s 294 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+6644.8s 295 [I 2023-12-05 18:03:30,001] Trial 82 finished with value: 0.07947905808605842 and parameters: {'weight_1': 0.5924592465295121, 'weight_2': 0.29811661754047447}. Best is trial 61 with value: 0.07954546861474306.
+6644.9s 296 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+6644.9s 297 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+6718.0s 298 [I 2023-12-05 18:04:43,251] Trial 83 finished with value: 0.07944313019466896 and parameters: {'weight_1': 0.4703357068787522, 'weight_2': 0.3317587347092439}. Best is trial 61 with value: 0.07954546861474306.
+6718.2s 299 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+6718.2s 300 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+6791.4s 301 [I 2023-12-05 18:05:56,672] Trial 84 finished with value: 0.07946639049081769 and parameters: {'weight_1': 0.5349113967511971, 'weight_2': 0.31021675603691784}. Best is trial 61 with value: 0.07954546861474306.
+6791.6s 302 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+6791.6s 303 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+6865.0s 304 [I 2023-12-05 18:07:10,272] Trial 85 finished with value: 0.07940455832855917 and parameters: {'weight_1': 0.4420037203691977, 'weight_2': 0.34664037699195865}. Best is trial 61 with value: 0.07954546861474306.
+6865.2s 305 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+6865.2s 306 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+6938.1s 307 [I 2023-12-05 18:08:23,331] Trial 86 finished with value: 0.07944321749200904 and parameters: {'weight_1': 0.4974383263307865, 'weight_2': 0.26773508821542297}. Best is trial 61 with value: 0.07954546861474306.
+6938.3s 308 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+6938.3s 309 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+7010.5s 310 [I 2023-12-05 18:09:35,708] Trial 87 finished with value: 0.07949496414178542 and parameters: {'weight_1': 0.5644018788059996, 'weight_2': 0.28604564049907}. Best is trial 61 with value: 0.07954546861474306.
+7010.7s 311 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+7010.7s 312 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+7083.3s 313 [I 2023-12-05 18:10:48,490] Trial 88 finished with value: 0.07934946349402132 and parameters: {'weight_1': 0.6224874222727838, 'weight_2': 0.28302137367413566}. Best is trial 61 with value: 0.07954546861474306.
+7083.4s 314 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+7083.4s 315 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+7155.2s 316 [I 2023-12-05 18:12:00,451] Trial 89 finished with value: 0.07947682808219154 and parameters: {'weight_1': 0.5776236947676913, 'weight_2': 0.23878984111169893}. Best is trial 61 with value: 0.07954546861474306.
+7155.4s 317 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+7155.4s 318 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+7227.0s 319 [I 2023-12-05 18:13:12,290] Trial 90 finished with value: 0.07945740567387746 and parameters: {'weight_1': 0.5629471738682241, 'weight_2': 0.2558106363018141}. Best is trial 61 with value: 0.07954546861474306.
+7227.2s 320 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+7227.2s 321 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+7299.1s 322 [I 2023-12-05 18:14:24,333] Trial 91 finished with value: 0.07946880412953061 and parameters: {'weight_1': 0.5225903984654426, 'weight_2': 0.29444321494655784}. Best is trial 61 with value: 0.07954546861474306.
+7299.3s 323 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+7299.3s 324 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+7371.0s 325 [I 2023-12-05 18:15:36,199] Trial 92 finished with value: 0.07940918280403891 and parameters: {'weight_1': 0.6031611918849369, 'weight_2': 0.3049307216123194}. Best is trial 61 with value: 0.07954546861474306.
+7371.1s 326 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+7371.1s 327 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+7444.0s 328 [I 2023-12-05 18:16:49,203] Trial 93 finished with value: 0.07948306440114687 and parameters: {'weight_1': 0.5505973272942943, 'weight_2': 0.2671631584985456}. Best is trial 61 with value: 0.07954546861474306.
+7444.1s 329 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+7444.1s 330 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+7515.9s 331 [I 2023-12-05 18:18:01,101] Trial 94 finished with value: 0.07948416133130504 and parameters: {'weight_1': 0.4928855524499208, 'weight_2': 0.32335535285422895}. Best is trial 61 with value: 0.07954546861474306.
+7516.0s 332 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+7516.0s 333 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+7588.6s 334 [I 2023-12-05 18:19:13,800] Trial 95 finished with value: 0.07954057095261098 and parameters: {'weight_1': 0.5801677998315672, 'weight_2': 0.28476887728136036}. Best is trial 61 with value: 0.07954546861474306.
+7588.7s 335 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+7588.7s 336 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+7661.1s 337 [I 2023-12-05 18:20:26,353] Trial 96 finished with value: 0.07946266326526291 and parameters: {'weight_1': 0.5920405506230766, 'weight_2': 0.27800067285192165}. Best is trial 61 with value: 0.07954546861474306.
+7661.3s 338 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+7661.3s 339 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+7733.9s 340 [I 2023-12-05 18:21:39,171] Trial 97 finished with value: 0.07942145066298159 and parameters: {'weight_1': 0.6128750941205575, 'weight_2': 0.28968065127802384}. Best is trial 61 with value: 0.07954546861474306.
+7734.1s 341 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+7734.1s 342 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+7807.2s 343 [I 2023-12-05 18:22:52,428] Trial 98 finished with value: 0.07952950057857125 and parameters: {'weight_1': 0.572287141480465, 'weight_2': 0.25972741547875505}. Best is trial 61 with value: 0.07954546861474306.
+7807.4s 344 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+7807.4s 345 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+7881.8s 346 [I 2023-12-05 18:24:07,032] Trial 99 finished with value: 0.07929179294764804 and parameters: {'weight_1': 0.6543666110671505, 'weight_2': 0.27469839698891374}. Best is trial 61 with value: 0.07954546861474306.
+7882.0s 347 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+7882.0s 348 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+7955.2s 349 [I 2023-12-05 18:25:20,454] Trial 100 finished with value: 0.07932148987869071 and parameters: {'weight_1': 0.5364700084894716, 'weight_2': 0.22378660518678212}. Best is trial 61 with value: 0.07954546861474306.
+7955.4s 350 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+7955.4s 351 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+8028.2s 352 [I 2023-12-05 18:26:33,411] Trial 101 finished with value: 0.07953539788942944 and parameters: {'weight_1': 0.5766976642090801, 'weight_2': 0.25640800355892457}. Best is trial 61 with value: 0.07954546861474306.
+8028.3s 353 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+8028.3s 354 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+8101.9s 355 [I 2023-12-05 18:27:47,102] Trial 102 finished with value: 0.0794519497586969 and parameters: {'weight_1': 0.5819288222032826, 'weight_2': 0.2586636866718818}. Best is trial 61 with value: 0.07954546861474306.
+8102.0s 356 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+8102.0s 357 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+8174.2s 358 [I 2023-12-05 18:28:59,438] Trial 103 finished with value: 0.07934916461213039 and parameters: {'weight_1': 0.6325527412975867, 'weight_2': 0.2716724993816229}. Best is trial 61 with value: 0.07954546861474306.
+8174.4s 359 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+8174.4s 360 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+8247.4s 361 [I 2023-12-05 18:30:12,623] Trial 104 finished with value: 0.07937474831091744 and parameters: {'weight_1': 0.5197944567815667, 'weight_2': 0.2428028758595219}. Best is trial 61 with value: 0.07954546861474306.
+8247.6s 362 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+8247.6s 363 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+8320.9s 364 [I 2023-12-05 18:31:26,189] Trial 105 finished with value: 0.07948826510151183 and parameters: {'weight_1': 0.5627111712368735, 'weight_2': 0.25756526129877777}. Best is trial 61 with value: 0.07954546861474306.
+8321.1s 365 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+8321.1s 366 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+8393.5s 367 [I 2023-12-05 18:32:38,730] Trial 106 finished with value: 0.07947266752372831 and parameters: {'weight_1': 0.5904906930703192, 'weight_2': 0.2912507100718491}. Best is trial 61 with value: 0.07954546861474306.
+8393.7s 368 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+8393.7s 369 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+8466.3s 370 [I 2023-12-05 18:33:51,520] Trial 107 finished with value: 0.07941572292860034 and parameters: {'weight_1': 0.6134886097351294, 'weight_2': 0.265387629680845}. Best is trial 61 with value: 0.07954546861474306.
+8466.5s 371 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+8466.5s 372 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+8539.0s 373 [I 2023-12-05 18:35:04,257] Trial 108 finished with value: 0.07937860153139148 and parameters: {'weight_1': 0.5421996852515301, 'weight_2': 0.24773207024410202}. Best is trial 61 with value: 0.07954546861474306.
+8539.2s 374 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+8539.2s 375 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+8612.1s 376 [I 2023-12-05 18:36:17,352] Trial 109 finished with value: 0.07944299769807314 and parameters: {'weight_1': 0.5088519544043365, 'weight_2': 0.23434667413986393}. Best is trial 61 with value: 0.07954546861474306.
+8612.3s 377 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+8612.3s 378 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+8684.8s 379 [I 2023-12-05 18:37:30,006] Trial 110 finished with value: 0.07920767715676116 and parameters: {'weight_1': 0.4609783163572683, 'weight_2': 0.21636515962222905}. Best is trial 61 with value: 0.07954546861474306.
+8684.9s 380 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+8684.9s 381 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+8757.2s 382 [I 2023-12-05 18:38:42,450] Trial 111 finished with value: 0.0794779853840032 and parameters: {'weight_1': 0.5617225040474066, 'weight_2': 0.28368143011565894}. Best is trial 61 with value: 0.07954546861474306.
+8757.4s 383 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+8757.4s 384 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+8829.8s 385 [I 2023-12-05 18:39:55,007] Trial 112 finished with value: 0.07946640324505054 and parameters: {'weight_1': 0.5697335185913511, 'weight_2': 0.30083796848318084}. Best is trial 61 with value: 0.07954546861474306.
+8829.9s 386 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+8829.9s 387 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+8902.8s 388 [I 2023-12-05 18:41:08,036] Trial 113 finished with value: 0.07938144354861372 and parameters: {'weight_1': 0.5453183955507938, 'weight_2': 0.3106546012130986}. Best is trial 61 with value: 0.07954546861474306.
+8903.0s 389 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+8903.0s 390 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+8975.0s 391 [I 2023-12-05 18:42:20,207] Trial 114 finished with value: 0.07950508526547634 and parameters: {'weight_1': 0.5913217684691152, 'weight_2': 0.28322666121357415}. Best is trial 61 with value: 0.07954546861474306.
+8975.1s 392 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+8975.1s 393 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+9047.0s 394 [I 2023-12-05 18:43:32,286] Trial 115 finished with value: 0.07942834945754153 and parameters: {'weight_1': 0.5963224943995853, 'weight_2': 0.28252072259364974}. Best is trial 61 with value: 0.07954546861474306.
+9047.2s 395 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+9047.2s 396 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+9118.9s 397 [I 2023-12-05 18:44:44,121] Trial 116 finished with value: 0.07935906683234871 and parameters: {'weight_1': 0.6317194670969887, 'weight_2': 0.27344607577472513}. Best is trial 61 with value: 0.07954546861474306.
+9119.1s 398 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+9119.1s 399 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+9190.7s 400 [I 2023-12-05 18:45:55,927] Trial 117 finished with value: 0.07933353904908595 and parameters: {'weight_1': 0.530011777163156, 'weight_2': 0.24418081497711225}. Best is trial 61 with value: 0.07954546861474306.
+9190.9s 401 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+9190.9s 402 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+9262.8s 403 [I 2023-12-05 18:47:08,048] Trial 118 finished with value: 0.07917134123104999 and parameters: {'weight_1': 0.6624181211423446, 'weight_2': 0.2913869667377293}. Best is trial 61 with value: 0.07954546861474306.
+9263.0s 404 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+9263.0s 405 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+9263.0s 406 Error: Weights sum is 0.9999999999999999, but must be 1.0
+9335.3s 407 [I 2023-12-05 18:48:20,516] Trial 119 finished with value: 0.07943919760404482 and parameters: {'weight_1': 0.49036621913040584, 'weight_2': 0.3346033787947794}. Best is trial 61 with value: 0.07954546861474306.
+9335.5s 408 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+9335.5s 409 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+9408.3s 410 [I 2023-12-05 18:49:33,579] Trial 120 finished with value: 0.07948012326351862 and parameters: {'weight_1': 0.5814096783280924, 'weight_2': 0.25274021636498883}. Best is trial 61 with value: 0.07954546861474306.
+9408.5s 411 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+9408.5s 412 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+9480.7s 413 [I 2023-12-05 18:50:45,922] Trial 121 finished with value: 0.07943522386769789 and parameters: {'weight_1': 0.6145584056636221, 'weight_2': 0.2641307692515932}. Best is trial 61 with value: 0.07954546861474306.
+9480.9s 414 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+9480.9s 415 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+9553.3s 416 [I 2023-12-05 18:51:58,499] Trial 122 finished with value: 0.07947595111340623 and parameters: {'weight_1': 0.5658022850840674, 'weight_2': 0.307114459690276}. Best is trial 61 with value: 0.07954546861474306.
+9553.4s 417 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+9553.4s 418 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+9625.9s 419 [I 2023-12-05 18:53:11,096] Trial 123 finished with value: 0.07941773121973894 and parameters: {'weight_1': 0.5530872751103643, 'weight_2': 0.31769984524847183}. Best is trial 61 with value: 0.07954546861474306.
+9626.0s 420 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+9626.0s 421 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+9698.0s 422 [I 2023-12-05 18:54:23,218] Trial 124 finished with value: 0.0794392642323953 and parameters: {'weight_1': 0.5179579155881883, 'weight_2': 0.29906207205447755}. Best is trial 61 with value: 0.07954546861474306.
+9698.2s 423 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+9698.2s 424 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+9770.4s 425 [I 2023-12-05 18:55:35,628] Trial 125 finished with value: 0.07956708807918872 and parameters: {'weight_1': 0.5773213947470835, 'weight_2': 0.2837055809860818}. Best is trial 125 with value: 0.07956708807918872.
+9770.6s 426 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+9770.6s 427 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+9842.5s 428 [I 2023-12-05 18:56:47,755] Trial 126 finished with value: 0.07949253058320674 and parameters: {'weight_1': 0.5899969084768508, 'weight_2': 0.2786296375561692}. Best is trial 125 with value: 0.07956708807918872.
+9842.7s 429 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+9842.7s 430 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+9914.8s 431 [I 2023-12-05 18:58:00,004] Trial 127 finished with value: 0.07935594577251771 and parameters: {'weight_1': 0.6362654832528065, 'weight_2': 0.2712335377392382}. Best is trial 125 with value: 0.07956708807918872.
+9914.9s 432 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+9914.9s 433 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+9987.2s 434 [I 2023-12-05 18:59:12,433] Trial 128 finished with value: 0.07883864864887749 and parameters: {'weight_1': 0.69570369159763, 'weight_2': 0.2872346551803271}. Best is trial 125 with value: 0.07956708807918872.
+9987.4s 435 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+9987.4s 436 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+10061.4s 437 [I 2023-12-05 19:00:26,602] Trial 129 finished with value: 0.0793280178335815 and parameters: {'weight_1': 0.545412228489823, 'weight_2': 0.2337312725939609}. Best is trial 125 with value: 0.07956708807918872.
+10061.6s 438 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+10061.6s 439 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+10134.2s 440 [I 2023-12-05 19:01:39,487] Trial 130 finished with value: 0.07941399600434966 and parameters: {'weight_1': 0.6059894084973145, 'weight_2': 0.2976933637488269}. Best is trial 125 with value: 0.07956708807918872.
+10134.4s 441 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+10134.4s 442 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+10206.7s 443 [I 2023-12-05 19:02:51,943] Trial 131 finished with value: 0.07949058818344307 and parameters: {'weight_1': 0.5831426763570796, 'weight_2': 0.27770076818687944}. Best is trial 125 with value: 0.07956708807918872.
+10206.9s 444 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+10206.9s 445 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+10278.6s 446 [I 2023-12-05 19:04:03,883] Trial 132 finished with value: 0.07947068760449569 and parameters: {'weight_1': 0.5907027521797865, 'weight_2': 0.2649900721911854}. Best is trial 125 with value: 0.07956708807918872.
+10278.8s 447 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+10278.8s 448 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+10350.7s 449 [I 2023-12-05 19:05:15,967] Trial 133 finished with value: 0.07939829790166476 and parameters: {'weight_1': 0.6183297766777883, 'weight_2': 0.27839695515558643}. Best is trial 125 with value: 0.07956708807918872.
+10350.9s 450 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+10350.9s 451 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+10421.5s 452 [I 2023-12-05 19:06:26,688] Trial 134 finished with value: 0.0794778323490012 and parameters: {'weight_1': 0.504974388226326, 'weight_2': 0.2517013828083917}. Best is trial 125 with value: 0.07956708807918872.
+10421.6s 453 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+10421.6s 454 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+10492.8s 455 [I 2023-12-05 19:07:38,036] Trial 135 finished with value: 0.07947368011426413 and parameters: {'weight_1': 0.5765875660500128, 'weight_2': 0.2601288267724393}. Best is trial 125 with value: 0.07956708807918872.
+10493.0s 456 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+10493.0s 457 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+10564.9s 458 [I 2023-12-05 19:08:50,176] Trial 136 finished with value: 0.07957001178150207 and parameters: {'weight_1': 0.5274802363698999, 'weight_2': 0.31385635504408593}. Best is trial 136 with value: 0.07957001178150207.
+10565.1s 459 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+10565.1s 460 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+10636.9s 461 [I 2023-12-05 19:10:02,154] Trial 137 finished with value: 0.07954765386773832 and parameters: {'weight_1': 0.5282343898576694, 'weight_2': 0.31757563911524345}. Best is trial 136 with value: 0.07957001178150207.
+10637.1s 462 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+10637.1s 463 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+10710.8s 464 [I 2023-12-05 19:11:15,985] Trial 138 finished with value: 0.07948294279301496 and parameters: {'weight_1': 0.47907698253373865, 'weight_2': 0.3155121797077466}. Best is trial 136 with value: 0.07957001178150207.
+10710.9s 465 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+10710.9s 466 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+10783.5s 467 [I 2023-12-05 19:12:28,742] Trial 139 finished with value: 0.07936874672430165 and parameters: {'weight_1': 0.5385137327358868, 'weight_2': 0.32580414021063187}. Best is trial 136 with value: 0.07957001178150207.
+10783.7s 468 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+10783.7s 469 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+10856.0s 470 [I 2023-12-05 19:13:41,189] Trial 140 finished with value: 0.07948262227758439 and parameters: {'weight_1': 0.5187568863254461, 'weight_2': 0.2910049587891888}. Best is trial 136 with value: 0.07957001178150207.
+10856.1s 471 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+10856.1s 472 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+10929.1s 473 [I 2023-12-05 19:14:54,271] Trial 141 finished with value: 0.07946190433786302 and parameters: {'weight_1': 0.557160348943237, 'weight_2': 0.3036754987393194}. Best is trial 136 with value: 0.07957001178150207.
+10929.2s 474 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+10929.2s 475 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+11003.5s 476 [I 2023-12-05 19:16:08,724] Trial 142 finished with value: 0.07948071506810907 and parameters: {'weight_1': 0.5270654741523424, 'weight_2': 0.3106445984082241}. Best is trial 136 with value: 0.07957001178150207.
+11003.7s 477 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+11003.7s 478 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+11076.5s 479 [I 2023-12-05 19:17:21,726] Trial 143 finished with value: 0.07942364628283177 and parameters: {'weight_1': 0.5014937751196961, 'weight_2': 0.3361238098132415}. Best is trial 136 with value: 0.07957001178150207.
+11076.7s 480 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+11076.7s 481 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+11149.3s 482 [I 2023-12-05 19:18:34,554] Trial 144 finished with value: 0.07940128121654721 and parameters: {'weight_1': 0.5477593360146383, 'weight_2': 0.32326336861906446}. Best is trial 136 with value: 0.07957001178150207.
+11149.5s 483 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+11149.5s 484 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+11222.4s 485 [I 2023-12-05 19:19:47,669] Trial 145 finished with value: 0.07950872698485914 and parameters: {'weight_1': 0.5699427332988982, 'weight_2': 0.2958777435384963}. Best is trial 136 with value: 0.07957001178150207.
+11222.6s 486 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+11222.6s 487 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+11296.5s 488 [I 2023-12-05 19:21:01,698] Trial 146 finished with value: 0.07942366655496697 and parameters: {'weight_1': 0.6038999892885382, 'weight_2': 0.2950806376857295}. Best is trial 136 with value: 0.07957001178150207.
+11296.6s 489 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+11296.6s 490 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+11369.0s 491 [I 2023-12-05 19:22:14,254] Trial 147 finished with value: 0.07957527933249149 and parameters: {'weight_1': 0.5272619261098761, 'weight_2': 0.31376275017936683}. Best is trial 147 with value: 0.07957527933249149.
+11369.2s 492 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+11369.2s 493 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+11444.1s 494 [I 2023-12-05 19:23:29,360] Trial 148 finished with value: 0.07942698479757937 and parameters: {'weight_1': 0.4759946901225937, 'weight_2': 0.35966761886141135}. Best is trial 147 with value: 0.07957527933249149.
+11444.3s 495 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+11444.3s 496 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+11517.5s 497 [I 2023-12-05 19:24:42,726] Trial 149 finished with value: 0.07950382120460714 and parameters: {'weight_1': 0.5288660347451619, 'weight_2': 0.31675411813033166}. Best is trial 147 with value: 0.07957527933249149.
+11517.7s 498 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+11517.7s 499 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+11590.3s 500 [I 2023-12-05 19:25:55,554] Trial 150 finished with value: 0.07943661172775937 and parameters: {'weight_1': 0.5025845140864914, 'weight_2': 0.33758933540590386}. Best is trial 147 with value: 0.07957527933249149.
+11590.5s 501 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+11590.5s 502 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+11663.5s 503 [I 2023-12-05 19:27:08,729] Trial 151 finished with value: 0.07946672085221371 and parameters: {'weight_1': 0.527257563113148, 'weight_2': 0.3213243800309706}. Best is trial 147 with value: 0.07957527933249149.
+11663.7s 504 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+11663.7s 505 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+11736.6s 506 [I 2023-12-05 19:28:21,837] Trial 152 finished with value: 0.07947519582743764 and parameters: {'weight_1': 0.5725613282939314, 'weight_2': 0.3062568782997951}. Best is trial 147 with value: 0.07957527933249149.
+11736.8s 507 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+11736.8s 508 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+11809.7s 509 [I 2023-12-05 19:29:34,967] Trial 153 finished with value: 0.07945547723944688 and parameters: {'weight_1': 0.541855748694833, 'weight_2': 0.32642179331128784}. Best is trial 147 with value: 0.07957527933249149.
+11809.9s 510 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+11809.9s 511 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+11882.4s 512 [I 2023-12-05 19:30:47,633] Trial 154 finished with value: 0.07946573727003184 and parameters: {'weight_1': 0.49031389626401883, 'weight_2': 0.3506320268242893}. Best is trial 147 with value: 0.07957527933249149.
+11882.6s 513 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+11882.6s 514 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+11954.7s 515 [I 2023-12-05 19:31:59,969] Trial 155 finished with value: 0.07932659462860737 and parameters: {'weight_1': 0.4584386612710848, 'weight_2': 0.34293278292780305}. Best is trial 147 with value: 0.07957527933249149.
+11954.9s 516 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+11954.9s 517 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+12027.0s 518 [I 2023-12-05 19:33:12,248] Trial 156 finished with value: 0.07950313360199344 and parameters: {'weight_1': 0.529073489715671, 'weight_2': 0.31668786528030607}. Best is trial 147 with value: 0.07957527933249149.
+12027.2s 519 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+12027.2s 520 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+12099.5s 521 [I 2023-12-05 19:34:24,742] Trial 157 finished with value: 0.0795038635249289 and parameters: {'weight_1': 0.5806312653044197, 'weight_2': 0.29675169551155717}. Best is trial 147 with value: 0.07957527933249149.
+12099.7s 522 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+12099.7s 523 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+12171.9s 524 [I 2023-12-05 19:35:37,109] Trial 158 finished with value: 0.07949602015609494 and parameters: {'weight_1': 0.5991378415427533, 'weight_2': 0.28433446534237666}. Best is trial 147 with value: 0.07957527933249149.
+12172.0s 525 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+12172.0s 526 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+12244.5s 527 [I 2023-12-05 19:36:49,772] Trial 159 finished with value: 0.07949799757164887 and parameters: {'weight_1': 0.5745807489817356, 'weight_2': 0.29610073632511574}. Best is trial 147 with value: 0.07957527933249149.
+12244.7s 528 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+12244.7s 529 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+12317.9s 530 [I 2023-12-05 19:38:03,159] Trial 160 finished with value: 0.0792596335075129 and parameters: {'weight_1': 0.6413166671192035, 'weight_2': 0.2701045753101269}. Best is trial 147 with value: 0.07957527933249149.
+12318.1s 531 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+12318.1s 532 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+12390.3s 533 [I 2023-12-05 19:39:15,516] Trial 161 finished with value: 0.07948926420003982 and parameters: {'weight_1': 0.5565700632846426, 'weight_2': 0.3111419688297169}. Best is trial 147 with value: 0.07957527933249149.
+12390.5s 534 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+12390.5s 535 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+12462.6s 536 [I 2023-12-05 19:40:27,870] Trial 162 finished with value: 0.07934932604800855 and parameters: {'weight_1': 0.6216874875364098, 'weight_2': 0.30412169506574815}. Best is trial 147 with value: 0.07957527933249149.
+12462.8s 537 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+12462.8s 538 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+12535.0s 539 [I 2023-12-05 19:41:40,225] Trial 163 finished with value: 0.07944077572920792 and parameters: {'weight_1': 0.5154274840299896, 'weight_2': 0.32391460558256907}. Best is trial 147 with value: 0.07957527933249149.
+12535.2s 540 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+12535.2s 541 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+12607.4s 542 [I 2023-12-05 19:42:52,651] Trial 164 finished with value: 0.07949955338933229 and parameters: {'weight_1': 0.5850968527101637, 'weight_2': 0.2940587224632882}. Best is trial 147 with value: 0.07957527933249149.
+12607.6s 543 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+12607.6s 544 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+12680.4s 545 [I 2023-12-05 19:44:05,653] Trial 165 finished with value: 0.07937920337047472 and parameters: {'weight_1': 0.5499400487414897, 'weight_2': 0.310277513840328}. Best is trial 147 with value: 0.07957527933249149.
+12680.6s 546 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+12680.6s 547 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+12754.1s 548 [I 2023-12-05 19:45:19,317] Trial 166 finished with value: 0.07948485436255825 and parameters: {'weight_1': 0.5674734432469668, 'weight_2': 0.2828171050363893}. Best is trial 147 with value: 0.07957527933249149.
+12754.3s 549 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+12754.3s 550 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+12828.5s 551 [I 2023-12-05 19:46:33,770] Trial 167 finished with value: 0.07940004843166695 and parameters: {'weight_1': 0.5340671343650678, 'weight_2': 0.3327212456881492}. Best is trial 147 with value: 0.07957527933249149.
+12828.7s 552 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+12828.7s 553 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+12901.4s 554 [I 2023-12-05 19:47:46,677] Trial 168 finished with value: 0.07942504176711557 and parameters: {'weight_1': 0.6067841226798334, 'weight_2': 0.3022990284464865}. Best is trial 147 with value: 0.07957527933249149.
+12901.6s 555 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+12901.6s 556 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+12973.0s 557 [I 2023-12-05 19:48:58,260] Trial 169 finished with value: 0.07943849806942273 and parameters: {'weight_1': 0.5082639444971306, 'weight_2': 0.2486632001683274}. Best is trial 147 with value: 0.07957527933249149.
+12973.2s 558 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+12973.2s 559 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+13045.1s 560 [I 2023-12-05 19:50:10,373] Trial 170 finished with value: 0.0795152095218025 and parameters: {'weight_1': 0.5761552484734979, 'weight_2': 0.28786676364997604}. Best is trial 147 with value: 0.07957527933249149.
+13045.3s 561 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+13045.3s 562 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+13117.1s 563 [I 2023-12-05 19:51:22,316] Trial 171 finished with value: 0.07954921742812453 and parameters: {'weight_1': 0.5668157305743171, 'weight_2': 0.2718947577094786}. Best is trial 147 with value: 0.07957527933249149.
+13117.3s 564 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+13117.3s 565 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+13188.7s 566 [I 2023-12-05 19:52:33,948] Trial 172 finished with value: 0.07946360651142816 and parameters: {'weight_1': 0.5851526702793712, 'weight_2': 0.2701558164037299}. Best is trial 147 with value: 0.07957527933249149.
+13188.9s 567 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+13188.9s 568 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+13260.3s 569 [I 2023-12-05 19:53:45,543] Trial 173 finished with value: 0.07948169840624789 and parameters: {'weight_1': 0.5662726759983154, 'weight_2': 0.26315126606887695}. Best is trial 147 with value: 0.07957527933249149.
+13260.5s 570 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+13260.5s 571 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+13331.5s 572 [I 2023-12-05 19:54:56,746] Trial 174 finished with value: 0.07931827654326305 and parameters: {'weight_1': 0.6231144439172549, 'weight_2': 0.2896306691814657}. Best is trial 147 with value: 0.07957527933249149.
+13331.7s 573 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+13331.7s 574 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+13402.6s 575 [I 2023-12-05 19:56:07,832] Trial 175 finished with value: 0.07943811629746651 and parameters: {'weight_1': 0.5956346344364569, 'weight_2': 0.276704082626918}. Best is trial 147 with value: 0.07957527933249149.
+13402.8s 576 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+13402.8s 577 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+13473.9s 578 [I 2023-12-05 19:57:19,086] Trial 176 finished with value: 0.07946634901821024 and parameters: {'weight_1': 0.5520327937433541, 'weight_2': 0.25941401991567464}. Best is trial 147 with value: 0.07957527933249149.
+13474.0s 579 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+13474.0s 580 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+13546.3s 581 [I 2023-12-05 19:58:31,518] Trial 177 finished with value: 0.07953847783368279 and parameters: {'weight_1': 0.5750155294658443, 'weight_2': 0.2853894222549353}. Best is trial 147 with value: 0.07957527933249149.
+13546.5s 582 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+13546.5s 583 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+13618.3s 584 [I 2023-12-05 19:59:43,497] Trial 178 finished with value: 0.07949058584774556 and parameters: {'weight_1': 0.5445068135437066, 'weight_2': 0.28377637247161336}. Best is trial 147 with value: 0.07957527933249149.
+13618.4s 585 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+13618.4s 586 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+13690.7s 587 [I 2023-12-05 20:00:55,934] Trial 179 finished with value: 0.07940851646758569 and parameters: {'weight_1': 0.6027141976823055, 'weight_2': 0.2741252830724291}. Best is trial 147 with value: 0.07957527933249149.
+13690.9s 588 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+13690.9s 589 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+13763.0s 590 [I 2023-12-05 20:02:08,246] Trial 180 finished with value: 0.07945946408649973 and parameters: {'weight_1': 0.5643211748229409, 'weight_2': 0.254789200293903}. Best is trial 147 with value: 0.07957527933249149.
+13763.2s 591 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+13763.2s 592 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+13834.0s 593 [I 2023-12-05 20:03:19,272] Trial 181 finished with value: 0.07950641976327096 and parameters: {'weight_1': 0.5813090424152639, 'weight_2': 0.29109501230235796}. Best is trial 147 with value: 0.07957527933249149.
+13834.2s 594 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+13834.2s 595 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+13905.2s 596 [I 2023-12-05 20:04:30,435] Trial 182 finished with value: 0.07951814331439724 and parameters: {'weight_1': 0.5872488740972509, 'weight_2': 0.28382707310410904}. Best is trial 147 with value: 0.07957527933249149.
+13905.4s 597 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+13905.4s 598 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+13977.0s 599 [I 2023-12-05 20:05:42,231] Trial 183 finished with value: 0.07930581605798612 and parameters: {'weight_1': 0.6484644420221373, 'weight_2': 0.28702993333244686}. Best is trial 147 with value: 0.07957527933249149.
+13977.2s 600 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+13977.2s 601 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+14048.7s 602 [I 2023-12-05 20:06:53,931] Trial 184 finished with value: 0.07938145217435566 and parameters: {'weight_1': 0.6240291788956382, 'weight_2': 0.27827254005895685}. Best is trial 147 with value: 0.07957527933249149.
+14048.9s 603 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+14048.9s 604 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+14120.8s 605 [I 2023-12-05 20:08:06,000] Trial 185 finished with value: 0.0794690290516002 and parameters: {'weight_1': 0.573069645241694, 'weight_2': 0.2680462278066759}. Best is trial 147 with value: 0.07957527933249149.
+14120.9s 606 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+14120.9s 607 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+14193.2s 608 [I 2023-12-05 20:09:18,434] Trial 186 finished with value: 0.0794404419061834 and parameters: {'weight_1': 0.5961720071911885, 'weight_2': 0.29214732180347847}. Best is trial 147 with value: 0.07957527933249149.
+14193.4s 609 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+14193.4s 610 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+14265.9s 611 [I 2023-12-05 20:10:31,157] Trial 187 finished with value: 0.07940184378782547 and parameters: {'weight_1': 0.5548770635066352, 'weight_2': 0.2425160063175921}. Best is trial 147 with value: 0.07957527933249149.
+14266.1s 612 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+14266.1s 613 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+14337.8s 614 [I 2023-12-05 20:11:43,075] Trial 188 finished with value: 0.07942738723998964 and parameters: {'weight_1': 0.6134846060812502, 'weight_2': 0.28273578881445827}. Best is trial 147 with value: 0.07957527933249149.
+14338.0s 615 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+14338.0s 616 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+14408.8s 617 [I 2023-12-05 20:12:54,061] Trial 189 finished with value: 0.07949143703130265 and parameters: {'weight_1': 0.5836366733806779, 'weight_2': 0.2726914050459629}. Best is trial 147 with value: 0.07957527933249149.
+14409.0s 618 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+14409.0s 619 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+14480.6s 620 [I 2023-12-05 20:14:05,845] Trial 190 finished with value: 0.0794671065062205 and parameters: {'weight_1': 0.5391679325653514, 'weight_2': 0.30183227749737596}. Best is trial 147 with value: 0.07957527933249149.
+14480.8s 621 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+14480.8s 622 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+14552.0s 623 [I 2023-12-05 20:15:17,218] Trial 191 finished with value: 0.07944771506129933 and parameters: {'weight_1': 0.5658095461926718, 'weight_2': 0.29054574819223267}. Best is trial 147 with value: 0.07957527933249149.
+14552.2s 624 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+14552.2s 625 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+14623.8s 626 [I 2023-12-05 20:16:28,993] Trial 192 finished with value: 0.07941333701827638 and parameters: {'weight_1': 0.5244401651878333, 'weight_2': 0.2560187492986477}. Best is trial 147 with value: 0.07957527933249149.
+14623.9s 627 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+14623.9s 628 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+14694.9s 629 [I 2023-12-05 20:17:40,093] Trial 193 finished with value: 0.07945556914114722 and parameters: {'weight_1': 0.5811813430650822, 'weight_2': 0.2633194050951735}. Best is trial 147 with value: 0.07957527933249149.
+14695.0s 630 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+14695.0s 631 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+14765.9s 632 [I 2023-12-05 20:18:51,138] Trial 194 finished with value: 0.07943266551849415 and parameters: {'weight_1': 0.5457288697906961, 'weight_2': 0.3059335245638428}. Best is trial 147 with value: 0.07957527933249149.
+14766.1s 633 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+14766.1s 634 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+14836.8s 635 [I 2023-12-05 20:20:02,035] Trial 195 finished with value: 0.07947551897879528 and parameters: {'weight_1': 0.5952783362284766, 'weight_2': 0.2976596684509111}. Best is trial 147 with value: 0.07957527933249149.
+14837.0s 636 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+14837.0s 637 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+14907.4s 638 [I 2023-12-05 20:21:12,612] Trial 196 finished with value: 0.0794206299940343 and parameters: {'weight_1': 0.510993032494929, 'weight_2': 0.23452241216575168}. Best is trial 147 with value: 0.07957527933249149.
+14907.6s 639 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+14907.6s 640 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+14978.5s 641 [I 2023-12-05 20:22:23,689] Trial 197 finished with value: 0.07950457525627805 and parameters: {'weight_1': 0.5570636383509063, 'weight_2': 0.28012984255891776}. Best is trial 147 with value: 0.07957527933249149.
+14978.6s 642 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+14978.6s 643 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+15049.7s 644 [I 2023-12-05 20:23:34,901] Trial 198 finished with value: 0.07944681423362955 and parameters: {'weight_1': 0.5662687141244529, 'weight_2': 0.27813225768290445}. Best is trial 147 with value: 0.07957527933249149.
+15049.8s 645 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+15049.8s 646 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+15121.1s 647 [I 2023-12-05 20:24:46,337] Trial 199 finished with value: 0.07937826715856039 and parameters: {'weight_1': 0.6141601876133692, 'weight_2': 0.2868908970576683}. Best is trial 147 with value: 0.07957527933249149.
+15121.3s 648 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+15121.3s 649 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+15192.3s 650 [I 2023-12-05 20:25:57,486] Trial 200 finished with value: 0.07948041865858892 and parameters: {'weight_1': 0.5533400196505099, 'weight_2': 0.26951701712355164}. Best is trial 147 with value: 0.07957527933249149.
+15192.4s 651 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+15192.4s 652 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+15263.3s 653 [I 2023-12-05 20:27:08,526] Trial 201 finished with value: 0.0794156517702235 and parameters: {'weight_1': 0.5339701689499469, 'weight_2': 0.31401053857784716}. Best is trial 147 with value: 0.07957527933249149.
+15263.5s 654 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+15263.5s 655 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+15334.2s 656 [I 2023-12-05 20:28:19,404] Trial 202 finished with value: 0.07955054329043906 and parameters: {'weight_1': 0.5814429237244768, 'weight_2': 0.28163171544793497}. Best is trial 147 with value: 0.07957527933249149.
+15334.3s 657 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+15334.3s 658 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+15405.5s 659 [I 2023-12-05 20:29:30,742] Trial 203 finished with value: 0.07954261087715554 and parameters: {'weight_1': 0.5832756824694277, 'weight_2': 0.2820337616768264}. Best is trial 147 with value: 0.07957527933249149.
+15405.7s 660 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+15405.7s 661 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+15477.0s 662 [I 2023-12-05 20:30:42,211] Trial 204 finished with value: 0.07946962519074846 and parameters: {'weight_1': 0.5990443217021161, 'weight_2': 0.28775657665567067}. Best is trial 147 with value: 0.07957527933249149.
+15477.2s 663 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+15477.2s 664 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+15548.5s 665 [I 2023-12-05 20:31:53,719] Trial 205 finished with value: 0.07950509446300726 and parameters: {'weight_1': 0.5818472582881441, 'weight_2': 0.2955509383160464}. Best is trial 147 with value: 0.07957527933249149.
+15548.7s 666 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+15548.7s 667 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+15619.5s 668 [I 2023-12-05 20:33:04,717] Trial 206 finished with value: 0.07948214798755267 and parameters: {'weight_1': 0.577275953488924, 'weight_2': 0.2942863921756467}. Best is trial 147 with value: 0.07957527933249149.
+15619.7s 669 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+15619.7s 670 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+15690.5s 671 [I 2023-12-05 20:34:15,748] Trial 207 finished with value: 0.07934595132191632 and parameters: {'weight_1': 0.6356388682630079, 'weight_2': 0.29663483500495386}. Best is trial 147 with value: 0.07957527933249149.
+15690.7s 672 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+15690.7s 673 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+15761.7s 674 [I 2023-12-05 20:35:26,973] Trial 208 finished with value: 0.07949769359606831 and parameters: {'weight_1': 0.5832367405849532, 'weight_2': 0.27567361627179543}. Best is trial 147 with value: 0.07957527933249149.
+15761.9s 675 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+15761.9s 676 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+15833.4s 677 [I 2023-12-05 20:36:38,650] Trial 209 finished with value: 0.07938215573186914 and parameters: {'weight_1': 0.6148400441755695, 'weight_2': 0.30410774104506755}. Best is trial 147 with value: 0.07957527933249149.
+15833.6s 678 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+15833.6s 679 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+15904.5s 680 [I 2023-12-05 20:37:49,726] Trial 210 finished with value: 0.07913084177692108 and parameters: {'weight_1': 0.6657882124779464, 'weight_2': 0.28885283984934285}. Best is trial 147 with value: 0.07957527933249149.
+15904.7s 681 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+15904.7s 682 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+15975.2s 683 [I 2023-12-05 20:39:00,477] Trial 211 finished with value: 0.07946679843102354 and parameters: {'weight_1': 0.5883332003386408, 'weight_2': 0.2668027408523008}. Best is trial 147 with value: 0.07957527933249149.
+15975.4s 684 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+15975.4s 685 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+16046.6s 686 [I 2023-12-05 20:40:11,840] Trial 212 finished with value: 0.07949182314086928 and parameters: {'weight_1': 0.5698409684496896, 'weight_2': 0.28000482519383313}. Best is trial 147 with value: 0.07957527933249149.
+16046.8s 687 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+16046.8s 688 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+16117.6s 689 [I 2023-12-05 20:41:22,831] Trial 213 finished with value: 0.0794478684098161 and parameters: {'weight_1': 0.5970285134410213, 'weight_2': 0.29839373253238893}. Best is trial 147 with value: 0.07957527933249149.
+16117.8s 690 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+16117.8s 691 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+16188.9s 692 [I 2023-12-05 20:42:34,092] Trial 214 finished with value: 0.0794914409878353 and parameters: {'weight_1': 0.5528566843635324, 'weight_2': 0.2538608269772517}. Best is trial 147 with value: 0.07957527933249149.
+16189.0s 693 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+16189.0s 694 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+16260.1s 695 [I 2023-12-05 20:43:45,315] Trial 215 finished with value: 0.07945715897322098 and parameters: {'weight_1': 0.5735595299255228, 'weight_2': 0.2714577695106837}. Best is trial 147 with value: 0.07957527933249149.
+16260.3s 696 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+16260.3s 697 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+16331.2s 698 [I 2023-12-05 20:44:56,463] Trial 216 finished with value: 0.0794092323499172 and parameters: {'weight_1': 0.5388988573722662, 'weight_2': 0.30939596425279553}. Best is trial 147 with value: 0.07957527933249149.
+16331.4s 699 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+16331.4s 700 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+16402.8s 701 [I 2023-12-05 20:46:07,980] Trial 217 finished with value: 0.07934896027828361 and parameters: {'weight_1': 0.6242843915383862, 'weight_2': 0.28233046851236526}. Best is trial 147 with value: 0.07957527933249149.
+16402.9s 702 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+16402.9s 703 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+16473.6s 704 [I 2023-12-05 20:47:18,721] Trial 218 finished with value: 0.07948729880579518 and parameters: {'weight_1': 0.5991555886689038, 'weight_2': 0.2926148561537308}. Best is trial 147 with value: 0.07957527933249149.
+16473.7s 705 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+16473.7s 706 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+16544.9s 707 [I 2023-12-05 20:48:30,129] Trial 219 finished with value: 0.07949399049608116 and parameters: {'weight_1': 0.5644085693982, 'weight_2': 0.2695323055340833}. Best is trial 147 with value: 0.07957527933249149.
+16545.1s 708 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+16545.1s 709 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+16615.9s 710 [I 2023-12-05 20:49:41,077] Trial 220 finished with value: 0.07940238672598603 and parameters: {'weight_1': 0.5320120467222177, 'weight_2': 0.2622253674894977}. Best is trial 147 with value: 0.07957527933249149.
+16616.0s 711 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+16616.0s 712 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+16686.9s 713 [I 2023-12-05 20:50:52,087] Trial 221 finished with value: 0.07945960120756866 and parameters: {'weight_1': 0.5544938008090331, 'weight_2': 0.28678679097014204}. Best is trial 147 with value: 0.07957527933249149.
+16687.0s 714 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+16687.0s 715 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+16758.4s 716 [I 2023-12-05 20:52:03,584] Trial 222 finished with value: 0.0795643375293058 and parameters: {'weight_1': 0.5791656931542728, 'weight_2': 0.28070256243277664}. Best is trial 147 with value: 0.07957527933249149.
+16758.5s 717 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+16758.5s 718 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+16829.2s 719 [I 2023-12-05 20:53:14,370] Trial 223 finished with value: 0.07949732468095914 and parameters: {'weight_1': 0.5852984398273303, 'weight_2': 0.27611656377083926}. Best is trial 147 with value: 0.07957527933249149.
+16829.3s 720 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+16829.3s 721 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+16900.1s 722 [I 2023-12-05 20:54:25,330] Trial 224 finished with value: 0.07945025643360774 and parameters: {'weight_1': 0.6054375527110885, 'weight_2': 0.2835643617314171}. Best is trial 147 with value: 0.07957527933249149.
+16900.3s 723 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+16900.3s 724 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+16971.0s 725 [I 2023-12-05 20:55:36,239] Trial 225 finished with value: 0.0721189586188709 and parameters: {'weight_1': 0.018766738008548, 'weight_2': 0.20614446626652938}. Best is trial 147 with value: 0.07957527933249149.
+16971.2s 726 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+16971.2s 727 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+17040.5s 728 [I 2023-12-05 20:56:45,762] Trial 226 finished with value: 0.07945531598969205 and parameters: {'weight_1': 0.5795760894902183, 'weight_2': 0.3019547825027121}. Best is trial 147 with value: 0.07957527933249149.
+17040.7s 729 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+17040.7s 730 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+17110.5s 731 [I 2023-12-05 20:57:55,730] Trial 227 finished with value: 0.07797721148588921 and parameters: {'weight_1': 0.8601155907150823, 'weight_2': 0.1396113627205503}. Best is trial 147 with value: 0.07957527933249149.
+17110.7s 732 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+17110.7s 733 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+17181.2s 734 [I 2023-12-05 20:59:06,400] Trial 228 finished with value: 0.07947251979388568 and parameters: {'weight_1': 0.5591709956418094, 'weight_2': 0.24566226181354694}. Best is trial 147 with value: 0.07957527933249149.
+17181.3s 735 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+17181.3s 736 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+17252.2s 737 [I 2023-12-05 21:00:17,447] Trial 229 finished with value: 0.07941294605695026 and parameters: {'weight_1': 0.540761152872261, 'weight_2': 0.316599476476675}. Best is trial 147 with value: 0.07957527933249149.
+17252.4s 738 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+17252.4s 739 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+17324.1s 740 [I 2023-12-05 21:01:29,311] Trial 230 finished with value: 0.07943314968006512 and parameters: {'weight_1': 0.609427675099861, 'weight_2': 0.29220943541110406}. Best is trial 147 with value: 0.07957527933249149.
+17324.3s 741 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+17324.3s 742 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+17395.3s 743 [I 2023-12-05 21:02:40,470] Trial 231 finished with value: 0.07947850077522843 and parameters: {'weight_1': 0.5678414265830687, 'weight_2': 0.27877065554123237}. Best is trial 147 with value: 0.07957527933249149.
+17395.4s 744 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+17395.4s 745 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+17466.7s 746 [I 2023-12-05 21:03:51,963] Trial 232 finished with value: 0.07948737832637749 and parameters: {'weight_1': 0.5561130039860915, 'weight_2': 0.26360640763964405}. Best is trial 147 with value: 0.07957527933249149.
+17466.9s 747 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+17466.9s 748 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+17537.6s 749 [I 2023-12-05 21:05:02,849] Trial 233 finished with value: 0.07950676338387522 and parameters: {'weight_1': 0.5762954694129861, 'weight_2': 0.2794833693566172}. Best is trial 147 with value: 0.07957527933249149.
+17537.8s 750 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+17537.8s 751 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+17609.0s 752 [I 2023-12-05 21:06:14,255] Trial 234 finished with value: 0.07952329557093689 and parameters: {'weight_1': 0.5879832115882152, 'weight_2': 0.2838030228845429}. Best is trial 147 with value: 0.07957527933249149.
+17609.2s 753 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+17609.2s 754 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+17680.0s 755 [I 2023-12-05 21:07:25,245] Trial 235 finished with value: 0.0794692303460888 and parameters: {'weight_1': 0.579119984465735, 'weight_2': 0.2729608750429818}. Best is trial 147 with value: 0.07957527933249149.
+17680.2s 756 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+17680.2s 757 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+17750.9s 758 [I 2023-12-05 21:08:36,152] Trial 236 finished with value: 0.07946846285996773 and parameters: {'weight_1': 0.5903252924835021, 'weight_2': 0.29225409385213114}. Best is trial 147 with value: 0.07957527933249149.
+17751.1s 759 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+17751.1s 760 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+17821.9s 761 [I 2023-12-05 21:09:47,101] Trial 237 finished with value: 0.07942706909442465 and parameters: {'weight_1': 0.5274981129677305, 'weight_2': 0.25793497624179107}. Best is trial 147 with value: 0.07957527933249149.
+17822.0s 762 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+17822.0s 763 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+17892.8s 764 [I 2023-12-05 21:10:58,061] Trial 238 finished with value: 0.07929127416037732 and parameters: {'weight_1': 0.6268173844098246, 'weight_2': 0.28616960131606445}. Best is trial 147 with value: 0.07957527933249149.
+17893.0s 765 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+17893.0s 766 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+17964.2s 767 [I 2023-12-05 21:12:09,429] Trial 239 finished with value: 0.07949284604593984 and parameters: {'weight_1': 0.5716929587121156, 'weight_2': 0.2977105068077668}. Best is trial 147 with value: 0.07957527933249149.
+17964.4s 768 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+17964.4s 769 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+18035.8s 770 [I 2023-12-05 21:13:20,987] Trial 240 finished with value: 0.07941953696257824 and parameters: {'weight_1': 0.6016172208118262, 'weight_2': 0.2767047247028075}. Best is trial 147 with value: 0.07957527933249149.
+18035.9s 771 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+18035.9s 772 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+18107.0s 773 [I 2023-12-05 21:14:32,171] Trial 241 finished with value: 0.07951794071017397 and parameters: {'weight_1': 0.5893549658549724, 'weight_2': 0.2829159697138402}. Best is trial 147 with value: 0.07957527933249149.
+18107.1s 774 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+18107.1s 775 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+18178.0s 776 [I 2023-12-05 21:15:43,259] Trial 242 finished with value: 0.0795499367854895 and parameters: {'weight_1': 0.5839661597894898, 'weight_2': 0.2852014108628262}. Best is trial 147 with value: 0.07957527933249149.
+18178.2s 777 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+18178.2s 778 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+18249.2s 779 [I 2023-12-05 21:16:54,419] Trial 243 finished with value: 0.07953926909733326 and parameters: {'weight_1': 0.5467299467025247, 'weight_2': 0.26485025116619043}. Best is trial 147 with value: 0.07957527933249149.
+18249.4s 780 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+18249.4s 781 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+18320.2s 782 [I 2023-12-05 21:18:05,450] Trial 244 finished with value: 0.07953977864447022 and parameters: {'weight_1': 0.5449440786334323, 'weight_2': 0.26578739489756714}. Best is trial 147 with value: 0.07957527933249149.
+18320.4s 783 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+18320.4s 784 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+18391.0s 785 [I 2023-12-05 21:19:16,193] Trial 245 finished with value: 0.07948183414822894 and parameters: {'weight_1': 0.5447701991856098, 'weight_2': 0.26216757360895065}. Best is trial 147 with value: 0.07957527933249149.
+18391.1s 786 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+18391.1s 787 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+18461.9s 788 [I 2023-12-05 21:20:27,117] Trial 246 finished with value: 0.07938532436909049 and parameters: {'weight_1': 0.5221311292360302, 'weight_2': 0.2533077208174753}. Best is trial 147 with value: 0.07957527933249149.
+18462.1s 789 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+18462.1s 790 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+18532.9s 791 [I 2023-12-05 21:21:38,078] Trial 247 finished with value: 0.07950242089085084 and parameters: {'weight_1': 0.4996437054916788, 'weight_2': 0.2446484194291519}. Best is trial 147 with value: 0.07957527933249149.
+18533.0s 792 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+18533.0s 793 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+18604.4s 794 [I 2023-12-05 21:22:49,650] Trial 248 finished with value: 0.0794825864941993 and parameters: {'weight_1': 0.5474341934262841, 'weight_2': 0.27001760999635316}. Best is trial 147 with value: 0.07957527933249149.
+18604.6s 795 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+18604.6s 796 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+18675.1s 797 [I 2023-12-05 21:24:00,315] Trial 249 finished with value: 0.07947873017073483 and parameters: {'weight_1': 0.5630569478637666, 'weight_2': 0.26542795810874614}. Best is trial 147 with value: 0.07957527933249149.
+18675.3s 798 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+18675.3s 799 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+18746.3s 800 [I 2023-12-05 21:25:11,483] Trial 250 finished with value: 0.07944285542352462 and parameters: {'weight_1': 0.6071017525138521, 'weight_2': 0.27769356698167486}. Best is trial 147 with value: 0.07957527933249149.
+18746.4s 801 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+18746.4s 802 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+18817.8s 803 [I 2023-12-05 21:26:22,986] Trial 251 finished with value: 0.07934970591899403 and parameters: {'weight_1': 0.5185602040167228, 'weight_2': 0.2523964599138649}. Best is trial 147 with value: 0.07957527933249149.
+18817.9s 804 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+18817.9s 805 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+18888.6s 806 [I 2023-12-05 21:27:33,825] Trial 252 finished with value: 0.07946707815054223 and parameters: {'weight_1': 0.5403207428008243, 'weight_2': 0.26738318260680444}. Best is trial 147 with value: 0.07957527933249149.
+18888.8s 807 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+18888.8s 808 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+18959.4s 809 [I 2023-12-05 21:28:44,623] Trial 253 finished with value: 0.07945922048637323 and parameters: {'weight_1': 0.5732084173922836, 'weight_2': 0.27341090502176163}. Best is trial 147 with value: 0.07957527933249149.
+18959.6s 810 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+18959.6s 811 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+19029.9s 812 [I 2023-12-05 21:29:55,134] Trial 254 finished with value: 0.07932415854430241 and parameters: {'weight_1': 0.6421796704378083, 'weight_2': 0.28291014959253546}. Best is trial 147 with value: 0.07957527933249149.
+19030.1s 813 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+19030.1s 814 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+19100.7s 815 [I 2023-12-05 21:31:05,921] Trial 255 finished with value: 0.07948734085300099 and parameters: {'weight_1': 0.59537306846873, 'weight_2': 0.283156002063122}. Best is trial 147 with value: 0.07957527933249149.
+19100.9s 816 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+19100.9s 817 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+19171.7s 818 [I 2023-12-05 21:32:16,939] Trial 256 finished with value: 0.07949308595561891 and parameters: {'weight_1': 0.5613731327326317, 'weight_2': 0.26147154407368434}. Best is trial 147 with value: 0.07957527933249149.
+19171.9s 819 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+19171.9s 820 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+19242.5s 821 [I 2023-12-05 21:33:27,741] Trial 257 finished with value: 0.07938272440843289 and parameters: {'weight_1': 0.5327342431391634, 'weight_2': 0.25687370068411797}. Best is trial 147 with value: 0.07957527933249149.
+19242.7s 822 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+19242.7s 823 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+19313.3s 824 [I 2023-12-05 21:34:38,483] Trial 258 finished with value: 0.07951522216832892 and parameters: {'weight_1': 0.5873181219652266, 'weight_2': 0.2737173141439521}. Best is trial 147 with value: 0.07957527933249149.
+19313.4s 825 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+19313.4s 826 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+19383.9s 827 [I 2023-12-05 21:35:49,150] Trial 259 finished with value: 0.07942422830219424 and parameters: {'weight_1': 0.6171080282263759, 'weight_2': 0.2707695768531261}. Best is trial 147 with value: 0.07957527933249149.
+19384.1s 828 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+19384.1s 829 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+19454.8s 830 [I 2023-12-05 21:36:59,963] Trial 260 finished with value: 0.07953434130316701 and parameters: {'weight_1': 0.49937433071107584, 'weight_2': 0.2349116842172296}. Best is trial 147 with value: 0.07957527933249149.
+19454.9s 831 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+19454.9s 832 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+19526.1s 833 [I 2023-12-05 21:38:11,365] Trial 261 finished with value: 0.07932826205005504 and parameters: {'weight_1': 0.5247265165929967, 'weight_2': 0.22753702758490518}. Best is trial 147 with value: 0.07957527933249149.
+19526.3s 834 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+19526.3s 835 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+19597.1s 836 [I 2023-12-05 21:39:22,261] Trial 262 finished with value: 0.07864399420025615 and parameters: {'weight_1': 0.4811116230752143, 'weight_2': 0.10655569937683945}. Best is trial 147 with value: 0.07957527933249149.
+19597.2s 837 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+19597.2s 838 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+19668.4s 839 [I 2023-12-05 21:40:33,571] Trial 263 finished with value: 0.07943222757772901 and parameters: {'weight_1': 0.49411969100856157, 'weight_2': 0.24092904162103718}. Best is trial 147 with value: 0.07957527933249149.
+19668.5s 840 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+19668.5s 841 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+19739.5s 842 [I 2023-12-05 21:41:44,680] Trial 264 finished with value: 0.07939374416461402 and parameters: {'weight_1': 0.5497951054524881, 'weight_2': 0.2339624678910469}. Best is trial 147 with value: 0.07957527933249149.
+19739.6s 843 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+19739.6s 844 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+19810.0s 845 [I 2023-12-05 21:42:55,242] Trial 265 finished with value: 0.0794001040908925 and parameters: {'weight_1': 0.586046230276327, 'weight_2': 0.264644812799815}. Best is trial 147 with value: 0.07957527933249149.
+19810.2s 846 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+19810.2s 847 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+19881.0s 848 [I 2023-12-05 21:44:06,222] Trial 266 finished with value: 0.07948791011977763 and parameters: {'weight_1': 0.5058269933688743, 'weight_2': 0.24791324244790466}. Best is trial 147 with value: 0.07957527933249149.
+19881.2s 849 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+19881.2s 850 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+19952.2s 851 [I 2023-12-05 21:45:17,400] Trial 267 finished with value: 0.07939525409257857 and parameters: {'weight_1': 0.6064706853539636, 'weight_2': 0.2214527732557967}. Best is trial 147 with value: 0.07957527933249149.
+19952.3s 852 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+19952.3s 853 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+20023.1s 854 [I 2023-12-05 21:46:28,245] Trial 268 finished with value: 0.07904254535233776 and parameters: {'weight_1': 0.4044236168137665, 'weight_2': 0.23750866654523442}. Best is trial 147 with value: 0.07957527933249149.
+20023.2s 855 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+20023.2s 856 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+20093.4s 857 [I 2023-12-05 21:47:38,613] Trial 269 finished with value: 0.07943873796958469 and parameters: {'weight_1': 0.5461053487186511, 'weight_2': 0.25533352774779466}. Best is trial 147 with value: 0.07957527933249149.
+20093.6s 858 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+20093.6s 859 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+20164.3s 860 [I 2023-12-05 21:48:49,523] Trial 270 finished with value: 0.0793512111823382 and parameters: {'weight_1': 0.4296389540052703, 'weight_2': 0.47253832674901497}. Best is trial 147 with value: 0.07957527933249149.
+20164.5s 861 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+20164.5s 862 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+20235.0s 863 [I 2023-12-05 21:50:00,189] Trial 271 finished with value: 0.07945005054671736 and parameters: {'weight_1': 0.5101982612507725, 'weight_2': 0.24737521661691375}. Best is trial 147 with value: 0.07957527933249149.
+20235.1s 864 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+20235.1s 865 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+20306.3s 866 [I 2023-12-05 21:51:11,502] Trial 272 finished with value: 0.07948933555795129 and parameters: {'weight_1': 0.4646682661126263, 'weight_2': 0.307195823418868}. Best is trial 147 with value: 0.07957527933249149.
+20306.4s 867 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+20306.4s 868 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+20377.4s 869 [I 2023-12-05 21:52:22,596] Trial 273 finished with value: 0.0793640982625458 and parameters: {'weight_1': 0.629891041116785, 'weight_2': 0.2745371926604145}. Best is trial 147 with value: 0.07957527933249149.
+20377.5s 870 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+20377.5s 871 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+20447.8s 872 [I 2023-12-05 21:53:32,982] Trial 274 finished with value: 0.07946787594850833 and parameters: {'weight_1': 0.5966954117491713, 'weight_2': 0.284914666497253}. Best is trial 147 with value: 0.07957527933249149.
+20447.9s 873 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+20447.9s 874 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+20518.6s 875 [I 2023-12-05 21:54:43,781] Trial 275 finished with value: 0.0794962312793721 and parameters: {'weight_1': 0.5605549362731082, 'weight_2': 0.2668081102965168}. Best is trial 147 with value: 0.07957527933249149.
+20518.7s 876 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+20518.7s 877 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+20589.5s 878 [I 2023-12-05 21:55:54,742] Trial 276 finished with value: 0.07937844728809453 and parameters: {'weight_1': 0.5329567928304735, 'weight_2': 0.26141870153339114}. Best is trial 147 with value: 0.07957527933249149.
+20589.7s 879 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+20589.7s 880 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+20661.0s 881 [I 2023-12-05 21:57:06,222] Trial 277 finished with value: 0.07720622290723643 and parameters: {'weight_1': 0.25513049986404474, 'weight_2': 0.23447474986299666}. Best is trial 147 with value: 0.07957527933249149.
+20661.2s 882 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+20661.2s 883 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+20732.3s 884 [I 2023-12-05 21:58:17,474] Trial 278 finished with value: 0.07950512834659874 and parameters: {'weight_1': 0.5872747017745786, 'weight_2': 0.2774400842270011}. Best is trial 147 with value: 0.07957527933249149.
+20732.4s 885 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+20732.4s 886 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+20803.4s 887 [I 2023-12-05 21:59:28,618] Trial 279 finished with value: 0.07949139180977718 and parameters: {'weight_1': 0.48822893289338926, 'weight_2': 0.25053488778123567}. Best is trial 147 with value: 0.07957527933249149.
+20803.6s 888 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+20803.6s 889 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+20875.8s 890 [I 2023-12-05 22:00:40,950] Trial 280 finished with value: 0.07954827476601482 and parameters: {'weight_1': 0.5650457591381406, 'weight_2': 0.27212216665032923}. Best is trial 147 with value: 0.07957527933249149.
+20875.9s 891 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+20875.9s 892 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+20947.7s 893 [I 2023-12-05 22:01:52,880] Trial 281 finished with value: 0.07944206040186677 and parameters: {'weight_1': 0.5714349428436919, 'weight_2': 0.2727442182569505}. Best is trial 147 with value: 0.07957527933249149.
+20947.8s 894 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+20947.8s 895 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+21019.4s 896 [I 2023-12-05 22:03:04,573] Trial 282 finished with value: 0.07944244314921485 and parameters: {'weight_1': 0.6106243033861628, 'weight_2': 0.28148832495178333}. Best is trial 147 with value: 0.07957527933249149.
+21019.5s 897 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+21019.5s 898 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+21091.8s 899 [I 2023-12-05 22:04:17,003] Trial 283 finished with value: 0.07931043886609654 and parameters: {'weight_1': 0.6508948649614317, 'weight_2': 0.27216241596398405}. Best is trial 147 with value: 0.07957527933249149.
+21091.9s 900 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+21091.9s 901 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+21164.1s 902 [I 2023-12-05 22:05:29,282] Trial 284 finished with value: 0.07944885081101982 and parameters: {'weight_1': 0.5565371562867606, 'weight_2': 0.2874617987409781}. Best is trial 147 with value: 0.07957527933249149.
+21164.2s 903 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+21164.2s 904 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+21235.7s 905 [I 2023-12-05 22:06:40,948] Trial 285 finished with value: 0.07882184720900492 and parameters: {'weight_1': 0.587969253660322, 'weight_2': 0.0021480739042237518}. Best is trial 147 with value: 0.07957527933249149.
+21235.9s 906 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+21235.9s 907 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+21307.1s 908 [I 2023-12-05 22:07:52,308] Trial 286 finished with value: 0.07939928005441602 and parameters: {'weight_1': 0.5233866940384925, 'weight_2': 0.2580204192262226}. Best is trial 147 with value: 0.07957527933249149.
+21307.3s 909 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+21307.3s 910 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+21377.6s 911 [I 2023-12-05 22:09:02,841] Trial 287 finished with value: 0.07866060492206577 and parameters: {'weight_1': 0.7327510821190147, 'weight_2': 0.26288114244300426}. Best is trial 147 with value: 0.07957527933249149.
+21377.8s 912 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+21377.8s 913 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+21448.8s 914 [I 2023-12-05 22:10:14,040] Trial 288 finished with value: 0.07937642644443008 and parameters: {'weight_1': 0.6213872112616892, 'weight_2': 0.28804850410292243}. Best is trial 147 with value: 0.07957527933249149.
+21449.0s 915 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+21449.0s 916 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+21519.7s 917 [I 2023-12-05 22:11:24,951] Trial 289 finished with value: 0.07941238601232554 and parameters: {'weight_1': 0.5456733905046667, 'weight_2': 0.3020964992613663}. Best is trial 147 with value: 0.07957527933249149.
+21519.9s 918 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+21519.9s 919 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+21590.9s 920 [I 2023-12-05 22:12:36,150] Trial 290 finished with value: 0.07947119056073754 and parameters: {'weight_1': 0.574886476600915, 'weight_2': 0.26839344397723003}. Best is trial 147 with value: 0.07957527933249149.
+21591.1s 921 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+21591.1s 922 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+21661.9s 923 [I 2023-12-05 22:13:47,068] Trial 291 finished with value: 0.07946564871738042 and parameters: {'weight_1': 0.6047901966106349, 'weight_2': 0.19441622371723705}. Best is trial 147 with value: 0.07957527933249149.
+21662.0s 924 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+21662.0s 925 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+21732.6s 926 [I 2023-12-05 22:14:57,810] Trial 292 finished with value: 0.07935984584107003 and parameters: {'weight_1': 0.5117390467643712, 'weight_2': 0.31062537141479507}. Best is trial 147 with value: 0.07957527933249149.
+21732.8s 927 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+21732.8s 928 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+21804.6s 929 [I 2023-12-05 22:16:09,817] Trial 293 finished with value: 0.07940117306192462 and parameters: {'weight_1': 0.5384429389028154, 'weight_2': 0.29300571484400956}. Best is trial 147 with value: 0.07957527933249149.
+21804.8s 930 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+21804.8s 931 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+21875.4s 932 [I 2023-12-05 22:17:20,595] Trial 294 finished with value: 0.07945876171721239 and parameters: {'weight_1': 0.5638757346965555, 'weight_2': 0.2800435287976234}. Best is trial 147 with value: 0.07957527933249149.
+21875.5s 933 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+21875.5s 934 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+21946.2s 935 [I 2023-12-05 22:18:31,388] Trial 295 finished with value: 0.07950953678328902 and parameters: {'weight_1': 0.5893528724689324, 'weight_2': 0.27348683186968287}. Best is trial 147 with value: 0.07957527933249149.
+21946.3s 936 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+21946.3s 937 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+22017.0s 938 [I 2023-12-05 22:19:42,184] Trial 296 finished with value: 0.07921180108969354 and parameters: {'weight_1': 0.3893048141117381, 'weight_2': 0.3172417106811774}. Best is trial 147 with value: 0.07957527933249149.
+22017.1s 939 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+22017.1s 940 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+22088.1s 941 [I 2023-12-05 22:20:53,287] Trial 297 finished with value: 0.07936135176149155 and parameters: {'weight_1': 0.6259330775329585, 'weight_2': 0.28500575604063677}. Best is trial 147 with value: 0.07957527933249149.
+22088.2s 942 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+22088.2s 943 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+22159.0s 944 [I 2023-12-05 22:22:04,178] Trial 298 finished with value: 0.0794857345662215 and parameters: {'weight_1': 0.5509962823181911, 'weight_2': 0.2583996677826794}. Best is trial 147 with value: 0.07957527933249149.
+22159.1s 945 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+22159.1s 946 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+22159.1s 947 Error: Weights sum is 0.9999999999999999, but must be 1.0
+22229.3s 948 [I 2023-12-05 22:23:14,555] Trial 299 finished with value: 0.07868174722859068 and parameters: {'weight_1': 0.36020741664575023, 'weight_2': 0.23141765022225744}. Best is trial 147 with value: 0.07957527933249149.
+22229.5s 949 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+22229.5s 950 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+22299.8s 951 [I 2023-12-05 22:24:25,040] Trial 300 finished with value: 0.07945200884893527 and parameters: {'weight_1': 0.5762863495480788, 'weight_2': 0.26691029201663435}. Best is trial 147 with value: 0.07957527933249149.
+22300.0s 952 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+22300.0s 953 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+22370.3s 954 [I 2023-12-05 22:25:35,488] Trial 301 finished with value: 0.0794829750338802 and parameters: {'weight_1': 0.4934452622712044, 'weight_2': 0.24709906932807885}. Best is trial 147 with value: 0.07957527933249149.
+22370.4s 955 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+22370.4s 956 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+22440.7s 957 [I 2023-12-05 22:26:45,881] Trial 302 finished with value: 0.07944033373445386 and parameters: {'weight_1': 0.5957887674551434, 'weight_2': 0.2756497782202001}. Best is trial 147 with value: 0.07957527933249149.
+22440.8s 958 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+22440.8s 959 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+22511.3s 960 [I 2023-12-05 22:27:56,497] Trial 303 finished with value: 0.07945352630383938 and parameters: {'weight_1': 0.522075902104594, 'weight_2': 0.29832050532259646}. Best is trial 147 with value: 0.07957527933249149.
+22511.4s 961 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+22511.4s 962 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+22582.4s 963 [I 2023-12-05 22:29:07,508] Trial 304 finished with value: 0.0794432240435573 and parameters: {'weight_1': 0.4482206582489393, 'weight_2': 0.3186352926238467}. Best is trial 147 with value: 0.07957527933249149.
+22582.5s 964 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+22582.5s 965 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+22653.4s 966 [I 2023-12-05 22:30:18,636] Trial 305 finished with value: 0.07889029989385782 and parameters: {'weight_1': 0.5684390076414731, 'weight_2': 0.024029562014343836}. Best is trial 147 with value: 0.07957527933249149.
+22653.6s 967 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+22653.6s 968 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+22724.5s 969 [I 2023-12-05 22:31:29,685] Trial 306 finished with value: 0.07945222023840533 and parameters: {'weight_1': 0.5413958176397068, 'weight_2': 0.2929889523945427}. Best is trial 147 with value: 0.07957527933249149.
+22724.6s 970 /opt/conda/lib/python3.10/site-packages/optuna/samplers/_tpe/sampler.py:494: RuntimeWarning: invalid value encountered in subtract
+22724.6s 971 score = log_l - log_g
+22724.6s 972 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+22724.6s 973 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+22795.1s 974 [I 2023-12-05 22:32:40,330] Trial 307 finished with value: 0.07394626332973474 and parameters: {'weight_1': 0.9428895402088598, 'weight_2': 0.4935539831254937}. Best is trial 147 with value: 0.07957527933249149.
+22795.3s 975 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+22795.3s 976 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+22866.6s 977 [I 2023-12-05 22:33:51,792] Trial 308 finished with value: 0.07911994964378871 and parameters: {'weight_1': 0.609454960949825, 'weight_2': 0.08089852561585388}. Best is trial 147 with value: 0.07957527933249149.
+22866.7s 978 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+22866.7s 979 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+22937.9s 980 [I 2023-12-05 22:35:03,085] Trial 309 finished with value: 0.07921377360182369 and parameters: {'weight_1': 0.6664734678130312, 'weight_2': 0.2813782057225965}. Best is trial 147 with value: 0.07957527933249149.
+22938.0s 981 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+22938.0s 982 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+23009.1s 983 [I 2023-12-05 22:36:14,338] Trial 310 finished with value: 0.07837458455942017 and parameters: {'weight_1': 0.7803250544903387, 'weight_2': 0.2185053939354347}. Best is trial 147 with value: 0.07957527933249149.
+23009.3s 984 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+23009.3s 985 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+23080.5s 986 [I 2023-12-05 22:37:25,668] Trial 311 finished with value: 0.07947650702319316 and parameters: {'weight_1': 0.5874790722618813, 'weight_2': 0.2665811197893593}. Best is trial 147 with value: 0.07957527933249149.
+23080.6s 987 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+23080.6s 988 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+23151.4s 989 [I 2023-12-05 22:38:36,615] Trial 312 finished with value: 0.07929682275826566 and parameters: {'weight_1': 0.6426999570612283, 'weight_2': 0.2855840598250942}. Best is trial 147 with value: 0.07957527933249149.
+23151.6s 990 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+23151.6s 991 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+23222.6s 992 [I 2023-12-05 22:39:47,839] Trial 313 finished with value: 0.07948903438710993 and parameters: {'weight_1': 0.5592016766925524, 'weight_2': 0.2529481872186556}. Best is trial 147 with value: 0.07957527933249149.
+23222.8s 993 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+23222.8s 994 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+23294.5s 995 [I 2023-12-05 22:40:59,704] Trial 314 finished with value: 0.0790586123125898 and parameters: {'weight_1': 0.47573351852667506, 'weight_2': 0.16368747325942712}. Best is trial 147 with value: 0.07957527933249149.
+23294.6s 996 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+23294.6s 997 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+23365.9s 998 [I 2023-12-05 22:42:11,079] Trial 315 finished with value: 0.07940347194942131 and parameters: {'weight_1': 0.5321803157640914, 'weight_2': 0.3266035515032513}. Best is trial 147 with value: 0.07957527933249149.
+23366.0s 999 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+23366.0s 1000 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+23437.0s 1001 [I 2023-12-05 22:43:22,181] Trial 316 finished with value: 0.07944308959415744 and parameters: {'weight_1': 0.5102060580662627, 'weight_2': 0.30543580489781313}. Best is trial 147 with value: 0.07957527933249149.
+23437.1s 1002 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+23437.1s 1003 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+23508.3s 1004 [I 2023-12-05 22:44:33,512] Trial 317 finished with value: 0.0794744225973799 and parameters: {'weight_1': 0.5785717941003445, 'weight_2': 0.2729924393645143}. Best is trial 147 with value: 0.07957527933249149.
+23508.5s 1005 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+23508.5s 1006 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+23578.7s 1007 [I 2023-12-05 22:45:43,868] Trial 318 finished with value: 0.07944367932863208 and parameters: {'weight_1': 0.5538892547749278, 'weight_2': 0.261525352407584}. Best is trial 147 with value: 0.07957527933249149.
+23578.8s 1008 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+23578.8s 1009 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+23649.2s 1010 [I 2023-12-05 22:46:54,440] Trial 319 finished with value: 0.079460284933682 and parameters: {'weight_1': 0.6007622433572699, 'weight_2': 0.28920559947555735}. Best is trial 147 with value: 0.07957527933249149.
+23649.4s 1011 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+23649.4s 1012 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+23720.1s 1013 [I 2023-12-05 22:48:05,258] Trial 320 finished with value: 0.07938575602647138 and parameters: {'weight_1': 0.6236350860498246, 'weight_2': 0.2797676280621756}. Best is trial 147 with value: 0.07957527933249149.
+23720.2s 1014 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+23720.2s 1015 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+23790.6s 1016 [I 2023-12-05 22:49:15,772] Trial 321 finished with value: 0.07947843187657538 and parameters: {'weight_1': 0.5698546082887611, 'weight_2': 0.24359690375791476}. Best is trial 147 with value: 0.07957527933249149.
+23790.7s 1017 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+23790.7s 1018 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+23861.3s 1019 [I 2023-12-05 22:50:26,478] Trial 322 finished with value: 0.07947774483305892 and parameters: {'weight_1': 0.5390867109918439, 'weight_2': 0.30024205711613244}. Best is trial 147 with value: 0.07957527933249149.
+23861.4s 1020 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+23861.4s 1021 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+23932.2s 1022 [I 2023-12-05 22:51:37,452] Trial 323 finished with value: 0.07948847593999073 and parameters: {'weight_1': 0.589531286819724, 'weight_2': 0.2718872747062758}. Best is trial 147 with value: 0.07957527933249149.
+23932.4s 1023 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+23932.4s 1024 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+24003.1s 1025 [I 2023-12-05 22:52:48,294] Trial 324 finished with value: 0.0794581379505192 and parameters: {'weight_1': 0.5637508367820033, 'weight_2': 0.2542848833278701}. Best is trial 147 with value: 0.07957527933249149.
+24003.2s 1026 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+24003.2s 1027 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+24074.1s 1028 [I 2023-12-05 22:53:59,290] Trial 325 finished with value: 0.07944080210015296 and parameters: {'weight_1': 0.5012113008166649, 'weight_2': 0.22690748463411514}. Best is trial 147 with value: 0.07957527933249149.
+24074.2s 1029 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+24074.2s 1030 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+24145.3s 1031 [I 2023-12-05 22:55:10,507] Trial 326 finished with value: 0.07940571310318746 and parameters: {'weight_1': 0.6171170258294754, 'weight_2': 0.27871756170366985}. Best is trial 147 with value: 0.07957527933249149.
+24145.4s 1032 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+24145.4s 1033 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+24217.3s 1034 [I 2023-12-05 22:56:22,462] Trial 327 finished with value: 0.0794849642071683 and parameters: {'weight_1': 0.5214593743241399, 'weight_2': 0.3054224910369622}. Best is trial 147 with value: 0.07957527933249149.
+24217.4s 1035 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+24217.4s 1036 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+24288.1s 1037 [I 2023-12-05 22:57:33,267] Trial 328 finished with value: 0.07943049032610477 and parameters: {'weight_1': 0.5481644493466987, 'weight_2': 0.2920963589033513}. Best is trial 147 with value: 0.07957527933249149.
+24288.2s 1038 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+24288.2s 1039 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+24359.1s 1040 [I 2023-12-05 22:58:44,277] Trial 329 finished with value: 0.076907048582212 and parameters: {'weight_1': 0.179312166096547, 'weight_2': 0.362161278882266}. Best is trial 147 with value: 0.07957527933249149.
+24359.2s 1041 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+24359.2s 1042 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+24429.8s 1043 [I 2023-12-05 22:59:55,032] Trial 330 finished with value: 0.07946260734118614 and parameters: {'weight_1': 0.5960493232340985, 'weight_2': 0.20602961615647256}. Best is trial 147 with value: 0.07957527933249149.
+24430.0s 1044 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+24430.0s 1045 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+24501.7s 1046 [I 2023-12-05 23:01:06,905] Trial 331 finished with value: 0.07946903391964574 and parameters: {'weight_1': 0.5763054568597951, 'weight_2': 0.2629052777278248}. Best is trial 147 with value: 0.07957527933249149.
+24501.8s 1047 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+24501.8s 1048 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+24574.4s 1049 [I 2023-12-05 23:02:19,652] Trial 332 finished with value: 0.07925899946906965 and parameters: {'weight_1': 0.6353133319550122, 'weight_2': 0.2845386385411449}. Best is trial 147 with value: 0.07957527933249149.
+24574.6s 1050 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+24574.6s 1051 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+24646.2s 1052 [I 2023-12-05 23:03:31,376] Trial 333 finished with value: 0.07929863953427271 and parameters: {'weight_1': 0.4153373756055735, 'weight_2': 0.33247837022628185}. Best is trial 147 with value: 0.07957527933249149.
+24646.3s 1053 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+24646.3s 1054 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+24717.5s 1055 [I 2023-12-05 23:04:42,688] Trial 334 finished with value: 0.07948967244514282 and parameters: {'weight_1': 0.5531101482634336, 'weight_2': 0.25363208159768674}. Best is trial 147 with value: 0.07957527933249149.
+24717.6s 1056 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+24717.6s 1057 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+24789.1s 1058 [I 2023-12-05 23:05:54,307] Trial 335 finished with value: 0.07866577558002791 and parameters: {'weight_1': 0.5340640925881298, 'weight_2': 0.03659952050318094}. Best is trial 147 with value: 0.07957527933249149.
+24789.2s 1059 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+24789.2s 1060 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+24860.5s 1061 [I 2023-12-05 23:07:05,717] Trial 336 finished with value: 0.07942824047029552 and parameters: {'weight_1': 0.6061245126848374, 'weight_2': 0.2704941260478355}. Best is trial 147 with value: 0.07957527933249149.
+24860.7s 1062 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+24860.7s 1063 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+24933.5s 1064 [I 2023-12-05 23:08:18,672] Trial 337 finished with value: 0.07938484572651762 and parameters: {'weight_1': 0.46320518034857777, 'weight_2': 0.24416901883269837}. Best is trial 147 with value: 0.07957527933249149.
+24933.6s 1065 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+24933.6s 1066 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+25005.8s 1067 [I 2023-12-05 23:09:30,987] Trial 338 finished with value: 0.07950796874397464 and parameters: {'weight_1': 0.5771275965999111, 'weight_2': 0.28920951850019105}. Best is trial 147 with value: 0.07957527933249149.
+25005.9s 1068 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+25005.9s 1069 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+25078.1s 1070 [I 2023-12-05 23:10:43,243] Trial 339 finished with value: 0.07948611705537241 and parameters: {'weight_1': 0.5204191456012403, 'weight_2': 0.31049519902917316}. Best is trial 147 with value: 0.07957527933249149.
+25078.2s 1071 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+25078.2s 1072 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+25150.2s 1073 [I 2023-12-05 23:11:55,418] Trial 340 finished with value: 0.0794635764426809 and parameters: {'weight_1': 0.5921390507782293, 'weight_2': 0.27722191300467847}. Best is trial 147 with value: 0.07957527933249149.
+25150.4s 1074 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+25150.4s 1075 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+25221.2s 1076 [I 2023-12-05 23:13:06,436] Trial 341 finished with value: 0.0794798982526017 and parameters: {'weight_1': 0.5601212900195291, 'weight_2': 0.29490025249247814}. Best is trial 147 with value: 0.07957527933249149.
+25221.4s 1077 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+25221.4s 1078 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+25292.9s 1079 [I 2023-12-05 23:14:18,084] Trial 342 finished with value: 0.07893258358927877 and parameters: {'weight_1': 0.683242069496713, 'weight_2': 0.2855741694014741}. Best is trial 147 with value: 0.07957527933249149.
+25293.0s 1080 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+25293.0s 1081 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+25364.0s 1082 [I 2023-12-05 23:15:29,232] Trial 343 finished with value: 0.07949012478621739 and parameters: {'weight_1': 0.4868469502355125, 'weight_2': 0.24390971028465908}. Best is trial 147 with value: 0.07957527933249149.
+25364.2s 1083 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+25364.2s 1084 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+25434.5s 1085 [I 2023-12-05 23:16:39,721] Trial 344 finished with value: 0.07889780449278892 and parameters: {'weight_1': 0.5743867925165442, 'weight_2': 0.013380626245320548}. Best is trial 147 with value: 0.07957527933249149.
+25434.7s 1086 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+25434.7s 1087 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+25505.3s 1088 [I 2023-12-05 23:17:50,461] Trial 345 finished with value: 0.07941826198046734 and parameters: {'weight_1': 0.6152751905014274, 'weight_2': 0.26889448138458094}. Best is trial 147 with value: 0.07957527933249149.
+25505.4s 1089 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+25505.4s 1090 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+25576.6s 1091 [I 2023-12-05 23:19:01,820] Trial 346 finished with value: 0.07943275820592083 and parameters: {'weight_1': 0.5411880933517759, 'weight_2': 0.25824524942043287}. Best is trial 147 with value: 0.07957527933249149.
+25576.8s 1092 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+25576.8s 1093 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+25648.4s 1094 [I 2023-12-05 23:20:13,579] Trial 347 finished with value: 0.07948966466951761 and parameters: {'weight_1': 0.5905296823196804, 'weight_2': 0.2765454962461703}. Best is trial 147 with value: 0.07957527933249149.
+25648.5s 1095 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+25648.5s 1096 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+25718.6s 1097 [I 2023-12-05 23:21:23,761] Trial 348 finished with value: 0.0794494880075266 and parameters: {'weight_1': 0.5559530759506174, 'weight_2': 0.2952801782049299}. Best is trial 147 with value: 0.07957527933249149.
+25718.7s 1098 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+25718.7s 1099 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+25788.7s 1100 [I 2023-12-05 23:22:33,876] Trial 349 finished with value: 0.07937263270331979 and parameters: {'weight_1': 0.5231840892695121, 'weight_2': 0.23655342619437317}. Best is trial 147 with value: 0.07957527933249149.
+25788.8s 1101 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+25788.8s 1102 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+25859.1s 1103 [I 2023-12-05 23:23:44,287] Trial 350 finished with value: 0.0794263383937033 and parameters: {'weight_1': 0.498516693846553, 'weight_2': 0.3179624294796175}. Best is trial 147 with value: 0.07957527933249149.
+25859.2s 1104 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+25859.2s 1105 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+25929.7s 1106 [I 2023-12-05 23:24:54,936] Trial 351 finished with value: 0.07933633242126438 and parameters: {'weight_1': 0.6365033826139835, 'weight_2': 0.16047365080179607}. Best is trial 147 with value: 0.07957527933249149.
+25929.9s 1107 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+25929.9s 1108 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+26000.9s 1109 [I 2023-12-05 23:26:06,135] Trial 352 finished with value: 0.07951181073901306 and parameters: {'weight_1': 0.5691523846363281, 'weight_2': 0.26131217207154844}. Best is trial 147 with value: 0.07957527933249149.
+26001.1s 1110 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+26001.1s 1111 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+26071.5s 1112 [I 2023-12-05 23:27:16,682] Trial 353 finished with value: 0.07944581032118012 and parameters: {'weight_1': 0.6076056489777105, 'weight_2': 0.2807265043754327}. Best is trial 147 with value: 0.07957527933249149.
+26071.6s 1113 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+26071.6s 1114 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+26142.2s 1115 [I 2023-12-05 23:28:27,366] Trial 354 finished with value: 0.07939323254505981 and parameters: {'weight_1': 0.5421782028487101, 'weight_2': 0.30742686538509867}. Best is trial 147 with value: 0.07957527933249149.
+26142.3s 1116 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+26142.3s 1117 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+26212.9s 1118 [I 2023-12-05 23:29:38,060] Trial 355 finished with value: 0.07807804661845735 and parameters: {'weight_1': 0.2650307537222997, 'weight_2': 0.3519177865653142}. Best is trial 147 with value: 0.07957527933249149.
+26213.0s 1119 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+26213.0s 1120 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+26285.0s 1121 [I 2023-12-05 23:30:50,153] Trial 356 finished with value: 0.07943002902468348 and parameters: {'weight_1': 0.5837346048754437, 'weight_2': 0.2680015442486246}. Best is trial 147 with value: 0.07957527933249149.
+26285.1s 1122 /opt/conda/lib/python3.10/site-packages/optuna/samplers/_tpe/sampler.py:494: RuntimeWarning: invalid value encountered in subtract
+26285.1s 1123 score = log_l - log_g
+26285.1s 1124 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+26285.1s 1125 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+26357.4s 1126 [I 2023-12-05 23:32:02,562] Trial 357 finished with value: 0.0745667713690985 and parameters: {'weight_1': 0.9775154161860754, 'weight_2': 0.3789492950064919}. Best is trial 147 with value: 0.07957527933249149.
+26357.5s 1127 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+26357.5s 1128 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+26430.0s 1129 [I 2023-12-05 23:33:15,174] Trial 358 finished with value: 0.07320304984136491 and parameters: {'weight_1': 0.054478652507445324, 'weight_2': 0.21174373009872569}. Best is trial 147 with value: 0.07957527933249149.
+26430.1s 1130 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+26430.1s 1131 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+26502.0s 1132 [I 2023-12-05 23:34:27,179] Trial 359 finished with value: 0.07929057981007843 and parameters: {'weight_1': 0.6505585149685671, 'weight_2': 0.2833995712481936}. Best is trial 147 with value: 0.07957527933249149.
+26502.1s 1133 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+26502.1s 1134 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+26573.1s 1135 [I 2023-12-05 23:35:38,335] Trial 360 finished with value: 0.07945830666368911 and parameters: {'weight_1': 0.4493575539702355, 'weight_2': 0.3253097441599856}. Best is trial 147 with value: 0.07957527933249149.
+26573.3s 1136 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+26573.3s 1137 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+26644.5s 1138 [I 2023-12-05 23:36:49,676] Trial 361 finished with value: 0.07945327251928391 and parameters: {'weight_1': 0.5623273707560248, 'weight_2': 0.2982998780458256}. Best is trial 147 with value: 0.07957527933249149.
+26644.6s 1139 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+26644.6s 1140 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+26715.5s 1141 [I 2023-12-05 23:38:00,710] Trial 362 finished with value: 0.0794567052306689 and parameters: {'weight_1': 0.5081226170364812, 'weight_2': 0.2502480146122607}. Best is trial 147 with value: 0.07957527933249149.
+26715.7s 1142 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+26715.7s 1143 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+26786.8s 1144 [I 2023-12-05 23:39:11,982] Trial 363 finished with value: 0.07947084642910773 and parameters: {'weight_1': 0.5921049231488097, 'weight_2': 0.271613926111406}. Best is trial 147 with value: 0.07957527933249149.
+26786.9s 1145 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+26786.9s 1146 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+26857.8s 1147 [I 2023-12-05 23:40:23,026] Trial 364 finished with value: 0.0794467213393996 and parameters: {'weight_1': 0.5395503314636525, 'weight_2': 0.30336504048775725}. Best is trial 147 with value: 0.07957527933249149.
+26858.0s 1148 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+26858.0s 1149 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+26928.9s 1150 [I 2023-12-05 23:41:34,098] Trial 365 finished with value: 0.07941800485757161 and parameters: {'weight_1': 0.6165733560198949, 'weight_2': 0.17686506458908505}. Best is trial 147 with value: 0.07957527933249149.
+26929.0s 1151 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+26929.0s 1152 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+26999.7s 1153 [I 2023-12-05 23:42:44,936] Trial 366 finished with value: 0.0748180691959684 and parameters: {'weight_1': 0.1252381037301299, 'weight_2': 0.21041629373196089}. Best is trial 147 with value: 0.07957527933249149.
+26999.9s 1154 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+26999.9s 1155 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+27071.1s 1156 [I 2023-12-05 23:43:56,329] Trial 367 finished with value: 0.07913020141155341 and parameters: {'weight_1': 0.5681276436803223, 'weight_2': 0.11830541561719166}. Best is trial 147 with value: 0.07957527933249149.
+27071.3s 1157 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+27071.3s 1158 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+27142.6s 1159 [I 2023-12-05 23:45:07,756] Trial 368 finished with value: 0.07940020997929656 and parameters: {'weight_1': 0.5277918694704126, 'weight_2': 0.25592282697121055}. Best is trial 147 with value: 0.07957527933249149.
+27142.7s 1160 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+27142.7s 1161 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+27214.3s 1162 [I 2023-12-05 23:46:19,459] Trial 369 finished with value: 0.07942243334584988 and parameters: {'weight_1': 0.6050853393961194, 'weight_2': 0.2755619619164569}. Best is trial 147 with value: 0.07957527933249149.
+27214.4s 1163 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+27214.4s 1164 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+27285.2s 1165 [I 2023-12-05 23:47:30,360] Trial 370 finished with value: 0.07835130097151936 and parameters: {'weight_1': 0.34216420284897187, 'weight_2': 0.22332802221794382}. Best is trial 147 with value: 0.07957527933249149.
+27285.3s 1166 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+27285.3s 1167 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+27356.7s 1168 [I 2023-12-05 23:48:41,935] Trial 371 finished with value: 0.07948275141356274 and parameters: {'weight_1': 0.585912995153082, 'weight_2': 0.28887418882548965}. Best is trial 147 with value: 0.07957527933249149.
+27356.9s 1169 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+27356.9s 1170 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+27428.2s 1171 [I 2023-12-05 23:49:53,370] Trial 372 finished with value: 0.07888379682114673 and parameters: {'weight_1': 0.5549371997139314, 'weight_2': 0.06590431565560742}. Best is trial 147 with value: 0.07957527933249149.
+27428.3s 1172 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+27428.3s 1173 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+27499.6s 1174 [I 2023-12-05 23:51:04,756] Trial 373 finished with value: 0.07947189434594444 and parameters: {'weight_1': 0.5775925428540138, 'weight_2': 0.26163478331047607}. Best is trial 147 with value: 0.07957527933249149.
+27499.7s 1175 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+27499.7s 1176 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+27570.8s 1177 [I 2023-12-05 23:52:16,008] Trial 374 finished with value: 0.07945593475242557 and parameters: {'weight_1': 0.4753128563506562, 'weight_2': 0.339967789690138}. Best is trial 147 with value: 0.07957527933249149.
+27571.0s 1178 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+27571.0s 1179 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+27641.8s 1180 [I 2023-12-05 23:53:26,952] Trial 375 finished with value: 0.07935596305010921 and parameters: {'weight_1': 0.6253036459516085, 'weight_2': 0.28201996934365814}. Best is trial 147 with value: 0.07957527933249149.
+27641.9s 1181 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+27641.9s 1182 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+27712.2s 1183 [I 2023-12-05 23:54:37,352] Trial 376 finished with value: 0.07803153969081542 and parameters: {'weight_1': 0.8274766173541894, 'weight_2': 0.1720732602950169}. Best is trial 147 with value: 0.07957527933249149.
+27712.3s 1184 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+27712.3s 1185 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+27783.2s 1186 [I 2023-12-05 23:55:48,356] Trial 377 finished with value: 0.07936930198749098 and parameters: {'weight_1': 0.5072618127881187, 'weight_2': 0.31225365777722647}. Best is trial 147 with value: 0.07957527933249149.
+27783.3s 1187 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+27783.3s 1188 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+27853.8s 1189 [I 2023-12-05 23:56:59,036] Trial 378 finished with value: 0.07922151113382457 and parameters: {'weight_1': 0.6621242498282338, 'weight_2': 0.2760132805544198}. Best is trial 147 with value: 0.07957527933249149.
+27854.0s 1190 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+27854.0s 1191 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+27923.9s 1192 [I 2023-12-05 23:58:09,062] Trial 379 finished with value: 0.079394826203998 and parameters: {'weight_1': 0.5534711189858611, 'weight_2': 0.29904162360873565}. Best is trial 147 with value: 0.07957527933249149.
+27924.0s 1193 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+27924.0s 1194 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+27993.3s 1195 [I 2023-12-05 23:59:18,474] Trial 380 finished with value: 0.07932810330986668 and parameters: {'weight_1': 0.5318001049656047, 'weight_2': 0.23968458326245842}. Best is trial 147 with value: 0.07957527933249149.
+27993.4s 1196 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+27993.4s 1197 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+28064.7s 1198 [I 2023-12-06 00:00:29,869] Trial 381 finished with value: 0.07940625206015509 and parameters: {'weight_1': 0.6000633534454783, 'weight_2': 0.2662250520184135}. Best is trial 147 with value: 0.07957527933249149.
+28064.8s 1199 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+28064.8s 1200 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+28136.0s 1201 [I 2023-12-06 00:01:41,157] Trial 382 finished with value: 0.0777845165458548 and parameters: {'weight_1': 0.8949357607760778, 'weight_2': 0.10497440436362765}. Best is trial 147 with value: 0.07957527933249149.
+28136.1s 1202 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+28136.1s 1203 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+28206.6s 1204 [I 2023-12-06 00:02:51,780] Trial 383 finished with value: 0.07952899597983755 and parameters: {'weight_1': 0.5733702706844048, 'weight_2': 0.2930253511909456}. Best is trial 147 with value: 0.07957527933249149.
+28206.7s 1205 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+28206.7s 1206 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+28277.2s 1207 [I 2023-12-06 00:04:02,347] Trial 384 finished with value: 0.079506172682677 and parameters: {'weight_1': 0.576547128174663, 'weight_2': 0.29153042145768915}. Best is trial 147 with value: 0.07957527933249149.
+28277.3s 1208 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+28277.3s 1209 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+28347.6s 1210 [I 2023-12-06 00:05:12,760] Trial 385 finished with value: 0.07940389552100109 and parameters: {'weight_1': 0.5547624355158899, 'weight_2': 0.29021114541371773}. Best is trial 147 with value: 0.07957527933249149.
+28347.7s 1211 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+28347.7s 1212 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+28418.6s 1213 [I 2023-12-06 00:06:23,768] Trial 386 finished with value: 0.07945122886309551 and parameters: {'weight_1': 0.5952612002381941, 'weight_2': 0.263319057617593}. Best is trial 147 with value: 0.07957527933249149.
+28418.7s 1214 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+28418.7s 1215 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+28489.0s 1216 [I 2023-12-06 00:07:34,185] Trial 387 finished with value: 0.07916500780956427 and parameters: {'weight_1': 0.38537872836457476, 'weight_2': 0.322609238335808}. Best is trial 147 with value: 0.07957527933249149.
+28489.1s 1217 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+28489.1s 1218 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+28559.8s 1219 [I 2023-12-06 00:08:44,960] Trial 388 finished with value: 0.07936034058605103 and parameters: {'weight_1': 0.5216591657017945, 'weight_2': 0.24750467366411819}. Best is trial 147 with value: 0.07957527933249149.
+28559.9s 1220 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+28559.9s 1221 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+28630.6s 1222 [I 2023-12-06 00:09:55,774] Trial 389 finished with value: 0.07926298250284441 and parameters: {'weight_1': 0.6361216777483607, 'weight_2': 0.2821158452423178}. Best is trial 147 with value: 0.07957527933249149.
+28630.7s 1223 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+28630.7s 1224 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+28702.4s 1225 [I 2023-12-06 00:11:07,594] Trial 390 finished with value: 0.07951423496154297 and parameters: {'weight_1': 0.5690016277493178, 'weight_2': 0.2698006036979363}. Best is trial 147 with value: 0.07957527933249149.
+28702.5s 1226 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+28702.5s 1227 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+28773.7s 1228 [I 2023-12-06 00:12:18,907] Trial 391 finished with value: 0.07941254952892891 and parameters: {'weight_1': 0.6129907931458892, 'weight_2': 0.27544526031775785}. Best is trial 147 with value: 0.07957527933249149.
+28773.8s 1229 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+28773.8s 1230 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+28844.7s 1231 [I 2023-12-06 00:13:29,917] Trial 392 finished with value: 0.07941572412085915 and parameters: {'weight_1': 0.5441056553250181, 'weight_2': 0.2531577988313367}. Best is trial 147 with value: 0.07957527933249149.
+28844.9s 1232 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+28844.9s 1233 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+28915.5s 1234 [I 2023-12-06 00:14:40,669] Trial 393 finished with value: 0.07881246072863587 and parameters: {'weight_1': 0.6991647469261129, 'weight_2': 0.2880646038397068}. Best is trial 147 with value: 0.07957527933249149.
+28915.6s 1235 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+28915.6s 1236 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+28987.1s 1237 [I 2023-12-06 00:15:52,270] Trial 394 finished with value: 0.07943354420605953 and parameters: {'weight_1': 0.5824252200500157, 'weight_2': 0.26677097449058745}. Best is trial 147 with value: 0.07957527933249149.
+28987.2s 1238 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+28987.2s 1239 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+29058.5s 1240 [I 2023-12-06 00:17:03,636] Trial 395 finished with value: 0.07898710337609356 and parameters: {'weight_1': 0.6800107244793419, 'weight_2': 0.2821912977239146}. Best is trial 147 with value: 0.07957527933249149.
+29058.6s 1241 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+29058.6s 1242 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+29129.6s 1243 [I 2023-12-06 00:18:14,755] Trial 396 finished with value: 0.07939840779118026 and parameters: {'weight_1': 0.5438271166490136, 'weight_2': 0.30441321008366423}. Best is trial 147 with value: 0.07957527933249149.
+29129.7s 1244 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+29129.7s 1245 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+29200.9s 1246 [I 2023-12-06 00:19:26,036] Trial 397 finished with value: 0.07947664978642448 and parameters: {'weight_1': 0.48753168581471457, 'weight_2': 0.24132582215901546}. Best is trial 147 with value: 0.07957527933249149.
+29201.0s 1247 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+29201.0s 1248 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+29272.5s 1249 [I 2023-12-06 00:20:37,717] Trial 398 finished with value: 0.07938086077316539 and parameters: {'weight_1': 0.5140177576833564, 'weight_2': 0.3137113970486624}. Best is trial 147 with value: 0.07957527933249149.
+29272.7s 1250 ScoresHybridRecommender: URM Detected 334 ( 2.6%) users with no interactions.
+29272.7s 1251 ScoresHybridRecommender: URM Detected 194 ( 0.9%) items with no interactions.
+29343.3s 1252 [I 2023-12-06 00:21:48,447] Trial 399 finished with value: 0.07940455420630847 and parameters: {'weight_1': 0.5975746563050679, 'weight_2': 0.27379322783124516}. Best is trial 147 with value: 0.07957527933249149.
