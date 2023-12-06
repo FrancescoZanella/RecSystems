@@ -67,3 +67,17 @@ def kFold_evaluation(URM_all, model, parameters_dict_list, k=10):
             acc=acc+res
             print("Fold" + str(i)+" evaluation ended with value " + str(res))
         print("Evaluation on all folded ended. Average accracy is: "+ str(acc/k))
+
+
+def Kfold(URM_all, model, parameters_dict,k):
+    acc = 0
+    for i in range(k):
+        URM_train,URM_validation = split_train_in_two_percentage_global_sample(URM_all,train_percentage=0.15)
+        recommender  = model(URM_train)
+        recommender.fit(**parameters_dict)
+        res = evaluate_algorithm(URM_validation,recommender,at=10)
+        acc+=res
+        print("Fold {} evaluation ended with value {}".format(i,res))
+
+    print("I parametri {} su {} folds hanno un accuracy media di {}".format(**parameters_dict,k,acc/k))
+    return acc/k
