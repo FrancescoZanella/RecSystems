@@ -73,7 +73,7 @@ def Kfold_hybrid(URM_all, k):
     URM_train_list = []
     URM_validation_list = []
     for i in range(k):
-        URM_train,URM_validation = split_train_in_two_percentage_global_sample(URM_all,train_percentage=0.15)
+        URM_train,URM_validation = split_train_in_two_percentage_global_sample(URM_all,train_percentage=0.85)
         URM_train_list.append(URM_train)
         URM_validation_list.append(URM_validation)
         
