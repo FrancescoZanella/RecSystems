@@ -88,6 +88,7 @@ def Kfold_hybrid(URM_all, models_in_hybrid, dict_of_dict_parameters,model_hybrid
             topK = parameters_dict_hybrid['topK']
             del parameters_dict_hybrid['topK']
             selectTopK = True
+            
         
         # build and train the hybrid
         new_similarity = sum(weight * recommender.W_sparse for weight, recommender in zip(parameters_dict_hybrid.values(), trained_recommenders))
@@ -97,7 +98,7 @@ def Kfold_hybrid(URM_all, models_in_hybrid, dict_of_dict_parameters,model_hybrid
         #evaluate the hybrid
         res = evaluate_algorithm(URM_validation,m,at=10)
         acc+=res
-        
+
         print("Fold {} evaluation ended with value {}".format(i,res))
 
     
