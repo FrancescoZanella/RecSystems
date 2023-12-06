@@ -78,7 +78,7 @@ def Kfold_hybrid(URM_all, models_in_hybrid, dict_of_dict_parameters,model_hybrid
         trained_recommenders = []
         for model in models_in_hybrid:
             recommender = model(URM_train)
-            recommender.fit(**dict_of_dict_parameters[model])
+            recommender.fit(**(dict_of_dict_parameters[model]))
             trained_recommenders.append(recommender)
         
         # extract the topK value for the hybrid matrix
