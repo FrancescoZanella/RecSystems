@@ -93,7 +93,7 @@ def Kfold_hybrid(URM_all, models_in_hybrid, dict_of_dict_parameters,model_hybrid
         
         # build and train the hybrid
         new_similarity = sum(weight * recommender.W_sparse for weight, recommender in zip(parameters_hybrid.values(), trained_recommenders))
-        m = model_hybrid(URM_train)
+        m = globals()[model_hybrid](URM_train)
         m.fit(new_similarity,selectTopK=selectTopK,topK=topK)
 
         #evaluate the hybrid
