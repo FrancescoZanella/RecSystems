@@ -1,3 +1,6 @@
+P3alpha Kfold search, step2
+topK [60, 150] ,alpha[0.15,0.4]log=False,normalize_similarity= True
+best -> 0.08127619843241454 and parameters: {'topK': 95, 'alpha': 0.3611646095844618}
 topK,alpha,result
 67.0,0.24114000941097705,0.08057909764303954
 90.0,0.29395981649826997,0.08108475606235699
