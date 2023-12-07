@@ -39,5 +39,7 @@ best_pars_dict = {
     'reg': 0.002312451046658324
   },
   'TopPopRecommenderUnseen':{
+  },
+  'TopPop':{
   }
 }
