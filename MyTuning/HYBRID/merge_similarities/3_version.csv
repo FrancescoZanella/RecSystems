@@ -1,5 +1,7 @@
 hybrid slim * alpha + rp3 *(1-alpha) e topk della matrice ibrida
 best -> accuracy = 0.079778872, alpha = 0.747434136, topk = 8401
+KFOLD -> 0.09565513438458673
+SUBMIT -> 0,14069
 alpha,topK,result
 0.747434136,8401,0.079778872
 0.74740934,7713,0.07977842
