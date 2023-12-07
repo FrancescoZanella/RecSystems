@@ -1,3 +1,5 @@
+Summing ratings, with l2 normalization.
+SLIM + rp3b + KNN
 479.5s 56 [I 2023-12-06 23:06:00,688] A new study created in memory with name: no-name-e10b9a8e-5515-49e3-b649-d3e8f4d94b5c
 479.7s 57 ScoresHybridRecommender: URM Detected 318 ( 2.5%) users with no interactions.
 479.7s 58 ScoresHybridRecommender: URM Detected 217 ( 1.0%) items with no interactions.
