@@ -227,10 +227,8 @@ class Evaluator(object):
         self.diversity_object = diversity_object
         self.n_users, self.n_items = URM_test.shape
 
-        self.URM_test = URM_test
-        users_to_evaluate_mask = np.ones(URM_test.shape[0], dtype=bool)
         # Prune users with an insufficient number of ratings
-        #self.URM_test, users_to_evaluate_mask = _prune_users(URM_test, self.ignore_items_ID, min_ratings_per_user)
+        self.URM_test, users_to_evaluate_mask = _prune_users(URM_test, self.ignore_items_ID, min_ratings_per_user)
 
         if not np.all(users_to_evaluate_mask):
             self._print("Ignoring {} ({:4.1f}%) Users that have less than {} test interactions".format(len(users_to_evaluate_mask) - np.sum(users_to_evaluate_mask),
@@ -365,36 +363,36 @@ class Evaluator(object):
                 recommended_items_current_cutoff = recommended_items[0:cutoff]
 
                 results_current_cutoff[EvaluatorMetrics.PRECISION.value]            += precision(is_relevant_current_cutoff)
-                #results_current_cutoff[EvaluatorMetrics.PRECISION_RECALL_MIN_DEN.value]   += precision_recall_min_denominator(is_relevant_current_cutoff, len(relevant_items))
-                #results_current_cutoff[EvaluatorMetrics.RECALL.value]               += recall(is_relevant_current_cutoff, relevant_items)
-                #results_current_cutoff[EvaluatorMetrics.NDCG.value]                 += ndcg(recommended_items_current_cutoff, relevant_items, relevance=self.get_user_test_ratings(test_user), at=cutoff)
-                #results_current_cutoff[EvaluatorMetrics.ARHR.value]                 += arhr_all_hits(is_relevant_current_cutoff)
+                results_current_cutoff[EvaluatorMetrics.PRECISION_RECALL_MIN_DEN.value]   += precision_recall_min_denominator(is_relevant_current_cutoff, len(relevant_items))
+                results_current_cutoff[EvaluatorMetrics.RECALL.value]               += recall(is_relevant_current_cutoff, relevant_items)
+                results_current_cutoff[EvaluatorMetrics.NDCG.value]                 += ndcg(recommended_items_current_cutoff, relevant_items, relevance=self.get_user_test_ratings(test_user), at=cutoff)
+                results_current_cutoff[EvaluatorMetrics.ARHR.value]                 += arhr_all_hits(is_relevant_current_cutoff)
 
-                #results_current_cutoff[EvaluatorMetrics.MRR.value].add_recommendations(is_relevant_current_cutoff)
-                #results_current_cutoff[EvaluatorMetrics.MAP.value].add_recommendations(is_relevant_current_cutoff, relevant_items)
-                #results_current_cutoff[EvaluatorMetrics.MAP_MIN_DEN.value].add_recommendations(is_relevant_current_cutoff, relevant_items)
-                #results_current_cutoff[EvaluatorMetrics.HIT_RATE.value].add_recommendations(is_relevant_current_cutoff)
+                results_current_cutoff[EvaluatorMetrics.MRR.value].add_recommendations(is_relevant_current_cutoff)
+                results_current_cutoff[EvaluatorMetrics.MAP.value].add_recommendations(is_relevant_current_cutoff, relevant_items)
+                results_current_cutoff[EvaluatorMetrics.MAP_MIN_DEN.value].add_recommendations(is_relevant_current_cutoff, relevant_items)
+                results_current_cutoff[EvaluatorMetrics.HIT_RATE.value].add_recommendations(is_relevant_current_cutoff)
 
-                #results_current_cutoff[EvaluatorMetrics.NOVELTY.value].add_recommendations(recommended_items_current_cutoff)
-                #results_current_cutoff[EvaluatorMetrics.AVERAGE_POPULARITY.value].add_recommendations(recommended_items_current_cutoff)
-                #results_current_cutoff[EvaluatorMetrics.DIVERSITY_GINI.value].add_recommendations(recommended_items_current_cutoff)
-                #results_current_cutoff[EvaluatorMetrics.SHANNON_ENTROPY.value].add_recommendations(recommended_items_current_cutoff)
-                #results_current_cutoff[EvaluatorMetrics.COVERAGE_ITEM.value].add_recommendations(recommended_items_current_cutoff)
-                #results_current_cutoff[EvaluatorMetrics.COVERAGE_ITEM_HIT.value].add_recommendations(recommended_items_current_cutoff, is_relevant_current_cutoff)
-                #results_current_cutoff[EvaluatorMetrics.COVERAGE_USER.value].add_recommendations(recommended_items_current_cutoff, test_user)
-                #results_current_cutoff[EvaluatorMetrics.COVERAGE_USER_HIT.value].add_recommendations(is_relevant_current_cutoff, test_user)
-                #results_current_cutoff[EvaluatorMetrics.DIVERSITY_MEAN_INTER_LIST.value].add_recommendations(recommended_items_current_cutoff)
-                #results_current_cutoff[EvaluatorMetrics.DIVERSITY_HERFINDAHL.value].add_recommendations(recommended_items_current_cutoff)
+                results_current_cutoff[EvaluatorMetrics.NOVELTY.value].add_recommendations(recommended_items_current_cutoff)
+                results_current_cutoff[EvaluatorMetrics.AVERAGE_POPULARITY.value].add_recommendations(recommended_items_current_cutoff)
+                results_current_cutoff[EvaluatorMetrics.DIVERSITY_GINI.value].add_recommendations(recommended_items_current_cutoff)
+                results_current_cutoff[EvaluatorMetrics.SHANNON_ENTROPY.value].add_recommendations(recommended_items_current_cutoff)
+                results_current_cutoff[EvaluatorMetrics.COVERAGE_ITEM.value].add_recommendations(recommended_items_current_cutoff)
+                results_current_cutoff[EvaluatorMetrics.COVERAGE_ITEM_HIT.value].add_recommendations(recommended_items_current_cutoff, is_relevant_current_cutoff)
+                results_current_cutoff[EvaluatorMetrics.COVERAGE_USER.value].add_recommendations(recommended_items_current_cutoff, test_user)
+                results_current_cutoff[EvaluatorMetrics.COVERAGE_USER_HIT.value].add_recommendations(is_relevant_current_cutoff, test_user)
+                results_current_cutoff[EvaluatorMetrics.DIVERSITY_MEAN_INTER_LIST.value].add_recommendations(recommended_items_current_cutoff)
+                results_current_cutoff[EvaluatorMetrics.DIVERSITY_HERFINDAHL.value].add_recommendations(recommended_items_current_cutoff)
 
-                #results_current_cutoff[EvaluatorMetrics.RATIO_SHANNON_ENTROPY.value].add_recommendations(recommended_items_current_cutoff)
-                #results_current_cutoff[EvaluatorMetrics.RATIO_DIVERSITY_HERFINDAHL.value].add_recommendations(recommended_items_current_cutoff)
-                #results_current_cutoff[EvaluatorMetrics.RATIO_DIVERSITY_GINI.value].add_recommendations(recommended_items_current_cutoff)
-                #results_current_cutoff[EvaluatorMetrics.RATIO_NOVELTY.value].add_recommendations(recommended_items_current_cutoff)
-                #results_current_cutoff[EvaluatorMetrics.RATIO_AVERAGE_POPULARITY.value].add_recommendations(recommended_items_current_cutoff)
-                """
+                results_current_cutoff[EvaluatorMetrics.RATIO_SHANNON_ENTROPY.value].add_recommendations(recommended_items_current_cutoff)
+                results_current_cutoff[EvaluatorMetrics.RATIO_DIVERSITY_HERFINDAHL.value].add_recommendations(recommended_items_current_cutoff)
+                results_current_cutoff[EvaluatorMetrics.RATIO_DIVERSITY_GINI.value].add_recommendations(recommended_items_current_cutoff)
+                results_current_cutoff[EvaluatorMetrics.RATIO_NOVELTY.value].add_recommendations(recommended_items_current_cutoff)
+                results_current_cutoff[EvaluatorMetrics.RATIO_AVERAGE_POPULARITY.value].add_recommendations(recommended_items_current_cutoff)
+
                 if EvaluatorMetrics.DIVERSITY_SIMILARITY.value in results_current_cutoff:
                     results_current_cutoff[EvaluatorMetrics.DIVERSITY_SIMILARITY.value].add_recommendations(recommended_items_current_cutoff)
-                """
+
 
         if time.time() - self._start_time_print > 300 or self._n_users_evaluated==len(self.users_to_evaluate):
 
@@ -492,4 +490,91 @@ class EvaluatorHoldout(Evaluator):
         return results_dict
 
 
+
+
+class EvaluatorNegativeItemSample(Evaluator):
+    """EvaluatorNegativeItemSample"""
+
+    EVALUATOR_NAME = "EvaluatorNegativeItemSample"
+
+    def __init__(self, URM_test_list, URM_test_negative, cutoff_list, min_ratings_per_user=1, exclude_seen=True,
+                 diversity_object = None,
+                 ignore_items = None,
+                 ignore_users = None):
+        """
+
+        The EvaluatorNegativeItemSample computes the recommendations by sorting the test items as well as the test_negative items
+        It ensures that each item appears only once even if it is listed in both matrices
+
+        :param URM_test_list:
+        :param URM_test_negative: Items to rank together with the test items
+        :param cutoff_list:
+        :param min_ratings_per_user:
+        :param exclude_seen:
+        :param diversity_object:
+        :param ignore_items:
+        :param ignore_users:
+        """
+        super(EvaluatorNegativeItemSample, self).__init__(URM_test_list, cutoff_list,
+                                                          diversity_object = diversity_object,
+                                                          min_ratings_per_user = min_ratings_per_user, exclude_seen=exclude_seen,
+                                                          ignore_items = ignore_items, ignore_users = ignore_users)
+
+
+        self.URM_items_to_rank = sps.csr_matrix(self.URM_test.copy().astype(bool)) + sps.csr_matrix(URM_test_negative.copy().astype(bool))
+        self.URM_items_to_rank.eliminate_zeros()
+        self.URM_items_to_rank.data = np.ones_like(self.URM_items_to_rank.data)
+
+
+
+    def _get_user_specific_items_to_compute(self, user_id):
+
+        start_pos = self.URM_items_to_rank.indptr[user_id]
+        end_pos = self.URM_items_to_rank.indptr[user_id+1]
+
+        items_to_compute = self.URM_items_to_rank.indices[start_pos:end_pos]
+
+        return items_to_compute
+
+
+
+    def _run_evaluation_on_selected_users(self, recommender_object, users_to_evaluate, block_size = None):
+
+
+
+        results_dict = _create_empty_metrics_dict(self.cutoff_list,
+                                                  self.n_items, self.n_users,
+                                                  recommender_object.get_URM_train(),
+                                                  self.URM_test,
+                                                  self.ignore_items_ID,
+                                                  self.ignore_users_ID,
+                                                  self.diversity_object)
+
+
+        if self.ignore_items_flag:
+            recommender_object.set_items_to_ignore(self.ignore_items_ID)
+
+
+
+        for test_user in users_to_evaluate:
+
+            items_to_compute = self._get_user_specific_items_to_compute(test_user)
+
+            recommended_items, all_items_predicted_ratings = recommender_object.recommend(np.atleast_1d(test_user),
+                                                              remove_seen_flag=self.exclude_seen,
+                                                              cutoff = self.max_cutoff,
+                                                              remove_top_pop_flag=False,
+                                                              items_to_compute = items_to_compute,
+                                                              remove_custom_items_flag=self.ignore_items_flag,
+                                                              return_scores = True
+                                                             )
+
+
+            results_dict = self._compute_metrics_on_recommendation_list(test_user_batch_array = [test_user],
+                                                         recommended_items_batch_list = recommended_items,
+                                                         scores_batch = all_items_predicted_ratings,
+                                                         results_dict = results_dict)
+
+
+        return results_dict
 
