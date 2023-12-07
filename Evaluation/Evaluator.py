@@ -228,7 +228,7 @@ class Evaluator(object):
         self.n_users, self.n_items = URM_test.shape
 
         self.URM_test = URM_test
-        users_to_evaluate_mask = np.zeros(URM_test.shape[0], dtype=bool)
+        users_to_evaluate_mask = np.ones(URM_test.shape[0], dtype=bool)
         # Prune users with an insufficient number of ratings
         #self.URM_test, users_to_evaluate_mask = _prune_users(URM_test, self.ignore_items_ID, min_ratings_per_user)
 
