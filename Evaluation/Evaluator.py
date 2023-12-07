@@ -173,7 +173,7 @@ def _remove_item_interactions(URM, item_list):
 
 
 
-def _prune_users(URM_test, ignore_items_ID, min_ratings_per_user):
+def _prune_users(URM_test, ignore_items_ID):
     """
     Remove users with a number of ratings lower than min_ratings_per_user, excluding the items to be ignored in the evaluation
     :param URM_test:
@@ -189,7 +189,7 @@ def _prune_users(URM_test, ignore_items_ID, min_ratings_per_user):
 
     rows = URM_test.indptr
     n_user_ratings = np.ediff1d(rows)
-    new_mask = n_user_ratings >= min_ratings_per_user
+    new_mask = n_user_ratings >= 0
 
     users_to_evaluate_mask = np.logical_or(users_to_evaluate_mask, new_mask)
 
@@ -201,7 +201,7 @@ class Evaluator(object):
 
     EVALUATOR_NAME = "Evaluator_Base_Class"
 
-    def __init__(self, URM_test, cutoff_list, min_ratings_per_user=1, exclude_seen=True,
+    def __init__(self, URM_test, cutoff_list, exclude_seen=True,
                  diversity_object = None,
                  ignore_items = None,
                  ignore_users = None,
@@ -222,17 +222,17 @@ class Evaluator(object):
         self.cutoff_list = cutoff_list.copy()
         self.max_cutoff = max(self.cutoff_list)
 
-        self.min_ratings_per_user = min_ratings_per_user
+        
         self.exclude_seen = exclude_seen
         self.diversity_object = diversity_object
         self.n_users, self.n_items = URM_test.shape
 
         # Prune users with an insufficient number of ratings
-        self.URM_test, users_to_evaluate_mask = _prune_users(URM_test, self.ignore_items_ID, min_ratings_per_user)
+        self.URM_test, users_to_evaluate_mask = _prune_users(URM_test, self.ignore_items_ID)
 
         if not np.all(users_to_evaluate_mask):
             self._print("Ignoring {} ({:4.1f}%) Users that have less than {} test interactions".format(len(users_to_evaluate_mask) - np.sum(users_to_evaluate_mask),
-                                                                                                     100*np.sum(np.logical_not(users_to_evaluate_mask))/len(users_to_evaluate_mask), min_ratings_per_user))
+                                                                                                     100*np.sum(np.logical_not(users_to_evaluate_mask))/len(users_to_evaluate_mask)))
 
         self.users_to_evaluate = np.arange(self.n_users)[users_to_evaluate_mask]
 
@@ -424,7 +424,7 @@ class EvaluatorHoldout(Evaluator):
 
     EVALUATOR_NAME = "EvaluatorHoldout"
 
-    def __init__(self, URM_test_list, cutoff_list, min_ratings_per_user=1, exclude_seen=True,
+    def __init__(self, URM_test_list, cutoff_list, exclude_seen=True,
                  diversity_object = None,
                  ignore_items = None,
                  ignore_users = None,
@@ -433,7 +433,7 @@ class EvaluatorHoldout(Evaluator):
 
         super(EvaluatorHoldout, self).__init__(URM_test_list, cutoff_list,
                                                diversity_object = diversity_object,
-                                               min_ratings_per_user =min_ratings_per_user, exclude_seen=exclude_seen,
+                                                exclude_seen=exclude_seen,
                                                ignore_items = ignore_items, ignore_users = ignore_users,
                                                verbose = verbose)
 
@@ -497,7 +497,7 @@ class EvaluatorNegativeItemSample(Evaluator):
 
     EVALUATOR_NAME = "EvaluatorNegativeItemSample"
 
-    def __init__(self, URM_test_list, URM_test_negative, cutoff_list, min_ratings_per_user=1, exclude_seen=True,
+    def __init__(self, URM_test_list, URM_test_negative, cutoff_list, exclude_seen=True,
                  diversity_object = None,
                  ignore_items = None,
                  ignore_users = None):
@@ -517,7 +517,7 @@ class EvaluatorNegativeItemSample(Evaluator):
         """
         super(EvaluatorNegativeItemSample, self).__init__(URM_test_list, cutoff_list,
                                                           diversity_object = diversity_object,
-                                                          min_ratings_per_user = min_ratings_per_user, exclude_seen=exclude_seen,
+                                                          exclude_seen=exclude_seen,
                                                           ignore_items = ignore_items, ignore_users = ignore_users)
 
 
