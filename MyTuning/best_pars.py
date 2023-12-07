@@ -30,5 +30,12 @@ best_pars_dict = {
     'lambda_j':0.0000517456087547006,
     'learning_rate' : 0.0110299013052305,
     'topK':18
+  },
+  'IALSRecommender': {
+    'num_factors': 237,
+    'confidence_scaling': 'log',
+    'alpha': 0.8518168781047342,
+    'epsilon': 0.015416759470287537,
+    'reg': 0.002312451046658324,
   }
 }
