@@ -30,7 +30,7 @@ best_pars_dict = {
     'lambda_j':0.0000517456087547006,
     'learning_rate' : 0.0110299013052305,
     'topK':18
-  }
+  },
   'TopPop':{
   }
 }
