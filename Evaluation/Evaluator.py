@@ -365,36 +365,36 @@ class Evaluator(object):
                 recommended_items_current_cutoff = recommended_items[0:cutoff]
 
                 results_current_cutoff[EvaluatorMetrics.PRECISION.value]            += precision(is_relevant_current_cutoff)
-                results_current_cutoff[EvaluatorMetrics.PRECISION_RECALL_MIN_DEN.value]   += precision_recall_min_denominator(is_relevant_current_cutoff, len(relevant_items))
-                results_current_cutoff[EvaluatorMetrics.RECALL.value]               += recall(is_relevant_current_cutoff, relevant_items)
-                results_current_cutoff[EvaluatorMetrics.NDCG.value]                 += ndcg(recommended_items_current_cutoff, relevant_items, relevance=self.get_user_test_ratings(test_user), at=cutoff)
-                results_current_cutoff[EvaluatorMetrics.ARHR.value]                 += arhr_all_hits(is_relevant_current_cutoff)
+                #results_current_cutoff[EvaluatorMetrics.PRECISION_RECALL_MIN_DEN.value]   += precision_recall_min_denominator(is_relevant_current_cutoff, len(relevant_items))
+                #results_current_cutoff[EvaluatorMetrics.RECALL.value]               += recall(is_relevant_current_cutoff, relevant_items)
+                #results_current_cutoff[EvaluatorMetrics.NDCG.value]                 += ndcg(recommended_items_current_cutoff, relevant_items, relevance=self.get_user_test_ratings(test_user), at=cutoff)
+                #results_current_cutoff[EvaluatorMetrics.ARHR.value]                 += arhr_all_hits(is_relevant_current_cutoff)
 
-                results_current_cutoff[EvaluatorMetrics.MRR.value].add_recommendations(is_relevant_current_cutoff)
-                results_current_cutoff[EvaluatorMetrics.MAP.value].add_recommendations(is_relevant_current_cutoff, relevant_items)
-                results_current_cutoff[EvaluatorMetrics.MAP_MIN_DEN.value].add_recommendations(is_relevant_current_cutoff, relevant_items)
-                results_current_cutoff[EvaluatorMetrics.HIT_RATE.value].add_recommendations(is_relevant_current_cutoff)
+                #results_current_cutoff[EvaluatorMetrics.MRR.value].add_recommendations(is_relevant_current_cutoff)
+                #results_current_cutoff[EvaluatorMetrics.MAP.value].add_recommendations(is_relevant_current_cutoff, relevant_items)
+                #results_current_cutoff[EvaluatorMetrics.MAP_MIN_DEN.value].add_recommendations(is_relevant_current_cutoff, relevant_items)
+                #results_current_cutoff[EvaluatorMetrics.HIT_RATE.value].add_recommendations(is_relevant_current_cutoff)
 
-                results_current_cutoff[EvaluatorMetrics.NOVELTY.value].add_recommendations(recommended_items_current_cutoff)
-                results_current_cutoff[EvaluatorMetrics.AVERAGE_POPULARITY.value].add_recommendations(recommended_items_current_cutoff)
-                results_current_cutoff[EvaluatorMetrics.DIVERSITY_GINI.value].add_recommendations(recommended_items_current_cutoff)
-                results_current_cutoff[EvaluatorMetrics.SHANNON_ENTROPY.value].add_recommendations(recommended_items_current_cutoff)
-                results_current_cutoff[EvaluatorMetrics.COVERAGE_ITEM.value].add_recommendations(recommended_items_current_cutoff)
-                results_current_cutoff[EvaluatorMetrics.COVERAGE_ITEM_HIT.value].add_recommendations(recommended_items_current_cutoff, is_relevant_current_cutoff)
-                results_current_cutoff[EvaluatorMetrics.COVERAGE_USER.value].add_recommendations(recommended_items_current_cutoff, test_user)
-                results_current_cutoff[EvaluatorMetrics.COVERAGE_USER_HIT.value].add_recommendations(is_relevant_current_cutoff, test_user)
-                results_current_cutoff[EvaluatorMetrics.DIVERSITY_MEAN_INTER_LIST.value].add_recommendations(recommended_items_current_cutoff)
-                results_current_cutoff[EvaluatorMetrics.DIVERSITY_HERFINDAHL.value].add_recommendations(recommended_items_current_cutoff)
+                #results_current_cutoff[EvaluatorMetrics.NOVELTY.value].add_recommendations(recommended_items_current_cutoff)
+                #results_current_cutoff[EvaluatorMetrics.AVERAGE_POPULARITY.value].add_recommendations(recommended_items_current_cutoff)
+                #results_current_cutoff[EvaluatorMetrics.DIVERSITY_GINI.value].add_recommendations(recommended_items_current_cutoff)
+                #results_current_cutoff[EvaluatorMetrics.SHANNON_ENTROPY.value].add_recommendations(recommended_items_current_cutoff)
+                #results_current_cutoff[EvaluatorMetrics.COVERAGE_ITEM.value].add_recommendations(recommended_items_current_cutoff)
+                #results_current_cutoff[EvaluatorMetrics.COVERAGE_ITEM_HIT.value].add_recommendations(recommended_items_current_cutoff, is_relevant_current_cutoff)
+                #results_current_cutoff[EvaluatorMetrics.COVERAGE_USER.value].add_recommendations(recommended_items_current_cutoff, test_user)
+                #results_current_cutoff[EvaluatorMetrics.COVERAGE_USER_HIT.value].add_recommendations(is_relevant_current_cutoff, test_user)
+                #results_current_cutoff[EvaluatorMetrics.DIVERSITY_MEAN_INTER_LIST.value].add_recommendations(recommended_items_current_cutoff)
+                #results_current_cutoff[EvaluatorMetrics.DIVERSITY_HERFINDAHL.value].add_recommendations(recommended_items_current_cutoff)
 
-                results_current_cutoff[EvaluatorMetrics.RATIO_SHANNON_ENTROPY.value].add_recommendations(recommended_items_current_cutoff)
-                results_current_cutoff[EvaluatorMetrics.RATIO_DIVERSITY_HERFINDAHL.value].add_recommendations(recommended_items_current_cutoff)
-                results_current_cutoff[EvaluatorMetrics.RATIO_DIVERSITY_GINI.value].add_recommendations(recommended_items_current_cutoff)
-                results_current_cutoff[EvaluatorMetrics.RATIO_NOVELTY.value].add_recommendations(recommended_items_current_cutoff)
-                results_current_cutoff[EvaluatorMetrics.RATIO_AVERAGE_POPULARITY.value].add_recommendations(recommended_items_current_cutoff)
-
+                #results_current_cutoff[EvaluatorMetrics.RATIO_SHANNON_ENTROPY.value].add_recommendations(recommended_items_current_cutoff)
+                #results_current_cutoff[EvaluatorMetrics.RATIO_DIVERSITY_HERFINDAHL.value].add_recommendations(recommended_items_current_cutoff)
+                #results_current_cutoff[EvaluatorMetrics.RATIO_DIVERSITY_GINI.value].add_recommendations(recommended_items_current_cutoff)
+                #results_current_cutoff[EvaluatorMetrics.RATIO_NOVELTY.value].add_recommendations(recommended_items_current_cutoff)
+                #results_current_cutoff[EvaluatorMetrics.RATIO_AVERAGE_POPULARITY.value].add_recommendations(recommended_items_current_cutoff)
+                """
                 if EvaluatorMetrics.DIVERSITY_SIMILARITY.value in results_current_cutoff:
                     results_current_cutoff[EvaluatorMetrics.DIVERSITY_SIMILARITY.value].add_recommendations(recommended_items_current_cutoff)
-
+                """
 
         if time.time() - self._start_time_print > 300 or self._n_users_evaluated==len(self.users_to_evaluate):
 
