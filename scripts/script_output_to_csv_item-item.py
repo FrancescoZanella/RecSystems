@@ -24,6 +24,8 @@ def function(input_path, output_path):
     trialid = []
     accuracy = []
     topk = []
+    alpha = []
+    beta = []
     """
     similarity = []
     shrink = []
@@ -33,9 +35,9 @@ def function(input_path, output_path):
     tversky_beta = []
     normalize_avg_row = []
     similarity_from_distance_mode = []"""
-    alpha = []
-    beta = []
-    normalize_similarity = []
+    #alpha = []
+    #beta = []
+    #normalize_similarity = []
 
     # Estrazione dei dati dalle righe
     for row in matches:
@@ -44,6 +46,8 @@ def function(input_path, output_path):
         params = ast.literal_eval(row[2])  # Convertire la stringa di parametri in un dizionario
         #similarity.append(params.get('similarity', None))
         topk.append(params.get('topK', None))
+        alpha.append(params.get('alpha', None))
+        beta.append(params.get('beta',None))
         """shrink.append(params.get('shrink', None))
         asymmetric_alpha.append(params.get('asymmetric_alpha', None))
         normalize.append(params.get('normalize', None))
@@ -52,9 +56,9 @@ def function(input_path, output_path):
         normalize_avg_row.append(params.get('normalize_avg_row', None))
         similarity_from_distance_mode.append(params.get('similarity_from_distance_mode', None))
 """
-        alpha.append(params.get('alpha', None))
-        beta.append(params.get('beta', None))
-        normalize_similarity.append(params.get('normalize_similarity', None))
+        #alpha.append(params.get('alpha', None))
+        #beta.append(params.get('beta', None))
+        #normalize_similarity.append(params.get('normalize_similarity', None))
     # Creazione del dataframe
     df = pd.DataFrame({
         'trialid': trialid,
@@ -62,15 +66,15 @@ def function(input_path, output_path):
         #'similarity': similarity,
         'topk': topk,
         'alpha': alpha,
-        'beta': beta,
-        'normalize_similarity': normalize_similarity,})
+        'beta': beta})
+        #'normalize_similarity': normalize_similarity,})
         
 
     # Visualizza il dataframe
     # Salva il dataframe su un file Excel
     df.to_csv(output_path, index=False)
 
-function("C:\\Users\\franc\\Desktop\\prova.txt","C:\\Users\\franc\\Desktop\\step1.csv")
+function("C:\\Users\\franc\\Desktop\\RecSystems\\scripts\\prova.txt","C:\\Users\\franc\\Desktop\\RecSystems\\MyTuning\\HYBRID\\merge_similarities\\2_slim.csv")
 
 
 
