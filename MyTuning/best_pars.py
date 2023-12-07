@@ -24,7 +24,7 @@ best_pars_dict = {
     'tversky_alpha': 1.741341923073262,
     'tversky_beta': 2.9148336121214324,
   },
-  'SLIM_BPR_Recommender': {
+  'SLIM_BPR_Cython': {
     'epochs': 445,
     'lambda_i':0.00357814405695588,
     'lambda_j':0.0000517456087547006,
@@ -36,6 +36,8 @@ best_pars_dict = {
     'confidence_scaling': 'log',
     'alpha': 0.8518168781047342,
     'epsilon': 0.015416759470287537,
-    'reg': 0.002312451046658324,
+    'reg': 0.002312451046658324
+  },
+  'TopPopRecommenderUnseen':{
   }
 }
