@@ -31,6 +31,6 @@ best_pars_dict = {
     'learning_rate' : 0.0110299013052305,
     'topK':18
   },
-  'TopPop':{
+  'TopPopRecommenderUnseen':{
   }
 }
