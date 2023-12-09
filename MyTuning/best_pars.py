@@ -5,7 +5,7 @@ best_pars_dict = {
       'alpha': 0.001247929408227769
     },
   'RP3betaRecommender': {
-    'topK':21.0,
+    'topK':21,
     'alpha' : 0.4029792567152519,
     'beta' : 0.19680626151757433
   },
