@@ -5,9 +5,9 @@ best_pars_dict = {
       'alpha': 0.001247929408227769
     },
   'RP3betaRecommender': {
-    'topK': 47,
-    'alpha': 0.38902987595136235,
-    'beta': 0.239545804948921
+    'topK':21.0,
+    'alpha' : 0.4029792567152519,
+    'beta' : 0.19680626151757433
   },
   'EASE_R_Recommender': {
       'topK': 17599, 
