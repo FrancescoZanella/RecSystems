@@ -1,0 +1,2 @@
+hybrido composto da ratings(0.6 slim + 0.2 rp3beta + 0.2 knn) * 0.99 + 0.01 * ratings(easeR)
+KFOLD -> 0.0960015375
