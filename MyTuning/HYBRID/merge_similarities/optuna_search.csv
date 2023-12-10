@@ -1,3 +1,21 @@
+Single models weights used: 
+'SLIMElasticNetRecommender': {
+      'topK': 7223, 
+      'l1_ratio': 0.06907809571101771, 
+      'alpha': 0.001247929408227769
+    },
+  'RP3betaRecommender': {
+    'topK':21,
+    'alpha' : 0.4029792567152519,
+    'beta' : 0.19680626151757433
+  },
+ 'ItemKNNCFRecommender': {
+    'similarity': "tversky",
+    'topK': 36,
+    'shrink': 29,
+    'tversky_alpha': 1.741341923073262,
+    'tversky_beta': 2.9148336121214324,
+  },
 Trial,SLIM_w,RP3b_w,ItemKNN_w,Accuracy_val,Accuracy_test
 0,0.3160259968363524,0.34908907760975655,0.3348849255538911,0.0781321971366291,0.09458332336665659
 1,0.3352442074193903,0.2678048361346706,0.3969509564459391,0.07833673248642899,0.0944691270202688
