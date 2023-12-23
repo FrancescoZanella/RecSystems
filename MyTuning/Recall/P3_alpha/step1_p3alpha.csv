@@ -1,3 +1,4 @@
+best -> alpha = 0.471097731898723, topK = 143, normalize_similarity = True
 topK,alpha,normalize_similarity,result
 56,1.474241101193795,False,0.01887621558424038
 955,0.13383438765075906,True,0.11434738315809473
