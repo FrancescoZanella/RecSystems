@@ -1,3 +1,6 @@
+EASER step2 recall optimization
+topK [150, 500],l2_norm[40, 90],normalize_matrix = False
+best -> 0.14100370207660598 and parameters: {'topK': 316, 'l2_norm': 66.5440287618409}
 topK,l2_norm,result
 183.0,85.45410591101353,0.1403117683721596
 480.0,83.51777563796591,0.13923098005863502
