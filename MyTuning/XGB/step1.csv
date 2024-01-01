@@ -1,3 +1,6 @@
+First optuna run.
+Version 5 of notebook XGBOptuna (Federico)
+best -> 0.06581986324568043 and parameters: {'cutoff': 126, 'n_estimators': 143, 'learning_rate': 0.05382819480164889, 'reg_alpha': 27.94649085796498, 'reg_lambda': 1.5570444597506696, 'max_depth': 8, 'max_leaves': 5}
 cutoff,n_estimators,learning_rate,reg_alpha,reg_lambda,max_depth,max_leaves,result
 474.0,111.0,0.00010111172468287065,35.34823732076417,0.0014684676378012272,2.0,6.0,0.0633987858761311
 245.0,134.0,0.044050149321178816,32.20238622011943,2.127812081239337,8.0,4.0,0.06447758990003119
