@@ -9,21 +9,18 @@ def calculate_grade(p_deadline1,p_deadline2,n_teams, baseline = 4, oneperson = F
     standing_points = (s1+s2*4)/5
     baseline_points = baselines_scores[baseline]
     
-
     return standing_points + baseline_points + oneperson
 
 # INSERT HERE THE POSITION ON 1 DEADLINE
 p_deadline1 = 2
 # INSERT HERE THE POSITION ON 2 DEADLINE 
-p_deadline2 = 8
+p_deadline2 = 9
 # NUMBER OF TEAMS
 n_teams = 63
 
 
-
-grade = round(calculate_grade(p_deadline1= p_deadline1,p_deadline2= p_deadline2,n_teams= n_teams))
-print("Voto Challenge: {}".format(grade))
-
-print("Voto totale considerando 5 punti in esame: {}".format(grade + 5))
+gra = round(calculate_grade(p_deadline1= p_deadline1,p_deadline2= p_deadline2,n_teams= n_teams))
+print("Voto Challenge: {}".format(gra))
+print("Voto totale considerando 5 punti in esame: {}".format(gra + 5))
 
 

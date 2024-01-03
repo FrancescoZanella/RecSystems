@@ -81,6 +81,7 @@ def create_3D_graph(path_input_csv, rows_to_skip=3, target_col = 'accuracy', dim
     # Load your dataset
     # Replace 'your_dataset.csv' with the actual path to your CSV file
     df = pd.read_csv(path_input_csv, header = rows_to_skip)
+    df = df[df['similarity'] == "tversky"]
     if threshold is not None:
         df = df[df[target_col] >= threshold]
     # Create an interactive 3D scatter plot with color-coded points based on the 'result' column
@@ -93,4 +94,4 @@ def create_3D_graph(path_input_csv, rows_to_skip=3, target_col = 'accuracy', dim
     fig.show()
 
 
-create_3D_graph("C:\\Users\\franc\\Desktop\\RecSys\\DATASETS\\RecSys_Course_AT_PoliMi\\MyTuning\\P3_alpha\\step2.csv",rows_to_skip=0,target_col='result',dimensions=["topK","alpha","alpha"])
+create_3D_graph("C:\\Users\\franc\\Desktop\\RecSystems\\MyTuning\\Recall\\KNN\\step1.csv",rows_to_skip=1,target_col='accuracy',dimensions=["topk","shrink","tversky_beta"])
