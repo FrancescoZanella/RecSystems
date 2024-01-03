@@ -1,4 +1,5 @@
 from tqdm import tqdm
+import numpy as np
 
 def evaluate_algorithm(URM_test, recommender_object, at=10):
     
