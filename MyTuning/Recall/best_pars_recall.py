@@ -1,8 +1,8 @@
 best_pars_recall_dict = {
   'SLIMElasticNetRecommender': {
-    'topK': 9940, 
-    'l1_ratio': 0.05284130389391463, 
-    'alpha': 0.001445383733256085
+    'topK': 4488, 
+    'l1_ratio': 0.028272222595853345, 
+    'alpha': 0.0032698816134106856
   },
   'RP3betaRecommender': {
     'topK':55,
