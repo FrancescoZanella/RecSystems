@@ -1,3 +1,6 @@
+Further step of optimization.
+V12 of XGBOptuna di Fede
+best-> 0.06596726634148026 and parameters: {'n_estimators': 895, 'learning_rate': 0.019777126001855726, 'reg_alpha': 24.480905106240083, 'reg_lambda': 0.11097482669122213, 'max_depth': 3, 'max_leaves': 4}
 n_estimators,learning_rate,reg_alpha,reg_lambda,max_depth,max_leaves,result
 1166.0,0.00213382844000872,12.151999300164965,22.80795643421132,1.0,5.0,0.06469474363819598
 1053.0,0.0029080066766708395,2.571924520433247,0.36947675855783485,2.0,5.0,0.06409133565700828
