@@ -43,7 +43,7 @@ def recall(recommended_items, relevant_items):
     recall_score = np.sum(is_relevant, dtype=np.float32) / relevant_items.shape[0]
 
     return recall_score
-def evaluate_algorithm_recall(URM_test, recommender_object, at=10):
+def evaluate_algorithm_recall(URM_test, recommender_object, at):
 
     
     cumulative_recall = 0.0
