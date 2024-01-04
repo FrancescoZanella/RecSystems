@@ -1,6 +1,6 @@
 import numpy as np
 import scipy.sparse as sps
-from Recommender.BaseRecommender import BaseRecommender
+from Recommenders.BaseRecommender import BaseRecommender
 
 class VotingRecommender(BaseRecommender):
     """ VotingRecommender
