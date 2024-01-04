@@ -58,7 +58,7 @@ def evaluate_algorithm_recall(URM_test, recommender_object, at=10):
 
         if len(relevant_items)>0:
 
-            recommended_items = recommender_object.recommend(user_id,cutoff=10)
+            recommended_items = recommender_object.recommend(user_id,cutoff=at)
             num_eval+=1
 
 
