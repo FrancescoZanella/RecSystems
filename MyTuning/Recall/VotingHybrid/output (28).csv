@@ -1,3 +1,5 @@
+Try 2 with higher cutoff.
+best -> 0.4228623157708209 and parameters: {'cutoff1': 231, 'cutoff2': 116, 'cutoff3': 229} (SLIM was 0.4153408133492012)
 cutoff1,cutoff2,cutoff3,result
 185.0,145.0,21.0,0.4137046565768991
 193.0,240.0,43.0,0.41535516872083533
