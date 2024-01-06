@@ -1,6 +1,6 @@
 from tqdm import tqdm
 import numpy as np
-
+import gc
 from Data_manager.split_functions.split_train_validation_random_holdout import split_train_in_two_percentage_global_sample
 
 def create_folds(URM_all, k):
@@ -50,7 +50,7 @@ def evaluate_algorithm(URM_test, recommender_object, at=10):
 
     return cumulative_recall 
 
-def kFold_evaluation(URM_all, model, parameters_dict_list, k=10,cutoff=10):
+def kFold_evaluation(URM_all, model, parameters_dict_list, k=10,cutoff=10,garbage_collection=False):
     URM_train_list,URM_validation_list = create_folds(URM_all,k)
     res=0
     acc=0
@@ -64,6 +64,9 @@ def kFold_evaluation(URM_all, model, parameters_dict_list, k=10,cutoff=10):
             recommender.fit(**parameters_dict_list[j])
             res=evaluate_algorithm(URM_validation_list[i],recommender, at=cutoff)
             acc=acc+res
+            if(garbage_collection):
+                del recommender
+                gc.collect()
             print("Fold" + str(i)+" evaluation ended with value " + str(res))
         print("Evaluation on all folded ended. Average recall is: "+ str(acc/k))
 
