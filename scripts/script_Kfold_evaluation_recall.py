@@ -50,7 +50,7 @@ def evaluate_algorithm(URM_test, recommender_object, at=10):
 
     return cumulative_recall 
 
-def kFold_evaluation(URM_all, model, parameters_dict_list, k=10):
+def kFold_evaluation(URM_all, model, parameters_dict_list, k=10,cutoff=10):
     URM_train_list,URM_validation_list = create_folds(URM_all,k)
     res=0
     acc=0
@@ -62,7 +62,7 @@ def kFold_evaluation(URM_all, model, parameters_dict_list, k=10):
         for i in range(k):
             recommender=model(URM_train_list[i])
             recommender.fit(**parameters_dict_list[j])
-            res=evaluate_algorithm(URM_validation_list[i],recommender, at=10)
+            res=evaluate_algorithm(URM_validation_list[i],recommender, at=cutoff)
             acc=acc+res
             print("Fold" + str(i)+" evaluation ended with value " + str(res))
         print("Evaluation on all folded ended. Average recall is: "+ str(acc/k))
