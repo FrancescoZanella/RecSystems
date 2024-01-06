@@ -1,0 +1,350 @@
+[I 2024-01-05 16:01:16,563] Trial 0 finished with value: 0.34742422240041937 and parameters: {'topK': 10, 'l1_ratio': 3.96056405663895e-06, 'alpha': 0.08210021597128953}. Best is trial 0 with value: 0.34742422240041937.
+691.0s	334	SLIMElasticNetRecommender: URM Detected 345 ( 2.7%) users with no interactions.
+691.0s	335	SLIMElasticNetRecommender: URM Detected 192 ( 0.9%) items with no interactions.
+990.8s	336	SLIMElasticNetRecommender: Processed 8168 (36.8%) in 5.00 min. Items per second: 27.22
+1290.9s	337	SLIMElasticNetRecommender: Processed 18216 (82.0%) in 10.00 min. Items per second: 30.36
+1417.6s	338	SLIMElasticNetRecommender: Processed 22222 (100.0%) in 12.11 min. Items per second: 30.58
+1422.1s	339	[I 2024-01-05 16:13:27,836] Trial 1 finished with value: 0.10721648268643612 and parameters: {'topK': 1, 'l1_ratio': 1.5980669099844754e-06, 'alpha': 0.008083478152153946}. Best is trial 0 with value: 0.34742422240041937.
+1422.3s	340	SLIMElasticNetRecommender: URM Detected 345 ( 2.7%) users with no interactions.
+1422.3s	341	SLIMElasticNetRecommender: URM Detected 192 ( 0.9%) items with no interactions.
+1722.1s	342	SLIMElasticNetRecommender: Processed 10255 (46.1%) in 5.00 min. Items per second: 34.18
+2022.1s	343	SLIMElasticNetRecommender: Processed 21014 (94.6%) in 10.00 min. Items per second: 35.02
+2062.0s	344	SLIMElasticNetRecommender: Processed 22222 (100.0%) in 10.66 min. Items per second: 34.73
+2066.5s	345	[I 2024-01-05 16:24:12,212] Trial 2 finished with value: 0.04566705736296058 and parameters: {'topK': 1, 'l1_ratio': 0.00014393355676994632, 'alpha': 0.0006167783108688381}. Best is trial 0 with value: 0.34742422240041937.
+2066.7s	346	SLIMElasticNetRecommender: URM Detected 345 ( 2.7%) users with no interactions.
+2066.7s	347	SLIMElasticNetRecommender: URM Detected 192 ( 0.9%) items with no interactions.
+2366.5s	348	SLIMElasticNetRecommender: Processed 5693 (25.6%) in 5.00 min. Items per second: 18.97
+2666.5s	349	SLIMElasticNetRecommender: Processed 12145 (54.7%) in 10.00 min. Items per second: 20.24
+2966.5s	350	SLIMElasticNetRecommender: Processed 18952 (85.3%) in 15.00 min. Items per second: 21.06
+3114.0s	351	SLIMElasticNetRecommender: Processed 22222 (100.0%) in 17.46 min. Items per second: 21.21
+3121.5s	352	[I 2024-01-05 16:41:47,257] Trial 3 finished with value: 0.28096070190595857 and parameters: {'topK': 6444, 'l1_ratio': 3.623113852000188e-05, 'alpha': 0.00010180903273361572}. Best is trial 0 with value: 0.34742422240041937.
+3121.7s	353	SLIMElasticNetRecommender: URM Detected 345 ( 2.7%) users with no interactions.
+3121.7s	354	SLIMElasticNetRecommender: URM Detected 192 ( 0.9%) items with no interactions.
+3421.5s	355	SLIMElasticNetRecommender: Processed 7232 (32.5%) in 5.00 min. Items per second: 24.10
+3721.6s	356	SLIMElasticNetRecommender: Processed 15357 (69.1%) in 10.00 min. Items per second: 25.59
+3974.4s	357	SLIMElasticNetRecommender: Processed 22222 (100.0%) in 14.22 min. Items per second: 26.05
+3982.2s	358	[I 2024-01-05 16:56:07,907] Trial 4 finished with value: 0.25103591079064375 and parameters: {'topK': 530, 'l1_ratio': 1.9470987144007763e-05, 'alpha': 0.000329177128003416}. Best is trial 0 with value: 0.34742422240041937.
+3982.4s	359	SLIMElasticNetRecommender: URM Detected 345 ( 2.7%) users with no interactions.
+3982.4s	360	SLIMElasticNetRecommender: URM Detected 192 ( 0.9%) items with no interactions.
+4282.2s	361	SLIMElasticNetRecommender: Processed 11423 (51.4%) in 5.00 min. Items per second: 38.07
+4557.9s	362	SLIMElasticNetRecommender: Processed 22222 (100.0%) in 9.60 min. Items per second: 38.59
+4567.0s	363	[I 2024-01-05 17:05:52,797] Trial 5 finished with value: 0.3772157904181865 and parameters: {'topK': 611, 'l1_ratio': 5.477957503984038e-05, 'alpha': 0.004410415610090107}. Best is trial 5 with value: 0.3772157904181865.
+4567.2s	364	SLIMElasticNetRecommender: URM Detected 345 ( 2.7%) users with no interactions.
+4567.2s	365	SLIMElasticNetRecommender: URM Detected 192 ( 0.9%) items with no interactions.
+4867.1s	366	SLIMElasticNetRecommender: Processed 7170 (32.3%) in 5.00 min. Items per second: 23.90
+5167.1s	367	SLIMElasticNetRecommender: Processed 15742 (70.8%) in 10.00 min. Items per second: 26.23
+5396.1s	368	SLIMElasticNetRecommender: Processed 22222 (100.0%) in 13.82 min. Items per second: 26.80
+5405.0s	369	[I 2024-01-05 17:19:50,703] Trial 6 finished with value: 0.36445023277840116 and parameters: {'topK': 6689, 'l1_ratio': 3.6931497561185418e-06, 'alpha': 0.0014195518267823854}. Best is trial 5 with value: 0.3772157904181865.
+5405.2s	370	SLIMElasticNetRecommender: URM Detected 345 ( 2.7%) users with no interactions.
+5405.2s	371	SLIMElasticNetRecommender: URM Detected 192 ( 0.9%) items with no interactions.
+5705.0s	372	SLIMElasticNetRecommender: Processed 10049 (45.2%) in 5.00 min. Items per second: 33.49
+6005.0s	373	SLIMElasticNetRecommender: Processed 21310 (95.9%) in 10.00 min. Items per second: 35.51
+6034.5s	374	SLIMElasticNetRecommender: Processed 22222 (100.0%) in 10.49 min. Items per second: 35.30
+6045.9s	375	[I 2024-01-05 17:30:31,666] Trial 7 finished with value: 0.42654225649453137 and parameters: {'topK': 1998, 'l1_ratio': 4.1639965650465584e-06, 'alpha': 0.014988951264433382}. Best is trial 7 with value: 0.42654225649453137.
+6046.1s	376	SLIMElasticNetRecommender: URM Detected 345 ( 2.7%) users with no interactions.
+6046.1s	377	SLIMElasticNetRecommender: URM Detected 192 ( 0.9%) items with no interactions.
+6346.0s	378	SLIMElasticNetRecommender: Processed 8127 (36.6%) in 5.00 min. Items per second: 27.08
+6646.0s	379	SLIMElasticNetRecommender: Processed 17439 (78.5%) in 10.00 min. Items per second: 29.06
+6804.2s	380	SLIMElasticNetRecommender: Processed 22222 (100.0%) in 12.64 min. Items per second: 29.30
+6813.2s	381	[I 2024-01-05 17:43:18,907] Trial 8 finished with value: 0.37212578697645715 and parameters: {'topK': 4692, 'l1_ratio': 5.155856153335363e-06, 'alpha': 0.0017775221839333212}. Best is trial 7 with value: 0.42654225649453137.
+6813.4s	382	SLIMElasticNetRecommender: URM Detected 345 ( 2.7%) users with no interactions.
+6813.4s	383	SLIMElasticNetRecommender: URM Detected 192 ( 0.9%) items with no interactions.
+7113.2s	384	SLIMElasticNetRecommender: Processed 12181 (54.8%) in 5.00 min. Items per second: 40.60
+7334.8s	385	SLIMElasticNetRecommender: Processed 22222 (100.0%) in 8.69 min. Items per second: 42.60
+7339.7s	386	[I 2024-01-05 17:52:05,480] Trial 9 finished with value: 0.14936146732290337 and parameters: {'topK': 1, 'l1_ratio': 5.671199278852689e-05, 'alpha': 0.45421270473105313}. Best is trial 7 with value: 0.42654225649453137.
+7339.9s	387	SLIMElasticNetRecommender: URM Detected 345 ( 2.7%) users with no interactions.
+7339.9s	388	SLIMElasticNetRecommender: URM Detected 192 ( 0.9%) items with no interactions.
+7639.8s	389	SLIMElasticNetRecommender: Processed 2296 (10.3%) in 5.00 min. Items per second: 7.65
+7939.9s	390	SLIMElasticNetRecommender: Processed 5177 (23.3%) in 10.00 min. Items per second: 8.63
+8240.0s	391	SLIMElasticNetRecommender: Processed 8724 (39.3%) in 15.00 min. Items per second: 9.69
+8540.0s	392	SLIMElasticNetRecommender: Processed 12841 (57.8%) in 20.00 min. Items per second: 10.70
+8840.1s	393	SLIMElasticNetRecommender: Processed 17690 (79.6%) in 25.01 min. Items per second: 11.79
+9101.0s	394	SLIMElasticNetRecommender: Processed 22222 (100.0%) in 29.35 min. Items per second: 12.62
+9108.3s	395	[I 2024-01-05 18:21:34,020] Trial 10 finished with value: 0.4185953095866053 and parameters: {'topK': 108, 'l1_ratio': 1.3427967590462872e-07, 'alpha': 0.045197912998323486}. Best is trial 7 with value: 0.42654225649453137.
+9108.5s	396	SLIMElasticNetRecommender: URM Detected 345 ( 2.7%) users with no interactions.
+9108.5s	397	SLIMElasticNetRecommender: URM Detected 192 ( 0.9%) items with no interactions.
+9408.5s	398	SLIMElasticNetRecommender: Processed 2015 ( 9.1%) in 5.00 min. Items per second: 6.71
+9708.6s	399	SLIMElasticNetRecommender: Processed 4514 (20.3%) in 10.00 min. Items per second: 7.52
+10008.6s	400	SLIMElasticNetRecommender: Processed 7355 (33.1%) in 15.01 min. Items per second: 8.17
+10308.7s	401	SLIMElasticNetRecommender: Processed 10680 (48.1%) in 20.01 min. Items per second: 8.90
+10608.8s	402	SLIMElasticNetRecommender: Processed 14468 (65.1%) in 25.01 min. Items per second: 9.64
+10908.8s	403	SLIMElasticNetRecommender: Processed 18814 (84.7%) in 30.01 min. Items per second: 10.45
+11121.4s	404	SLIMElasticNetRecommender: Processed 22222 (100.0%) in 33.55 min. Items per second: 11.04
+11128.3s	405	[I 2024-01-05 18:55:14,027] Trial 11 finished with value: 0.41494037043306703 and parameters: {'topK': 77, 'l1_ratio': 1.0466587344868768e-07, 'alpha': 0.05441293746035094}. Best is trial 7 with value: 0.42654225649453137.
+11128.5s	406	SLIMElasticNetRecommender: URM Detected 345 ( 2.7%) users with no interactions.
+11128.5s	407	SLIMElasticNetRecommender: URM Detected 192 ( 0.9%) items with no interactions.
+11428.3s	408	SLIMElasticNetRecommender: Processed 12948 (58.3%) in 5.00 min. Items per second: 43.16
+11641.5s	409	SLIMElasticNetRecommender: Processed 22222 (100.0%) in 8.55 min. Items per second: 43.30
+11649.9s	410	[I 2024-01-05 19:03:55,703] Trial 12 finished with value: 0.4201507817555074 and parameters: {'topK': 177, 'l1_ratio': 0.0009308921373575469, 'alpha': 0.028915344135125295}. Best is trial 7 with value: 0.42654225649453137.
+11650.2s	411	SLIMElasticNetRecommender: URM Detected 345 ( 2.7%) users with no interactions.
+11650.2s	412	SLIMElasticNetRecommender: URM Detected 192 ( 0.9%) items with no interactions.
+11950.0s	413	SLIMElasticNetRecommender: Processed 12466 (56.1%) in 5.00 min. Items per second: 41.55
+12179.0s	414	SLIMElasticNetRecommender: Processed 22222 (100.0%) in 8.82 min. Items per second: 42.01
+12190.5s	415	[I 2024-01-05 19:12:56,272] Trial 13 finished with value: 0.43105945850274974 and parameters: {'topK': 1118, 'l1_ratio': 0.0005734246693842334, 'alpha': 0.023342523114165833}. Best is trial 13 with value: 0.43105945850274974.
+12190.7s	416	SLIMElasticNetRecommender: URM Detected 345 ( 2.7%) users with no interactions.
+12190.7s	417	SLIMElasticNetRecommender: URM Detected 192 ( 0.9%) items with no interactions.
+12490.6s	418	SLIMElasticNetRecommender: Processed 9321 (41.9%) in 5.00 min. Items per second: 31.07
+12790.6s	419	SLIMElasticNetRecommender: Processed 21205 (95.4%) in 10.00 min. Items per second: 35.33
+12820.5s	420	SLIMElasticNetRecommender: Processed 22222 (100.0%) in 10.50 min. Items per second: 35.27
+12835.3s	421	[I 2024-01-05 19:23:41,055] Trial 14 finished with value: 0.39475214905302103 and parameters: {'topK': 1427, 'l1_ratio': 7.140835318586666e-07, 'alpha': 0.26762593202557106}. Best is trial 13 with value: 0.43105945850274974.
+12835.5s	422	SLIMElasticNetRecommender: URM Detected 345 ( 2.7%) users with no interactions.
+12835.5s	423	SLIMElasticNetRecommender: URM Detected 192 ( 0.9%) items with no interactions.
+13135.4s	424	SLIMElasticNetRecommender: Processed 12533 (56.4%) in 5.00 min. Items per second: 41.77
+13362.5s	425	SLIMElasticNetRecommender: Processed 22222 (100.0%) in 8.78 min. Items per second: 42.16
+13373.9s	426	[I 2024-01-05 19:32:39,686] Trial 15 finished with value: 0.4292201182692748 and parameters: {'topK': 1618, 'l1_ratio': 0.0008491029959845992, 'alpha': 0.016598886653217244}. Best is trial 13 with value: 0.43105945850274974.
+13374.1s	427	SLIMElasticNetRecommender: URM Detected 345 ( 2.7%) users with no interactions.
+13374.1s	428	SLIMElasticNetRecommender: URM Detected 192 ( 0.9%) items with no interactions.
+13674.0s	429	SLIMElasticNetRecommender: Processed 18154 (81.7%) in 5.00 min. Items per second: 60.51
+13735.6s	430	SLIMElasticNetRecommender: Processed 22222 (100.0%) in 6.03 min. Items per second: 61.45
+13743.6s	431	[I 2024-01-05 19:38:49,392] Trial 16 finished with value: 0.38093674959551704 and parameters: {'topK': 44, 'l1_ratio': 0.0007100886735100125, 'alpha': 0.1538320187998289}. Best is trial 13 with value: 0.43105945850274974.
+13743.9s	432	SLIMElasticNetRecommender: URM Detected 345 ( 2.7%) users with no interactions.
+13743.9s	433	SLIMElasticNetRecommender: URM Detected 192 ( 0.9%) items with no interactions.
+14043.7s	434	SLIMElasticNetRecommender: Processed 12285 (55.3%) in 5.00 min. Items per second: 40.94
+14286.0s	435	SLIMElasticNetRecommender: Processed 22222 (100.0%) in 9.04 min. Items per second: 40.97
+14294.5s	436	[I 2024-01-05 19:48:00,259] Trial 17 finished with value: 0.37421257052666174 and parameters: {'topK': 413, 'l1_ratio': 0.00025791444518531904, 'alpha': 0.004746570291703584}. Best is trial 13 with value: 0.43105945850274974.
+14294.7s	437	SLIMElasticNetRecommender: URM Detected 345 ( 2.7%) users with no interactions.
+14294.7s	438	SLIMElasticNetRecommender: URM Detected 192 ( 0.9%) items with no interactions.
+14594.6s	439	SLIMElasticNetRecommender: Processed 12768 (57.5%) in 5.00 min. Items per second: 42.56
+14815.7s	440	SLIMElasticNetRecommender: Processed 22222 (100.0%) in 8.69 min. Items per second: 42.64
+14821.0s	441	[I 2024-01-05 19:56:46,709] Trial 18 finished with value: 0.3559781883478505 and parameters: {'topK': 24, 'l1_ratio': 0.0002593612213434855, 'alpha': 0.01551146343273437}. Best is trial 13 with value: 0.43105945850274974.
+14821.2s	442	SLIMElasticNetRecommender: URM Detected 345 ( 2.7%) users with no interactions.
+14821.2s	443	SLIMElasticNetRecommender: URM Detected 192 ( 0.9%) items with no interactions.
+15121.0s	444	SLIMElasticNetRecommender: Processed 12352 (55.6%) in 5.00 min. Items per second: 41.17
+15344.9s	445	SLIMElasticNetRecommender: Processed 22222 (100.0%) in 8.73 min. Items per second: 42.42
+15358.9s	446	[I 2024-01-05 20:05:44,669] Trial 19 finished with value: 0.40651284017486333 and parameters: {'topK': 1812, 'l1_ratio': 0.0003855326234957172, 'alpha': 0.11644649969422229}. Best is trial 13 with value: 0.43105945850274974.
+15359.1s	447	SLIMElasticNetRecommender: URM Detected 345 ( 2.7%) users with no interactions.
+15359.1s	448	SLIMElasticNetRecommender: URM Detected 192 ( 0.9%) items with no interactions.
+15659.0s	449	SLIMElasticNetRecommender: Processed 19840 (89.3%) in 5.00 min. Items per second: 66.12
+15696.4s	450	SLIMElasticNetRecommender: Processed 22222 (100.0%) in 5.62 min. Items per second: 65.85
+15706.4s	451	[I 2024-01-05 20:11:32,126] Trial 20 finished with value: 0.3651873519392023 and parameters: {'topK': 265, 'l1_ratio': 0.0001676649368416163, 'alpha': 0.7830380759047878}. Best is trial 13 with value: 0.43105945850274974.
+15706.6s	452	SLIMElasticNetRecommender: URM Detected 345 ( 2.7%) users with no interactions.
+15706.6s	453	SLIMElasticNetRecommender: URM Detected 192 ( 0.9%) items with no interactions.
+16006.4s	454	SLIMElasticNetRecommender: Processed 10899 (49.0%) in 5.00 min. Items per second: 36.33
+16296.2s	455	SLIMElasticNetRecommender: Processed 22222 (100.0%) in 9.83 min. Items per second: 37.67
+16307.6s	456	[I 2024-01-05 20:21:33,325] Trial 21 finished with value: 0.4268661594761435 and parameters: {'topK': 1839, 'l1_ratio': 1.1030322450508187e-05, 'alpha': 0.015395361017120463}. Best is trial 13 with value: 0.43105945850274974.
+16307.8s	457	SLIMElasticNetRecommender: URM Detected 345 ( 2.7%) users with no interactions.
+16307.8s	458	SLIMElasticNetRecommender: URM Detected 192 ( 0.9%) items with no interactions.
+16607.6s	459	SLIMElasticNetRecommender: Processed 11372 (51.2%) in 5.00 min. Items per second: 37.90
+16874.6s	460	SLIMElasticNetRecommender: Processed 22222 (100.0%) in 9.45 min. Items per second: 39.19
+16885.9s	461	[I 2024-01-05 20:31:11,684] Trial 22 finished with value: 0.4305146537806298 and parameters: {'topK': 905, 'l1_ratio': 1.4044857861158542e-05, 'alpha': 0.027757604954207274}. Best is trial 13 with value: 0.43105945850274974.
+16886.2s	462	SLIMElasticNetRecommender: URM Detected 345 ( 2.7%) users with no interactions.
+16886.2s	463	SLIMElasticNetRecommender: URM Detected 192 ( 0.9%) items with no interactions.
+17186.0s	464	SLIMElasticNetRecommender: Processed 11927 (53.7%) in 5.00 min. Items per second: 39.75
+17430.5s	465	SLIMElasticNetRecommender: Processed 22222 (100.0%) in 9.07 min. Items per second: 40.81
+17443.1s	466	[I 2024-01-05 20:40:28,878] Trial 23 finished with value: 0.42827341529381724 and parameters: {'topK': 11358, 'l1_ratio': 9.44763592371389e-05, 'alpha': 0.031249002492366548}. Best is trial 13 with value: 0.43105945850274974.
+17443.3s	467	SLIMElasticNetRecommender: URM Detected 345 ( 2.7%) users with no interactions.
+17443.3s	468	SLIMElasticNetRecommender: URM Detected 192 ( 0.9%) items with no interactions.
+17743.2s	469	SLIMElasticNetRecommender: Processed 12016 (54.1%) in 5.00 min. Items per second: 40.05
+17996.4s	470	SLIMElasticNetRecommender: Processed 22222 (100.0%) in 9.22 min. Items per second: 40.16
+18005.7s	471	[I 2024-01-05 20:49:51,410] Trial 24 finished with value: 0.36999620703008373 and parameters: {'topK': 905, 'l1_ratio': 0.00048225977810331384, 'alpha': 0.0029778492616107984}. Best is trial 13 with value: 0.43105945850274974.
+18005.9s	472	SLIMElasticNetRecommender: URM Detected 345 ( 2.7%) users with no interactions.
+18005.9s	473	SLIMElasticNetRecommender: URM Detected 192 ( 0.9%) items with no interactions.
+18305.7s	474	SLIMElasticNetRecommender: Processed 3568 (16.1%) in 5.00 min. Items per second: 11.89
+18605.7s	475	SLIMElasticNetRecommender: Processed 8340 (37.5%) in 10.00 min. Items per second: 13.90
+18905.9s	476	SLIMElasticNetRecommender: Processed 13927 (62.7%) in 15.00 min. Items per second: 15.47
+19205.9s	477	SLIMElasticNetRecommender: Processed 20166 (90.7%) in 20.00 min. Items per second: 16.80
+19316.7s	478	SLIMElasticNetRecommender: Processed 22222 (100.0%) in 21.85 min. Items per second: 16.95
+19327.1s	479	[I 2024-01-05 21:11:52,862] Trial 25 finished with value: 0.4156367162881592 and parameters: {'topK': 2928, 'l1_ratio': 5.08070192840664e-07, 'alpha': 0.006898224713990418}. Best is trial 13 with value: 0.43105945850274974.
+19327.3s	480	SLIMElasticNetRecommender: URM Detected 345 ( 2.7%) users with no interactions.
+19327.3s	481	SLIMElasticNetRecommender: URM Detected 192 ( 0.9%) items with no interactions.
+19627.2s	482	SLIMElasticNetRecommender: Processed 11742 (52.8%) in 5.00 min. Items per second: 39.14
+19882.1s	483	SLIMElasticNetRecommender: Processed 22222 (100.0%) in 9.25 min. Items per second: 40.05
+19890.7s	484	[I 2024-01-05 21:21:16,429] Trial 26 finished with value: 0.4210580332303098 and parameters: {'topK': 255, 'l1_ratio': 1.96698199692515e-05, 'alpha': 0.023793160522543405}. Best is trial 13 with value: 0.43105945850274974.
+19890.9s	485	SLIMElasticNetRecommender: URM Detected 345 ( 2.7%) users with no interactions.
+19890.9s	486	SLIMElasticNetRecommender: URM Detected 192 ( 0.9%) items with no interactions.
+20190.7s	487	SLIMElasticNetRecommender: Processed 13857 (62.4%) in 5.00 min. Items per second: 46.19
+20372.3s	488	SLIMElasticNetRecommender: Processed 22222 (100.0%) in 8.03 min. Items per second: 46.15
+20377.5s	489	[I 2024-01-05 21:29:23,228] Trial 27 finished with value: 0.2725027815327195 and parameters: {'topK': 4, 'l1_ratio': 0.0009129689413329875, 'alpha': 0.06972510769234708}. Best is trial 13 with value: 0.43105945850274974.
+20377.7s	490	SLIMElasticNetRecommender: URM Detected 345 ( 2.7%) users with no interactions.
+20377.7s	491	SLIMElasticNetRecommender: URM Detected 192 ( 0.9%) items with no interactions.
+20677.5s	492	SLIMElasticNetRecommender: Processed 11801 (53.1%) in 5.00 min. Items per second: 39.33
+20919.1s	493	SLIMElasticNetRecommender: Processed 22222 (100.0%) in 9.03 min. Items per second: 41.03
+20932.4s	494	[I 2024-01-05 21:38:38,108] Trial 28 finished with value: 0.3988761788162654 and parameters: {'topK': 776, 'l1_ratio': 0.00011764633002433146, 'alpha': 0.19225132509257625}. Best is trial 13 with value: 0.43105945850274974.
+20932.6s	495	SLIMElasticNetRecommender: URM Detected 345 ( 2.7%) users with no interactions.
+20932.6s	496	SLIMElasticNetRecommender: URM Detected 192 ( 0.9%) items with no interactions.
+21232.4s	497	SLIMElasticNetRecommender: Processed 12592 (56.7%) in 5.00 min. Items per second: 41.97
+21450.0s	498	SLIMElasticNetRecommender: Processed 22222 (100.0%) in 8.63 min. Items per second: 42.93
+21455.6s	499	[I 2024-01-05 21:47:21,390] Trial 29 finished with value: 0.33882472151433646 and parameters: {'topK': 9, 'l1_ratio': 0.00034179661231245, 'alpha': 0.09959741228779913}. Best is trial 13 with value: 0.43105945850274974.
+21455.9s	500	SLIMElasticNetRecommender: URM Detected 345 ( 2.7%) users with no interactions.
+21455.9s	501	SLIMElasticNetRecommender: URM Detected 192 ( 0.9%) items with no interactions.
+21755.7s	502	SLIMElasticNetRecommender: Processed 2342 (10.5%) in 5.00 min. Items per second: 7.80
+22055.8s	503	SLIMElasticNetRecommender: Processed 5041 (22.7%) in 10.00 min. Items per second: 8.40
+22355.8s	504	SLIMElasticNetRecommender: Processed 7997 (36.0%) in 15.00 min. Items per second: 8.88
+22655.8s	505	SLIMElasticNetRecommender: Processed 11299 (50.8%) in 20.00 min. Items per second: 9.41
+22955.9s	506	SLIMElasticNetRecommender: Processed 14826 (66.7%) in 25.00 min. Items per second: 9.88
+23255.9s	507	SLIMElasticNetRecommender: Processed 18658 (84.0%) in 30.00 min. Items per second: 10.36
+23522.3s	508	SLIMElasticNetRecommender: Processed 22222 (100.0%) in 34.44 min. Items per second: 10.75
+23533.3s	509	[I 2024-01-05 22:21:59,012] Trial 30 finished with value: 0.4228720525893761 and parameters: {'topK': 4058, 'l1_ratio': 2.6085333074419867e-07, 'alpha': 0.009612160922723084}. Best is trial 13 with value: 0.43105945850274974.
+23533.5s	510	SLIMElasticNetRecommender: URM Detected 345 ( 2.7%) users with no interactions.
+23533.5s	511	SLIMElasticNetRecommender: URM Detected 192 ( 0.9%) items with no interactions.
+23833.3s	512	SLIMElasticNetRecommender: Processed 11891 (53.5%) in 5.00 min. Items per second: 39.63
+24079.5s	513	SLIMElasticNetRecommender: Processed 22222 (100.0%) in 9.10 min. Items per second: 40.68
+24092.1s	514	[I 2024-01-05 22:31:17,889] Trial 31 finished with value: 0.42842966809301697 and parameters: {'topK': 9326, 'l1_ratio': 8.211643285973251e-05, 'alpha': 0.031097224859611156}. Best is trial 13 with value: 0.43105945850274974.
+24092.4s	515	SLIMElasticNetRecommender: URM Detected 345 ( 2.7%) users with no interactions.
+24092.4s	516	SLIMElasticNetRecommender: URM Detected 192 ( 0.9%) items with no interactions.
+24392.2s	517	SLIMElasticNetRecommender: Processed 11430 (51.4%) in 5.00 min. Items per second: 38.09
+24652.2s	518	SLIMElasticNetRecommender: Processed 22222 (100.0%) in 9.33 min. Items per second: 39.68
+24665.5s	519	[I 2024-01-05 22:40:51,213] Trial 32 finished with value: 0.4262477090769248 and parameters: {'topK': 11560, 'l1_ratio': 2.8384607158500005e-05, 'alpha': 0.0459458586695113}. Best is trial 13 with value: 0.43105945850274974.
+24665.7s	520	SLIMElasticNetRecommender: URM Detected 345 ( 2.7%) users with no interactions.
+24665.7s	521	SLIMElasticNetRecommender: URM Detected 192 ( 0.9%) items with no interactions.
+24965.5s	522	SLIMElasticNetRecommender: Processed 10895 (49.0%) in 5.00 min. Items per second: 36.31
+25253.5s	523	SLIMElasticNetRecommender: Processed 22222 (100.0%) in 9.80 min. Items per second: 37.79
+25265.0s	524	[I 2024-01-05 22:50:50,707] Trial 33 finished with value: 0.430219371609787 and parameters: {'topK': 1195, 'l1_ratio': 8.168543822762129e-06, 'alpha': 0.02169161529014132}. Best is trial 13 with value: 0.43105945850274974.
+25265.2s	525	SLIMElasticNetRecommender: URM Detected 345 ( 2.7%) users with no interactions.
+25265.2s	526	SLIMElasticNetRecommender: URM Detected 192 ( 0.9%) items with no interactions.
+25565.0s	527	SLIMElasticNetRecommender: Processed 9321 (41.9%) in 5.00 min. Items per second: 31.07
+25865.0s	528	SLIMElasticNetRecommender: Processed 20095 (90.4%) in 10.00 min. Items per second: 33.49
+25930.6s	529	SLIMElasticNetRecommender: Processed 22222 (100.0%) in 11.09 min. Items per second: 33.39
+25941.5s	530	[I 2024-01-05 23:02:07,214] Trial 34 finished with value: 0.42672166125979966 and parameters: {'topK': 1072, 'l1_ratio': 2.0576217419923533e-06, 'alpha': 0.015135813842479983}. Best is trial 13 with value: 0.43105945850274974.
+25941.7s	531	SLIMElasticNetRecommender: URM Detected 345 ( 2.7%) users with no interactions.
+25941.7s	532	SLIMElasticNetRecommender: URM Detected 192 ( 0.9%) items with no interactions.
+26241.5s	533	SLIMElasticNetRecommender: Processed 10093 (45.4%) in 5.00 min. Items per second: 33.64
+26541.5s	534	SLIMElasticNetRecommender: Processed 21066 (94.8%) in 10.00 min. Items per second: 35.11
+26578.5s	535	SLIMElasticNetRecommender: Processed 22222 (100.0%) in 10.62 min. Items per second: 34.88
+26587.0s	536	[I 2024-01-05 23:12:52,707] Trial 35 finished with value: 0.38077681637903305 and parameters: {'topK': 399, 'l1_ratio': 8.38479284136686e-06, 'alpha': 0.005624059398920389}. Best is trial 13 with value: 0.43105945850274974.
+26587.2s	537	SLIMElasticNetRecommender: URM Detected 345 ( 2.7%) users with no interactions.
+26587.2s	538	SLIMElasticNetRecommender: URM Detected 192 ( 0.9%) items with no interactions.
+26887.0s	539	SLIMElasticNetRecommender: Processed 10546 (47.5%) in 5.00 min. Items per second: 35.15
+27187.0s	540	SLIMElasticNetRecommender: Processed 22023 (99.1%) in 10.00 min. Items per second: 36.70
+27195.7s	541	SLIMElasticNetRecommender: Processed 22222 (100.0%) in 10.14 min. Items per second: 36.51
+27206.5s	542	[I 2024-01-05 23:23:12,238] Trial 36 finished with value: 0.4209441080816718 and parameters: {'topK': 3211, 'l1_ratio': 1.0516181993956036e-05, 'alpha': 0.009151494261563567}. Best is trial 13 with value: 0.43105945850274974.
+27206.7s	543	SLIMElasticNetRecommender: URM Detected 345 ( 2.7%) users with no interactions.
+27206.7s	544	SLIMElasticNetRecommender: URM Detected 192 ( 0.9%) items with no interactions.
+27506.5s	545	SLIMElasticNetRecommender: Processed 9149 (41.2%) in 5.00 min. Items per second: 30.49
+27806.6s	546	SLIMElasticNetRecommender: Processed 20105 (90.5%) in 10.00 min. Items per second: 33.51
+27871.5s	547	SLIMElasticNetRecommender: Processed 22222 (100.0%) in 11.08 min. Items per second: 33.42
+27878.6s	548	[I 2024-01-05 23:34:24,307] Trial 37 finished with value: 0.41290005302523614 and parameters: {'topK': 132, 'l1_ratio': 1.459882133015421e-06, 'alpha': 0.021505498127118564}. Best is trial 13 with value: 0.43105945850274974.
+27878.8s	549	SLIMElasticNetRecommender: URM Detected 345 ( 2.7%) users with no interactions.
+27878.8s	550	SLIMElasticNetRecommender: URM Detected 192 ( 0.9%) items with no interactions.
+28178.6s	551	SLIMElasticNetRecommender: Processed 11654 (52.4%) in 5.00 min. Items per second: 38.84
+28448.8s	552	SLIMElasticNetRecommender: Processed 22222 (100.0%) in 9.50 min. Items per second: 38.97
+28457.2s	553	[I 2024-01-05 23:44:02,998] Trial 38 finished with value: 0.3382490063799077 and parameters: {'topK': 493, 'l1_ratio': 0.00016887653751433105, 'alpha': 0.0022334330888076305}. Best is trial 13 with value: 0.43105945850274974.
+28457.5s	554	SLIMElasticNetRecommender: URM Detected 345 ( 2.7%) users with no interactions.
+28457.5s	555	SLIMElasticNetRecommender: URM Detected 192 ( 0.9%) items with no interactions.
+28757.4s	556	SLIMElasticNetRecommender: Processed 4891 (22.0%) in 5.00 min. Items per second: 16.30
+29057.3s	557	SLIMElasticNetRecommender: Processed 11048 (49.7%) in 10.00 min. Items per second: 18.41
+29357.4s	558	SLIMElasticNetRecommender: Processed 17747 (79.9%) in 15.00 min. Items per second: 19.72
+29569.7s	559	SLIMElasticNetRecommender: Processed 22222 (100.0%) in 18.54 min. Items per second: 19.98
+29578.2s	560	[I 2024-01-06 00:02:43,943] Trial 39 finished with value: 0.3218153840144968 and parameters: {'topK': 1076, 'l1_ratio': 2.2344761598209413e-06, 'alpha': 0.0009229624477048959}. Best is trial 13 with value: 0.43105945850274974.
+29578.4s	561	SLIMElasticNetRecommender: URM Detected 345 ( 2.7%) users with no interactions.
+29578.4s	562	SLIMElasticNetRecommender: URM Detected 192 ( 0.9%) items with no interactions.
+29878.2s	563	SLIMElasticNetRecommender: Processed 10794 (48.6%) in 5.00 min. Items per second: 35.98
+30178.3s	564	SLIMElasticNetRecommender: Processed 22176 (99.8%) in 10.00 min. Items per second: 36.95
+30180.8s	565	SLIMElasticNetRecommender: Processed 22222 (100.0%) in 10.04 min. Items per second: 36.87
+30190.5s	566	[I 2024-01-06 00:12:56,273] Trial 40 finished with value: 0.3925387543836201 and parameters: {'topK': 2414, 'l1_ratio': 3.492940606940311e-05, 'alpha': 0.003465926866725655}. Best is trial 13 with value: 0.43105945850274974.
+30190.7s	567	SLIMElasticNetRecommender: URM Detected 345 ( 2.7%) users with no interactions.
+30190.7s	568	SLIMElasticNetRecommender: URM Detected 192 ( 0.9%) items with no interactions.
+30490.6s	569	SLIMElasticNetRecommender: Processed 11762 (52.9%) in 5.00 min. Items per second: 39.20
+30740.3s	570	SLIMElasticNetRecommender: Processed 22222 (100.0%) in 9.16 min. Items per second: 40.42
+30753.2s	571	[I 2024-01-06 00:22:19,002] Trial 41 finished with value: 0.42800103759593194 and parameters: {'topK': 6372, 'l1_ratio': 6.89499493883443e-05, 'alpha': 0.03717149056253645}. Best is trial 13 with value: 0.43105945850274974.
+30753.5s	572	SLIMElasticNetRecommender: URM Detected 345 ( 2.7%) users with no interactions.
+30753.5s	573	SLIMElasticNetRecommender: URM Detected 192 ( 0.9%) items with no interactions.
+31053.3s	574	SLIMElasticNetRecommender: Processed 12286 (55.3%) in 5.00 min. Items per second: 40.95
+31281.9s	575	SLIMElasticNetRecommender: Processed 22222 (100.0%) in 8.81 min. Items per second: 42.04
+31295.4s	576	[I 2024-01-06 00:31:21,117] Trial 42 finished with value: 0.42013173409438115 and parameters: {'topK': 5950, 'l1_ratio': 0.0005664511886146027, 'alpha': 0.06215224186361215}. Best is trial 13 with value: 0.43105945850274974.
+31295.6s	577	SLIMElasticNetRecommender: URM Detected 345 ( 2.7%) users with no interactions.
+31295.6s	578	SLIMElasticNetRecommender: URM Detected 192 ( 0.9%) items with no interactions.
+31595.5s	579	SLIMElasticNetRecommender: Processed 4676 (21.0%) in 5.00 min. Items per second: 15.58
+31895.5s	580	SLIMElasticNetRecommender: Processed 10117 (45.5%) in 10.00 min. Items per second: 16.86
+32195.5s	581	SLIMElasticNetRecommender: Processed 15725 (70.8%) in 15.00 min. Items per second: 17.47
+32495.5s	582	SLIMElasticNetRecommender: Processed 21597 (97.2%) in 20.00 min. Items per second: 17.99
+32532.8s	583	SLIMElasticNetRecommender: Processed 22222 (100.0%) in 20.62 min. Items per second: 17.96
+32540.3s	584	[I 2024-01-06 00:52:06,018] Trial 43 finished with value: 0.2692657688435166 and parameters: {'topK': 1371, 'l1_ratio': 1.5431438598937343e-05, 'alpha': 0.00010379293838167962}. Best is trial 13 with value: 0.43105945850274974.
+32540.5s	585	SLIMElasticNetRecommender: URM Detected 345 ( 2.7%) users with no interactions.
+32540.5s	586	SLIMElasticNetRecommender: URM Detected 192 ( 0.9%) items with no interactions.
+32840.3s	587	SLIMElasticNetRecommender: Processed 12083 (54.4%) in 5.00 min. Items per second: 40.27
+33083.5s	588	SLIMElasticNetRecommender: Processed 22222 (100.0%) in 9.05 min. Items per second: 40.91
+33093.9s	589	[I 2024-01-06 01:01:19,673] Trial 44 finished with value: 0.4270738579693581 and parameters: {'topK': 670, 'l1_ratio': 4.888029751812339e-05, 'alpha': 0.020707849085345703}. Best is trial 13 with value: 0.43105945850274974.
+33094.1s	590	SLIMElasticNetRecommender: URM Detected 345 ( 2.7%) users with no interactions.
+33094.1s	591	SLIMElasticNetRecommender: URM Detected 192 ( 0.9%) items with no interactions.
+33394.0s	592	SLIMElasticNetRecommender: Processed 9918 (44.6%) in 5.00 min. Items per second: 33.06
+33694.0s	593	SLIMElasticNetRecommender: Processed 21046 (94.7%) in 10.00 min. Items per second: 35.07
+33730.8s	594	SLIMElasticNetRecommender: Processed 22222 (100.0%) in 10.61 min. Items per second: 34.89
+33742.0s	595	[I 2024-01-06 01:12:07,782] Trial 45 finished with value: 0.4268174501111725 and parameters: {'topK': 8310, 'l1_ratio': 4.321803730109616e-06, 'alpha': 0.01235771674355521}. Best is trial 13 with value: 0.43105945850274974.
+33742.2s	596	SLIMElasticNetRecommender: URM Detected 345 ( 2.7%) users with no interactions.
+33742.2s	597	SLIMElasticNetRecommender: URM Detected 192 ( 0.9%) items with no interactions.
+34042.1s	598	SLIMElasticNetRecommender: Processed 10676 (48.0%) in 5.00 min. Items per second: 35.58
+34335.2s	599	SLIMElasticNetRecommender: Processed 22222 (100.0%) in 9.88 min. Items per second: 37.47
+34348.2s	600	[I 2024-01-06 01:22:13,924] Trial 46 finished with value: 0.42797173005186406 and parameters: {'topK': 3673, 'l1_ratio': 5.579478354786539e-06, 'alpha': 0.03673578961443006}. Best is trial 13 with value: 0.43105945850274974.
+34348.4s	601	SLIMElasticNetRecommender: URM Detected 345 ( 2.7%) users with no interactions.
+34348.4s	602	SLIMElasticNetRecommender: URM Detected 192 ( 0.9%) items with no interactions.
+34648.2s	603	SLIMElasticNetRecommender: Processed 11404 (51.3%) in 5.00 min. Items per second: 38.01
+34922.4s	604	SLIMElasticNetRecommender: Processed 22222 (100.0%) in 9.57 min. Items per second: 38.70
+34930.2s	605	[I 2024-01-06 01:31:55,938] Trial 47 finished with value: 0.3891162046649877 and parameters: {'topK': 246, 'l1_ratio': 2.4549623457284766e-05, 'alpha': 0.008177904681134586}. Best is trial 13 with value: 0.43105945850274974.
+34930.4s	606	SLIMElasticNetRecommender: URM Detected 345 ( 2.7%) users with no interactions.
+34930.4s	607	SLIMElasticNetRecommender: URM Detected 192 ( 0.9%) items with no interactions.
+35230.2s	608	SLIMElasticNetRecommender: Processed 12430 (55.9%) in 5.00 min. Items per second: 41.43
+35454.2s	609	SLIMElasticNetRecommender: Processed 22222 (100.0%) in 8.73 min. Items per second: 42.41
+35461.6s	610	[I 2024-01-06 01:40:47,314] Trial 48 finished with value: 0.40823703690856983 and parameters: {'topK': 67, 'l1_ratio': 0.00022932935474325372, 'alpha': 0.08365870026494528}. Best is trial 13 with value: 0.43105945850274974.
+35461.8s	611	SLIMElasticNetRecommender: URM Detected 345 ( 2.7%) users with no interactions.
+35461.8s	612	SLIMElasticNetRecommender: URM Detected 192 ( 0.9%) items with no interactions.
+35761.6s	613	SLIMElasticNetRecommender: Processed 12390 (55.8%) in 5.00 min. Items per second: 41.30
+35991.5s	614	SLIMElasticNetRecommender: Processed 22222 (100.0%) in 8.83 min. Items per second: 41.93
+36003.7s	615	[I 2024-01-06 01:49:49,429] Trial 49 finished with value: 0.43019617533976895 and parameters: {'topK': 2170, 'l1_ratio': 0.0006210101350297019, 'alpha': 0.02559840329086825}. Best is trial 13 with value: 0.43105945850274974.
+36003.9s	616	SLIMElasticNetRecommender: URM Detected 345 ( 2.7%) users with no interactions.
+36003.9s	617	SLIMElasticNetRecommender: URM Detected 192 ( 0.9%) items with no interactions.
+36261.3s	618	SLIMElasticNetRecommender: Processed 22222 (100.0%) in 4.29 min. Items per second: 86.27
+36269.4s	619	[I 2024-01-06 01:54:15,199] Trial 50 finished with value: 0.37241110223389956 and parameters: {'topK': 1418, 'l1_ratio': 0.0006559012927814102, 'alpha': 0.30005714604428985}. Best is trial 13 with value: 0.43105945850274974.
+36269.7s	620	SLIMElasticNetRecommender: URM Detected 345 ( 2.7%) users with no interactions.
+36269.7s	621	SLIMElasticNetRecommender: URM Detected 192 ( 0.9%) items with no interactions.
+36569.5s	622	SLIMElasticNetRecommender: Processed 12327 (55.5%) in 5.00 min. Items per second: 41.08
+36802.3s	623	SLIMElasticNetRecommender: Processed 22222 (100.0%) in 8.88 min. Items per second: 41.70
+36814.4s	624	[I 2024-01-06 02:03:20,144] Trial 51 finished with value: 0.4303460471679885 and parameters: {'topK': 2385, 'l1_ratio': 0.0003754386535323425, 'alpha': 0.023399334629749767}. Best is trial 13 with value: 0.43105945850274974.
+36814.6s	625	SLIMElasticNetRecommender: URM Detected 345 ( 2.7%) users with no interactions.
+36814.6s	626	SLIMElasticNetRecommender: URM Detected 192 ( 0.9%) items with no interactions.
+37114.5s	627	SLIMElasticNetRecommender: Processed 12324 (55.5%) in 5.00 min. Items per second: 41.06
+37346.5s	628	SLIMElasticNetRecommender: Processed 22222 (100.0%) in 8.87 min. Items per second: 41.77
+37358.5s	629	[I 2024-01-06 02:12:24,262] Trial 52 finished with value: 0.4305017336879339 and parameters: {'topK': 2166, 'l1_ratio': 0.0003792742348529399, 'alpha': 0.023671370590586945}. Best is trial 13 with value: 0.43105945850274974.
+37358.7s	630	SLIMElasticNetRecommender: URM Detected 345 ( 2.7%) users with no interactions.
+37358.7s	631	SLIMElasticNetRecommender: URM Detected 192 ( 0.9%) items with no interactions.
+37658.6s	632	SLIMElasticNetRecommender: Processed 12166 (54.7%) in 5.00 min. Items per second: 40.55
+37893.0s	633	SLIMElasticNetRecommender: Processed 22222 (100.0%) in 8.91 min. Items per second: 41.58
+37906.1s	634	[I 2024-01-06 02:21:31,818] Trial 53 finished with value: 0.42563951777214043 and parameters: {'topK': 2261, 'l1_ratio': 0.0004033236701639356, 'alpha': 0.04921108033854839}. Best is trial 13 with value: 0.43105945850274974.
+37906.3s	635	SLIMElasticNetRecommender: URM Detected 345 ( 2.7%) users with no interactions.
+37906.3s	636	SLIMElasticNetRecommender: URM Detected 192 ( 0.9%) items with no interactions.
+38206.1s	637	SLIMElasticNetRecommender: Processed 12261 (55.2%) in 5.00 min. Items per second: 40.87
+38440.1s	638	SLIMElasticNetRecommender: Processed 22222 (100.0%) in 8.90 min. Items per second: 41.61
+38452.3s	639	[I 2024-01-06 02:30:38,054] Trial 54 finished with value: 0.4293550172902904 and parameters: {'topK': 4800, 'l1_ratio': 0.00028389273261431616, 'alpha': 0.023537314675230434}. Best is trial 13 with value: 0.43105945850274974.
+38452.5s	640	SLIMElasticNetRecommender: URM Detected 345 ( 2.7%) users with no interactions.
+38452.5s	641	SLIMElasticNetRecommender: URM Detected 192 ( 0.9%) items with no interactions.
+38752.4s	642	SLIMElasticNetRecommender: Processed 12430 (55.9%) in 5.00 min. Items per second: 41.43
+38986.1s	643	SLIMElasticNetRecommender: Processed 22222 (100.0%) in 8.90 min. Items per second: 41.64
+38996.0s	644	[I 2024-01-06 02:39:41,738] Trial 55 finished with value: 0.4179501271249173 and parameters: {'topK': 626, 'l1_ratio': 0.0001745304504388831, 'alpha': 0.011716305424668736}. Best is trial 13 with value: 0.43105945850274974.
+38996.2s	645	SLIMElasticNetRecommender: URM Detected 345 ( 2.7%) users with no interactions.
+38996.2s	646	SLIMElasticNetRecommender: URM Detected 192 ( 0.9%) items with no interactions.
+39296.0s	647	SLIMElasticNetRecommender: Processed 13845 (62.3%) in 5.00 min. Items per second: 46.15
+39473.6s	648	SLIMElasticNetRecommender: Processed 22222 (100.0%) in 7.96 min. Items per second: 46.53
+39485.3s	649	[I 2024-01-06 02:47:51,037] Trial 56 finished with value: 0.40261115730154495 and parameters: {'topK': 364, 'l1_ratio': 0.0005175141456242823, 'alpha': 0.12905324223857473}. Best is trial 13 with value: 0.43105945850274974.
+39485.5s	650	SLIMElasticNetRecommender: URM Detected 345 ( 2.7%) users with no interactions.
+39485.5s	651	SLIMElasticNetRecommender: URM Detected 192 ( 0.9%) items with no interactions.
+39785.4s	652	SLIMElasticNetRecommender: Processed 12637 (56.9%) in 5.00 min. Items per second: 42.12
+40002.9s	653	SLIMElasticNetRecommender: Processed 22222 (100.0%) in 8.63 min. Items per second: 42.93
+40016.2s	654	[I 2024-01-06 02:56:41,977] Trial 57 finished with value: 0.41827547912146823 and parameters: {'topK': 2520, 'l1_ratio': 0.0007007326796755414, 'alpha': 0.06437247653769615}. Best is trial 13 with value: 0.43105945850274974.
+40016.4s	655	SLIMElasticNetRecommender: URM Detected 345 ( 2.7%) users with no interactions.
+40016.4s	656	SLIMElasticNetRecommender: URM Detected 192 ( 0.9%) items with no interactions.
+40316.4s	657	SLIMElasticNetRecommender: Processed 12315 (55.4%) in 5.00 min. Items per second: 41.04
+40549.8s	658	SLIMElasticNetRecommender: Processed 22222 (100.0%) in 8.89 min. Items per second: 41.65
+40561.1s	659	[I 2024-01-06 03:05:46,845] Trial 58 finished with value: 0.4305814159673251 and parameters: {'topK': 924, 'l1_ratio': 0.00012795498491557399, 'alpha': 0.02671308889691502}. Best is trial 13 with value: 0.43105945850274974.
+40561.3s	660	SLIMElasticNetRecommender: URM Detected 345 ( 2.7%) users with no interactions.
+40561.3s	661	SLIMElasticNetRecommender: URM Detected 192 ( 0.9%) items with no interactions.
+40861.2s	662	SLIMElasticNetRecommender: Processed 11972 (53.9%) in 5.00 min. Items per second: 39.90
+41112.9s	663	SLIMElasticNetRecommender: Processed 22222 (100.0%) in 9.20 min. Items per second: 40.27
+41122.7s	664	[I 2024-01-06 03:15:08,496] Trial 59 finished with value: 0.3993234927256104 and parameters: {'topK': 1016, 'l1_ratio': 0.00011281282707258067, 'alpha': 0.005817378332477585}. Best is trial 13 with value: 0.43105945850274974.
+41123.0s	665	SLIMElasticNetRecommender: URM Detected 345 ( 2.7%) users with no interactions.
+41123.0s	666	SLIMElasticNetRecommender: URM Detected 192 ( 0.9%) items with no interactions.
+41422.8s	667	SLIMElasticNetRecommender: Processed 10830 (48.7%) in 5.00 min. Items per second: 36.09
+41716.2s	668	SLIMElasticNetRecommender: Processed 22222 (100.0%) in 9.89 min. Items per second: 37.45
+41726.2s	669	[I 2024-01-06 03:25:11,990] Trial 60 finished with value: 0.42578708021760886 and parameters: {'topK': 581, 'l1_ratio': 6.901706996951007e-06, 'alpha': 0.018104163219893332}. Best is trial 13 with value: 0.43105945850274974.
+41726.5s	670	SLIMElasticNetRecommender: URM Detected 345 ( 2.7%) users with no interactions.
+41726.5s	671	SLIMElasticNetRecommender: URM Detected 192 ( 0.9%) items with no interactions.
+42026.3s	672	SLIMElasticNetRecommender: Processed 12273 (55.2%) in 5.00 min. Items per second: 40.90
+42260.9s	673	SLIMElasticNetRecommender: Processed 22222 (100.0%) in 8.91 min. Items per second: 41.56
+42272.9s	674	[I 2024-01-06 03:34:18,629] Trial 61 finished with value: 0.4306980124200045 and parameters: {'topK': 1644, 'l1_ratio': 0.00021582495054283751, 'alpha': 0.024067560861860925}. Best is trial 13 with value: 0.43105945850274974.
+42273.1s	675	SLIMElasticNetRecommender: URM Detected 345 ( 2.7%) users with no interactions.
+42273.1s	676	SLIMElasticNetRecommender: URM Detected 192 ( 0.9%) items with no interactions.
+42572.9s	677	SLIMElasticNetRecommender: Processed 12175 (54.8%) in 5.00 min. Items per second: 40.58
+42809.1s	678	SLIMElasticNetRecommender: Processed 22222 (100.0%) in 8.94 min. Items per second: 41.44
+42821.5s	679	[I 2024-01-06 03:43:27,254] Trial 62 finished with value: 0.428999661971283 and parameters: {'topK': 1501, 'l1_ratio': 0.00019690778396834328, 'alpha': 0.03776301237930276}. Best is trial 13 with value: 0.43105945850274974.
+42821.7s	680	SLIMElasticNetRecommender: URM Detected 345 ( 2.7%) users with no interactions.
+42821.7s	681	SLIMElasticNetRecommender: URM Detected 192 ( 0.9%) items with no interactions.
+43121.6s	682	SLIMElasticNetRecommender: Processed 12424 (55.9%) in 5.00 min. Items per second: 41.41
