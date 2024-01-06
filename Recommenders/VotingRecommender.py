@@ -48,6 +48,5 @@ class VotingRecommender(BaseRecommender):
         results_array=np.append(results_array,common_elements)
     
         results_array=results_array[:cutoff]
-        #result_list = results_array.tolist()
-        return results_array
+        return results_array.astype(int)
         
