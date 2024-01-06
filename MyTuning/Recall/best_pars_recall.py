@@ -5,9 +5,9 @@ best_pars_recall_dict = {
     'alpha': 0.026107565357229457
   },
   'RP3betaRecommender': {
-    'topK':66,
-    'alpha': 0.30077950803045783,
-    'beta': 0.22779750090858622,
+    'topK':376,
+    'alpha': 0.31149747904824837,
+    'beta': 0.28155416772769626,
     'normalize_similarity':True,
   },
   'EASE_R_Recommender': {
