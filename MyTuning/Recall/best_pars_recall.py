@@ -11,8 +11,8 @@ best_pars_recall_dict = {
     'normalize_similarity':True,
   },
   'EASE_R_Recommender': {
-    'topK': 300, 
-    'l2_norm': 78.48190404414783
+    'topK': 304, 
+    'l2_norm': 505.36927044973623
   },
   'P3alphaRecommender': {
     'topK': 180,
