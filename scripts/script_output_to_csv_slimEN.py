@@ -29,10 +29,8 @@ def function(input_path, output_path):
     trialid = []
     accuracy = []
     topK = []
-    lambda_i = []
-    lambda_j = [] 
-    learning_rate = []
-    epoch = []
+    l1_ratio = []
+    alpha = []
     
     for e in ep_match:
         epoch.append(e[1])
@@ -45,20 +43,17 @@ def function(input_path, output_path):
         accuracy.append(row[1])
         params = ast.literal_eval(row[2])  # Convertire la stringa di parametri in un dizionario
         topK.append(params.get('topK', None))
-        lambda_i.append(params.get('lambda_i', None))
-        lambda_j.append(params.get('lambda_j', None))
-        learning_rate.append(params.get('learning_rate', None))
+        l1_ratio.append(params.get('l1_ratio', None))
+        alpha.append(params.get('alpha', None))
         
  
     # Creazione del dataframe
     df = pd.DataFrame({
         'trialid': trialid,
-        'epochs': epoch,
         'accuracy': accuracy,
         'topK': topK,
-        'lambda_i': lambda_i,
-        'lambda_j': lambda_j,
-        'learning_rate': learning_rate
+        'l1_ratio': l1_ratio,
+        'alpha': alpha
     })
 
     # Visualizza il dataframe
