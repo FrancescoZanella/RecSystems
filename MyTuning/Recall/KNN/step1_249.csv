@@ -4,6 +4,7 @@
  'tversky_alpha': 0.457927493309229,
  'tversky_beta': 1.7403219296132904}
 best -> 0.4333118755316039
+KFOLD -> 0.4638778337724706
 similarity,topK,shrink,tversky_alpha,tversky_beta,result,normalize_avg_row,similarity_from_distance_mode,normalize,asymmetric_alpha
 tversky,147,148,1.8528435891128063,1.995389875605565,0.416162221493847,,,,
 jaccard,703,198,,,0.39114387426370784,,,,
