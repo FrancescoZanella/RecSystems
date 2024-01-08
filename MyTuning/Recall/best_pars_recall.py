@@ -5,26 +5,26 @@ best_pars_recall_dict = {
     'alpha': 0.026107565357229457
   },
   'RP3betaRecommender': {
-    'topK':376,
-    'alpha': 0.31149747904824837,
-    'beta': 0.28155416772769626,
-    'normalize_similarity':True,
+    'topK': 382,
+    'alpha': 0.315418337663744,
+    'beta': 0.2785078064899183,
+    'normalize_similarity': True
   },
   'EASE_R_Recommender': {
     'topK': 304, 
     'l2_norm': 505.36927044973623
   },
   'P3alphaRecommender': {
-    'topK': 180,
-    'alpha': 0.471097731898723,
-    'normalize_similarity': True,
+    'topK': 1148,
+    'alpha': 0.3747336360484326,
+    'normalize_similarity': True
   },
   'ItemKNNCFRecommender': {
-    'similarity': "tversky",
-    'topK': 25,
-    'shrink': 51,
-    'tversky_alpha': 0.8124063348128021,
-    'tversky_beta': 6.7297971145367015,
-  },
+    'similarity': 'tversky',
+    'topK': 186,
+    'shrink': 49,
+    'tversky_alpha': 0.457927493309229,
+    'tversky_beta': 1.7403219296132904
+  }
   
 }
