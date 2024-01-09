@@ -1,0 +1,19 @@
+Slim weight: 0.6, Rp3beta weight: 0.0, knn weight: 0.1, p3alpha weight: 0.3
+0.4376758873941711
+KFOLD -> 0.48171893128901316
+
+Slim weight: 0.5, Rp3beta weight: 0.0, knn weight: 0.1, p3alpha weight: 0.4
+0.43767345555429904
+KFOLD ->  0.4808733886942633
+
+Slim weight: 0.4, Rp3beta weight: 0.0, knn weight: 0.1, p3alpha weight: 0.5
+0.43778608929431223
+KFOLD -> 0.48033249851326393
+
+Slim weight: 0.5, Rp3beta weight: 0.2, knn weight: 0.1, p3alpha weight: 0.2
+0.43774627251082254
+KFOLD -> 0.4822134118057746
+
+Slim weight: 0.2, Rp3beta weight: 0.0, knn weight: 0.1, p3alpha weight: 0.7
+0.4378052500828225
+KFOLD -> 0.4786091420069705
