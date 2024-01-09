@@ -14,7 +14,7 @@ def calculate_grade(p_deadline1,p_deadline2,n_teams, baseline = 4, oneperson = F
 # INSERT HERE THE POSITION ON 1 DEADLINE
 p_deadline1 = 2
 # INSERT HERE THE POSITION ON 2 DEADLINE 
-p_deadline2 = 8
+p_deadline2 = 2
 # NUMBER OF TEAMS
 n_teams = 63
 
