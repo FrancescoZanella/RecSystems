@@ -1,690 +1,0 @@
-6.6s 1 Cloning into 'RecSys'...
-8.0s 2 remote: Enumerating objects: 1668, done.[K
-8.1s 3 remote: Counting objects:   0% (1/805)[Kremote: Counting objects:   1% (9/805)[Kremote: Counting objects:   2% (17/805)[Kremote: Counting objects:   3% (25/805)[Kremote: Counting objects:   4% (33/805)[Kremote: Counting objects:   5% (41/805)[Kremote: Counting objects:   6% (49/805)[Kremote: Counting objects:   7% (57/805)[Kremote: Counting objects:   8% (65/805)[Kremote: Counting objects:   9% (73/805)[Kremote: Counting objects:  10% (81/805)[Kremote: Counting objects:  11% (89/805)[Kremote: Counting objects:  12% (97/805)[Kremote: Counting objects:  13% (105/805)[Kremote: Counting objects:  14% (113/805)[Kremote: Counting objects:  15% (121/805)[Kremote: Counting objects:  16% (129/805)[Kremote: Counting objects:  17% (137/805)[Kremote: Counting objects:  18% (145/805)[Kremote: Counting objects:  19% (153/805)[Kremote: Counting objects:  20% (161/805)[Kremote: Counting objects:  21% (170/805)[Kremote: Counting objects:  22% (178/805)[Kremote: Counting objects:  23% (186/805)[Kremote: Counting objects:  24% (194/805)[Kremote: Counting objects:  25% (202/805)[Kremote: Counting objects:  26% (210/805)[Kremote: Counting objects:  27% (218/805)[Kremote: Counting objects:  28% (226/805)[Kremote: Counting objects:  29% (234/805)[Kremote: Counting objects:  30% (242/805)[Kremote: Counting objects:  31% (250/805)[Kremote: Counting objects:  32% (258/805)[Kremote: Counting objects:  33% (266/805)[Kremote: Counting objects:  34% (274/805)[Kremote: Counting objects:  35% (282/805)[Kremote: Counting objects:  36% (290/805)[Kremote: Counting objects:  37% (298/805)[Kremote: Counting objects:  38% (306/805)[Kremote: Counting objects:  39% (314/805)[Kremote: Counting objects:  40% (322/805)[Kremote: Counting objects:  41% (331/805)[Kremote: Counting objects:  42% (339/805)[Kremote: Counting objects:  43% (347/805)[Kremote: Counting objects:  44% (355/805)[Kremote: Counting objects:  45% (363/805)[Kremote: Counting objects:  46% (371/805)[Kremote: Counting objects:  47% (379/805)[Kremote: Counting objects:  48% (387/805)[Kremote: Counting objects:  49% (395/805)[Kremote: Counting objects:  50% (403/805)[Kremote: Counting objects:  51% (411/805)[Kremote: Counting objects:  52% (419/805)[Kremote: Counting objects:  53% (427/805)[Kremote: Counting objects:  54% (435/805)[Kremote: Counting objects:  55% (443/805)[Kremote: Counting objects:  56% (451/805)[Kremote: Counting objects:  57% (459/805)[Kremote: Counting objects:  58% (467/805)[Kremote: Counting objects:  59% (475/805)[Kremote: Counting objects:  60% (483/805)[Kremote: Counting objects:  61% (492/805)[Kremote: Counting objects:  62% (500/805)[Kremote: Counting objects:  63% (508/805)[Kremote: Counting objects:  64% (516/805)[Kremote: Counting objects:  65% (524/805)[Kremote: Counting objects:  66% (532/805)[Kremote: Counting objects:  67% (540/805)[Kremote: Counting objects:  68% (548/805)[Kremote: Counting objects:  69% (556/805)[Kremote: Counting objects:  70% (564/805)[Kremote: Counting objects:  71% (572/805)[Kremote: Counting objects:  72% (580/805)[Kremote: Counting objects:  73% (588/805)[Kremote: Counting objects:  74% (596/805)[Kremote: Counting objects:  75% (604/805)[Kremote: Counting objects:  76% (612/805)[Kremote: Counting objects:  77% (620/805)[Kremote: Counting objects:  78% (628/805)[Kremote: Counting objects:  79% (636/805)[Kremote: Counting objects:  80% (644/805)[Kremote: Counting objects:  81% (653/805)[Kremote: Counting objects:  82% (661/805)[Kremote: Counting objects:  83% (669/805)[Kremote: Counting objects:  84% (677/805)[Kremote: Counting objects:  85% (685/805)[Kremote: Counting objects:  86% (693/805)[Kremote: Counting objects:  87% (701/805)[Kremote: Counting objects:  88% (709/805)[Kremote: Counting objects:  89% (717/805)[Kremote: Counting objects:  90% (725/805)[Kremote: Counting objects:  91% (733/805)[Kremote: Counting objects:  92% (741/805)[Kremote: Counting objects:  93% (749/805)[Kremote: Counting objects:  94% (757/805)[Kremote: Counting objects:  95% (765/805)[Kremote: Counting objects:  96% (773/805)[Kremote: Counting objects:  97% (781/805)[Kremote: Counting objects:  98% (789/805)[Kremote: Counting objects:  99% (797/805)[Kremote: Counting objects: 100% (805/805)[Kremote: Counting objects: 100% (805/805), done.[K
-8.1s 4 remote: Compressing objects:   0% (1/422)[Kremote: Compressing objects:   1% (5/422)[Kremote: Compressing objects:   2% (9/422)[Kremote: Compressing objects:   3% (13/422)[Kremote: Compressing objects:   4% (17/422)[Kremote: Compressing objects:   5% (22/422)[Kremote: Compressing objects:   6% (26/422)[Kremote: Compressing objects:   7% (30/422)[Kremote: Compressing objects:   8% (34/422)[Kremote: Compressing objects:   9% (38/422)[Kremote: Compressing objects:  10% (43/422)[Kremote: Compressing objects:  11% (47/422)[Kremote: Compressing objects:  12% (51/422)[Kremote: Compressing objects:  13% (55/422)[Kremote: Compressing objects:  14% (60/422)[Kremote: Compressing objects:  15% (64/422)[Kremote: Compressing objects:  16% (68/422)[Kremote: Compressing objects:  17% (72/422)[Kremote: Compressing objects:  18% (76/422)[Kremote: Compressing objects:  19% (81/422)[Kremote: Compressing objects:  20% (85/422)[Kremote: Compressing objects:  21% (89/422)[Kremote: Compressing objects:  22% (93/422)[Kremote: Compressing objects:  23% (98/422)[Kremote: Compressing objects:  24% (102/422)[Kremote: Compressing objects:  25% (106/422)[Kremote: Compressing objects:  26% (110/422)[Kremote: Compressing objects:  27% (114/422)[Kremote: Compressing objects:  28% (119/422)[Kremote: Compressing objects:  29% (123/422)[Kremote: Compressing objects:  30% (127/422)[Kremote: Compressing objects:  31% (131/422)[Kremote: Compressing objects:  32% (136/422)[Kremote: Compressing objects:  33% (140/422)[Kremote: Compressing objects:  34% (144/422)[Kremote: Compressing objects:  35% (148/422)[Kremote: Compressing objects:  36% (152/422)[Kremote: Compressing objects:  37% (157/422)[Kremote: Compressing objects:  38% (161/422)[Kremote: Compressing objects:  39% (165/422)[Kremote: Compressing objects:  40% (169/422)[Kremote: Compressing objects:  41% (174/422)[Kremote: Compressing objects:  42% (178/422)[Kremote: Compressing objects:  43% (182/422)[Kremote: Compressing objects:  44% (186/422)[Kremote: Compressing objects:  45% (190/422)[Kremote: Compressing objects:  46% (195/422)[Kremote: Compressing objects:  47% (199/422)[Kremote: Compressing objects:  48% (203/422)[Kremote: Compressing objects:  49% (207/422)[Kremote: Compressing objects:  50% (211/422)[Kremote: Compressing objects:  51% (216/422)[Kremote: Compressing objects:  52% (220/422)[Kremote: Compressing objects:  53% (224/422)[Kremote: Compressing objects:  54% (228/422)[Kremote: Compressing objects:  55% (233/422)[Kremote: Compressing objects:  56% (237/422)[Kremote: Compressing objects:  57% (241/422)[Kremote: Compressing objects:  58% (245/422)[Kremote: Compressing objects:  59% (249/422)[Kremote: Compressing objects:  60% (254/422)[Kremote: Compressing objects:  61% (258/422)[Kremote: Compressing objects:  62% (262/422)[Kremote: Compressing objects:  63% (266/422)[Kremote: Compressing objects:  64% (271/422)[Kremote: Compressing objects:  65% (275/422)[Kremote: Compressing objects:  66% (279/422)[Kremote: Compressing objects:  67% (283/422)[Kremote: Compressing objects:  68% (287/422)[Kremote: Compressing objects:  69% (292/422)[Kremote: Compressing objects:  70% (296/422)[Kremote: Compressing objects:  71% (300/422)[Kremote: Compressing objects:  72% (304/422)[Kremote: Compressing objects:  73% (309/422)[Kremote: Compressing objects:  74% (313/422)[Kremote: Compressing objects:  75% (317/422)[Kremote: Compressing objects:  76% (321/422)[Kremote: Compressing objects:  77% (325/422)[Kremote: Compressing objects:  78% (330/422)[Kremote: Compressing objects:  79% (334/422)[Kremote: Compressing objects:  80% (338/422)[Kremote: Compressing objects:  81% (342/422)[Kremote: Compressing objects:  82% (347/422)[Kremote: Compressing objects:  83% (351/422)[Kremote: Compressing objects:  84% (355/422)[Kremote: Compressing objects:  85% (359/422)[Kremote: Compressing objects:  86% (363/422)[Kremote: Compressing objects:  87% (368/422)[Kremote: Compressing objects:  88% (372/422)[Kremote: Compressing objects:  89% (376/422)[Kremote: Compressing objects:  90% (380/422)[Kremote: Compressing objects:  91% (385/422)[Kremote: Compressing objects:  92% (389/422)[Kremote: Compressing objects:  93% (393/422)[Kremote: Compressing objects:  94% (397/422)[Kremote: Compressing objects:  95% (401/422)[Kremote: Compressing objects:  96% (406/422)[Kremote: Compressing objects:  97% (410/422)[Kremote: Compressing objects:  98% (414/422)[Kremote: Compressing objects:  99% (418/422)[Kremote: Compressing objects: 100% (422/422)[Kremote: Compressing objects: 100% (422/422), done.[K
-9.4s 5 Receiving objects:   0% (1/1668)Receiving objects:   1% (17/1668)Receiving objects:   2% (34/1668)Receiving objects:   3% (51/1668)Receiving objects:   4% (67/1668)Receiving objects:   5% (84/1668)Receiving objects:   6% (101/1668)Receiving objects:   7% (117/1668)Receiving objects:   8% (134/1668)Receiving objects:   9% (151/1668)Receiving objects:  10% (167/1668)Receiving objects:  11% (184/1668)Receiving objects:  12% (201/1668)Receiving objects:  13% (217/1668)Receiving objects:  14% (234/1668)Receiving objects:  15% (251/1668)Receiving objects:  16% (267/1668)Receiving objects:  17% (284/1668)Receiving objects:  18% (301/1668)Receiving objects:  19% (317/1668), 5.75 MiB | 11.48 MiB/sReceiving objects:  20% (334/1668), 5.75 MiB | 11.48 MiB/sReceiving objects:  21% (351/1668), 5.75 MiB | 11.48 MiB/sReceiving objects:  22% (367/1668), 5.75 MiB | 11.48 MiB/sReceiving objects:  23% (384/1668), 5.75 MiB | 11.48 MiB/sReceiving objects:  23% (389/1668), 16.50 MiB | 16.49 MiB/sReceiving objects:  24% (401/1668), 16.50 MiB | 16.49 MiB/sReceiving objects:  25% (417/1668), 16.50 MiB | 16.49 MiB/sReceiving objects:  26% (434/1668), 16.50 MiB | 16.49 MiB/sReceiving objects:  27% (451/1668), 16.50 MiB | 16.49 MiB/sReceiving objects:  28% (468/1668), 16.50 MiB | 16.49 MiB/sReceiving objects:  29% (484/1668), 16.50 MiB | 16.49 MiB/sReceiving objects:  30% (501/1668), 16.50 MiB | 16.49 MiB/sReceiving objects:  31% (518/1668), 16.50 MiB | 16.49 MiB/sReceiving objects:  32% (534/1668), 16.50 MiB | 16.49 MiB/sReceiving objects:  33% (551/1668), 16.50 MiB | 16.49 MiB/sReceiving objects:  34% (568/1668), 16.50 MiB | 16.49 MiB/sReceiving objects:  35% (584/1668), 16.50 MiB | 16.49 MiB/sReceiving objects:  36% (601/1668), 16.50 MiB | 16.49 MiB/sReceiving objects:  37% (618/1668), 16.50 MiB | 16.49 MiB/sReceiving objects:  38% (634/1668), 16.50 MiB | 16.49 MiB/sReceiving objects:  39% (651/1668), 16.50 MiB | 16.49 MiB/sReceiving objects:  40% (668/1668), 16.50 MiB | 16.49 MiB/sReceiving objects:  41% (684/1668), 16.50 MiB | 16.49 MiB/sReceiving objects:  42% (701/1668), 16.50 MiB | 16.49 MiB/sReceiving objects:  43% (718/1668), 16.50 MiB | 16.49 MiB/sReceiving objects:  44% (734/1668), 16.50 MiB | 16.49 MiB/sReceiving objects:  45% (751/1668), 16.50 MiB | 16.49 MiB/sReceiving objects:  46% (768/1668), 16.50 MiB | 16.49 MiB/sReceiving objects:  47% (784/1668), 16.50 MiB | 16.49 MiB/sReceiving objects:  48% (801/1668), 16.50 MiB | 16.49 MiB/sReceiving objects:  49% (818/1668), 16.50 MiB | 16.49 MiB/sReceiving objects:  50% (834/1668), 16.50 MiB | 16.49 MiB/sReceiving objects:  51% (851/1668), 16.50 MiB | 16.49 MiB/sReceiving objects:  52% (868/1668), 16.50 MiB | 16.49 MiB/sReceiving objects:  53% (885/1668), 16.50 MiB | 16.49 MiB/sReceiving objects:  54% (901/1668), 16.50 MiB | 16.49 MiB/sReceiving objects:  55% (918/1668), 16.50 MiB | 16.49 MiB/sReceiving objects:  56% (935/1668), 16.50 MiB | 16.49 MiB/sReceiving objects:  57% (951/1668), 16.50 MiB | 16.49 MiB/sReceiving objects:  58% (968/1668), 16.50 MiB | 16.49 MiB/sReceiving objects:  59% (985/1668), 16.50 MiB | 16.49 MiB/sReceiving objects:  60% (1001/1668), 16.50 MiB | 16.49 MiB/sReceiving objects:  61% (1018/1668), 16.50 MiB | 16.49 MiB/sReceiving objects:  62% (1035/1668), 16.50 MiB | 16.49 MiB/sReceiving objects:  63% (1051/1668), 16.50 MiB | 16.49 MiB/sReceiving objects:  64% (1068/1668), 16.50 MiB | 16.49 MiB/sReceiving objects:  65% (1085/1668), 16.50 MiB | 16.49 MiB/sReceiving objects:  66% (1101/1668), 16.50 MiB | 16.49 MiB/sReceiving objects:  67% (1118/1668), 16.50 MiB | 16.49 MiB/sReceiving objects:  68% (1135/1668), 16.50 MiB | 16.49 MiB/sReceiving objects:  69% (1151/1668), 16.50 MiB | 16.49 MiB/sReceiving objects:  70% (1168/1668), 16.50 MiB | 16.49 MiB/sReceiving objects:  71% (1185/1668), 16.50 MiB | 16.49 MiB/sReceiving objects:  72% (1201/1668), 16.50 MiB | 16.49 MiB/sReceiving objects:  73% (1218/1668), 16.50 MiB | 16.49 MiB/sReceiving objects:  74% (1235/1668), 16.50 MiB | 16.49 MiB/sReceiving objects:  75% (1251/1668), 16.50 MiB | 16.49 MiB/sReceiving objects:  76% (1268/1668), 16.50 MiB | 16.49 MiB/sReceiving objects:  77% (1285/1668), 16.50 MiB | 16.49 MiB/sReceiving objects:  78% (1302/1668), 16.50 MiB | 16.49 MiB/sReceiving objects:  79% (1318/1668), 16.50 MiB | 16.49 MiB/sReceiving objects:  80% (1335/1668), 16.50 MiB | 16.49 MiB/sReceiving objects:  81% (1352/1668), 16.50 MiB | 16.49 MiB/sReceiving objects:  82% (1368/1668), 16.50 MiB | 16.49 MiB/sReceiving objects:  83% (1385/1668), 16.50 MiB | 16.49 MiB/sReceiving objects:  84% (1402/1668), 16.50 MiB | 16.49 MiB/sReceiving objects:  85% (1418/1668), 16.50 MiB | 16.49 MiB/sReceiving objects:  86% (1435/1668), 16.50 MiB | 16.49 MiB/sReceiving objects:  87% (1452/1668), 16.50 MiB | 16.49 MiB/sReceiving objects:  88% (1468/1668), 16.50 MiB | 16.49 MiB/sReceiving objects:  89% (1485/1668), 16.50 MiB | 16.49 MiB/sReceiving objects:  90% (1502/1668), 16.50 MiB | 16.49 MiB/sReceiving objects:  91% (1518/1668), 16.50 MiB | 16.49 MiB/sremote: Total 1668 (delta 461), reused 635 (delta 363), pack-reused 863[K
-9.4s 6 Receiving objects:  92% (1535/1668), 16.50 MiB | 16.49 MiB/sReceiving objects:  93% (1552/1668), 16.50 MiB | 16.49 MiB/sReceiving objects:  94% (1568/1668), 16.50 MiB | 16.49 MiB/sReceiving objects:  95% (1585/1668), 16.50 MiB | 16.49 MiB/sReceiving objects:  96% (1602/1668), 16.50 MiB | 16.49 MiB/sReceiving objects:  97% (1618/1668), 16.50 MiB | 16.49 MiB/sReceiving objects:  98% (1635/1668), 16.50 MiB | 16.49 MiB/sReceiving objects:  99% (1652/1668), 16.50 MiB | 16.49 MiB/sReceiving objects: 100% (1668/1668), 16.50 MiB | 16.49 MiB/sReceiving objects: 100% (1668/1668), 23.19 MiB | 18.67 MiB/s, done.
-9.4s 7 Resolving deltas:   0% (0/860)Resolving deltas:   4% (38/860)Resolving deltas:   5% (46/860)Resolving deltas:   6% (53/860)Resolving deltas:   7% (68/860)Resolving deltas:   8% (70/860)Resolving deltas:   9% (85/860)Resolving deltas:  10% (93/860)Resolving deltas:  12% (105/860)Resolving deltas:  14% (126/860)Resolving deltas:  15% (134/860)Resolving deltas:  16% (145/860)Resolving deltas:  17% (147/860)Resolving deltas:  18% (155/860)Resolving deltas:  20% (172/860)Resolving deltas:  23% (202/860)Resolving deltas:  27% (236/860)Resolving deltas:  28% (241/860)Resolving deltas:  29% (252/860)Resolving deltas:  30% (259/860)Resolving deltas:  31% (268/860)Resolving deltas:  32% (282/860)Resolving deltas:  33% (284/860)Resolving deltas:  34% (293/860)Resolving deltas:  35% (301/860)Resolving deltas:  36% (311/860)Resolving deltas:  37% (320/860)Resolving deltas:  38% (327/860)Resolving deltas:  39% (336/860)Resolving deltas:  41% (355/860)Resolving deltas:  42% (364/860)Resolving deltas:  43% (370/860)Resolving deltas:  44% (380/860)Resolving deltas:  45% (387/860)Resolving deltas:  46% (396/860)Resolving deltas:  47% (406/860)Resolving deltas:  62% (538/860)Resolving deltas:  67% (581/860)Resolving deltas:  69% (596/860)Resolving deltas:  71% (613/860)Resolving deltas:  74% (643/860)Resolving deltas:  75% (646/860)Resolving deltas:  76% (656/860)Resolving deltas:  77% (669/860)Resolving deltas:  78% (676/860)Resolving deltas:  79% (680/860)Resolving deltas:  80% (689/860)Resolving deltas:  81% (700/860)Resolving deltas:  82% (707/860)Resolving deltas:  83% (715/860)Resolving deltas:  85% (732/860)Resolving deltas:  86% (741/860)Resolving deltas:  87% (753/860)Resolving deltas:  88% (757/860)Resolving deltas:  89% (766/860)Resolving deltas:  90% (775/860)Resolving deltas:  91% (783/860)Resolving deltas:  92% (792/860)Resolving deltas:  93% (805/860)Resolving deltas:  94% (814/860)Resolving deltas:  96% (833/860)Resolving deltas:  97% (836/860)Resolving deltas:  98% (843/860)Resolving deltas:  99% (855/860)Resolving deltas: 100% (860/860)Resolving deltas: 100% (860/860), done.
-10.0s 8 /kaggle/working/RecSys
-11.1s 9 run_compile_all_cython: Found 10 Cython files in 4 folders...
-11.1s 10 run_compile_all_cython: All files will be compiled using your current python environment: '/opt/conda/bin/python'
-11.1s 11 Compiling [1/10]: MatrixFactorizationImpressions_Cython_Epoch.pyx...
-14.6s 12 In file included from [01m[K/opt/conda/lib/python3.10/site-packages/numpy/core/include/numpy/ndarraytypes.h:1940[m[K,
-14.6s 13 from [01m[K/opt/conda/lib/python3.10/site-packages/numpy/core/include/numpy/ndarrayobject.h:12[m[K,
-14.6s 14 from [01m[K/opt/conda/lib/python3.10/site-packages/numpy/core/include/numpy/arrayobject.h:5[m[K,
-14.6s 15 from [01m[KMatrixFactorizationImpressions_Cython_Epoch.c:1109[m[K:
-14.6s 16 [01m[K/opt/conda/lib/python3.10/site-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:17:2:[m[K [01;35m[Kwarning: [m[K#warning "Using deprecated NumPy API, disable it with " "#define NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [[01;35m[K-Wcpp[m[K]
-14.6s 17 17 | #[01;35m[Kwarning[m[K "Using deprecated NumPy API, disable it with " \
-14.6s 18 |  [01;35m[K^~~~~~~[m[K
-17.0s 19 [01m[KMatrixFactorizationImpressions_Cython_Epoch.c:[m[K In function '[01m[K__pyx_f_43MatrixFactorizationImpressions_Cython_Epoch_32MatrixFactorization_Cython_Epoch_sampleBPR_Cython[m[K':
-17.0s 20 [01m[KMatrixFactorizationImpressions_Cython_Epoch.c:29633:17:[m[K [01;35m[Kwarning: [m[K'[01m[K__pyx_v_start_pos_impression_items[m[K' may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
-17.0s 21 29633 |       [01;35m[K__pyx_t_4 = (__pyx_v_start_pos_impression_items + __pyx_v_index)[m[K;
-17.0s 22 |       [01;35m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-21.5s 23 [01m[KMatrixFactorizationImpressions_Cython_Epoch.c:[m[K In function '[01m[K__pyx_pf_43MatrixFactorizationImpressions_Cython_Epoch_32MatrixFactorization_Cython_Epoch_10epochIteration_Cython_ASY_SVD_SGD[m[K':
-21.5s 24 [01m[KMatrixFactorizationImpressions_Cython_Epoch.c:25469:7:[m[K [01;35m[Kwarning: [m[K'[01m[K__pyx_v_end_pos_seen_items[m[K' may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
-21.5s 25 25469 |       [01;35m[Kfor[m[K (__pyx_t_21 = __pyx_v_start_pos_seen_items; __pyx_t_21 < __pyx_t_20; __pyx_t_21+=1) {
-21.5s 26 |       [01;35m[K^~~[m[K
-21.5s 27 [01m[KMatrixFactorizationImpressions_Cython_Epoch.c:25469:7:[m[K [01;35m[Kwarning: [m[K'[01m[K__pyx_v_start_pos_seen_items[m[K' may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
-28.8s 28 /opt/conda/lib/python3.10/site-packages/Cython/Compiler/Main.py:381: FutureWarning: Cython directive 'language_level' not set, using '3str' for now (Py3). This has changed from earlier releases! File: /kaggle/working/RecSys/Recommenders/MatrixFactorization/Cython/MatrixFactorizationImpressions_Cython_Epoch.pyx
-28.8s 29 tree = Parsing.p_module(s, pxd, full_module_name)
-30.8s 30 Compiling [1/10]: MatrixFactorizationImpressions_Cython_Epoch.pyx... PASS
-30.8s 31 
-30.8s 32 Compiling [2/10]: MatrixFactorization_Cython_Epoch.pyx...
-33.6s 33 In file included from [01m[K/opt/conda/lib/python3.10/site-packages/numpy/core/include/numpy/ndarraytypes.h:1940[m[K,
-33.6s 34 from [01m[K/opt/conda/lib/python3.10/site-packages/numpy/core/include/numpy/ndarrayobject.h:12[m[K,
-33.6s 35 from [01m[K/opt/conda/lib/python3.10/site-packages/numpy/core/include/numpy/arrayobject.h:5[m[K,
-33.6s 36 from [01m[KMatrixFactorization_Cython_Epoch.c:1109[m[K:
-33.6s 37 [01m[K/opt/conda/lib/python3.10/site-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:17:2:[m[K [01;35m[Kwarning: [m[K#warning "Using deprecated NumPy API, disable it with " "#define NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [[01;35m[K-Wcpp[m[K]
-33.6s 38 17 | #[01;35m[Kwarning[m[K "Using deprecated NumPy API, disable it with " \
-33.6s 39 |  [01;35m[K^~~~~~~[m[K
-40.7s 40 [01m[KMatrixFactorization_Cython_Epoch.c:[m[K In function '[01m[K__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_10epochIteration_Cython_ASY_SVD_SGD[m[K':
-40.7s 41 [01m[KMatrixFactorization_Cython_Epoch.c:25609:9:[m[K [01;35m[Kwarning: [m[K'[01m[K__pyx_v_end_pos_seen_items[m[K' may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
-40.7s 42 25609 |         [01;35m[Kfor[m[K (__pyx_t_21 = __pyx_v_start_pos_seen_items; __pyx_t_21 < __pyx_t_20; __pyx_t_21+=1) {
-40.7s 43 |         [01;35m[K^~~[m[K
-40.7s 44 [01m[KMatrixFactorization_Cython_Epoch.c:25609:9:[m[K [01;35m[Kwarning: [m[K'[01m[K__pyx_v_start_pos_seen_items[m[K' may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
-48.0s 45 /opt/conda/lib/python3.10/site-packages/Cython/Compiler/Main.py:381: FutureWarning: Cython directive 'language_level' not set, using '3str' for now (Py3). This has changed from earlier releases! File: /kaggle/working/RecSys/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx
-48.0s 46 tree = Parsing.p_module(s, pxd, full_module_name)
-50.2s 47 Compiling [2/10]: MatrixFactorization_Cython_Epoch.pyx... PASS
-50.2s 48 
-50.2s 49 Compiling [3/10]: Compute_Similarity_Cython.pyx...
-51.7s 50 warning: Compute_Similarity_Cython.pyx:21:0: The 'IF' statement is deprecated and will be removed in a future Cython version. Consider using runtime conditions or C macros instead. See https://github.com/cython/cython/issues/4310
-51.7s 51 warning: Compute_Similarity_Cython.pyx:22:4: The 'DEF' statement is deprecated and will be removed in a future Cython version. Consider using global variables, constants, and in-place literals instead. See https://github.com/cython/cython/issues/4310
-51.7s 52 warning: Compute_Similarity_Cython.pyx:24:4: The 'DEF' statement is deprecated and will be removed in a future Cython version. Consider using global variables, constants, and in-place literals instead. See https://github.com/cython/cython/issues/4310
-51.7s 53 warning: Compute_Similarity_Cython.pyx:26:4: The 'DEF' statement is deprecated and will be removed in a future Cython version. Consider using global variables, constants, and in-place literals instead. See https://github.com/cython/cython/issues/4310
-53.3s 54 In file included from [01m[K/opt/conda/lib/python3.10/site-packages/numpy/core/include/numpy/ndarraytypes.h:1940[m[K,
-53.3s 55 from [01m[K/opt/conda/lib/python3.10/site-packages/numpy/core/include/numpy/ndarrayobject.h:12[m[K,
-53.3s 56 from [01m[K/opt/conda/lib/python3.10/site-packages/numpy/core/include/numpy/arrayobject.h:5[m[K,
-53.3s 57 from [01m[KCompute_Similarity_Cython.c:1109[m[K:
-53.3s 58 [01m[K/opt/conda/lib/python3.10/site-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:17:2:[m[K [01;35m[Kwarning: [m[K#warning "Using deprecated NumPy API, disable it with " "#define NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [[01;35m[K-Wcpp[m[K]
-53.3s 59 17 | #[01;35m[Kwarning[m[K "Using deprecated NumPy API, disable it with " \
-53.3s 60 |  [01;35m[K^~~~~~~[m[K
-63.7s 61 /opt/conda/lib/python3.10/site-packages/Cython/Compiler/Main.py:381: FutureWarning: Cython directive 'language_level' not set, using '3str' for now (Py3). This has changed from earlier releases! File: /kaggle/working/RecSys/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx
-63.7s 62 tree = Parsing.p_module(s, pxd, full_module_name)
-63.7s 63 warning: Compute_Similarity_Cython.pyx:21:0: The 'IF' statement is deprecated and will be removed in a future Cython version. Consider using runtime conditions or C macros instead. See https://github.com/cython/cython/issues/4310
-63.7s 64 warning: Compute_Similarity_Cython.pyx:22:4: The 'DEF' statement is deprecated and will be removed in a future Cython version. Consider using global variables, constants, and in-place literals instead. See https://github.com/cython/cython/issues/4310
-63.7s 65 warning: Compute_Similarity_Cython.pyx:24:4: The 'DEF' statement is deprecated and will be removed in a future Cython version. Consider using global variables, constants, and in-place literals instead. See https://github.com/cython/cython/issues/4310
-63.7s 66 warning: Compute_Similarity_Cython.pyx:26:4: The 'DEF' statement is deprecated and will be removed in a future Cython version. Consider using global variables, constants, and in-place literals instead. See https://github.com/cython/cython/issues/4310
-65.5s 67 Compiling [3/10]: Compute_Similarity_Cython.pyx... PASS
-65.5s 68 
-65.5s 69 Compiling [4/10]: Sparse_Matrix_Tree_CSR.pyx...
-67.1s 70 warning: Sparse_Matrix_Tree_CSR.pyx:132:34: Non-trivial type declarators in shared declaration (e.g. mix of pointers and values). Each pointer declaration should be on its own line.
-67.1s 71 warning: Sparse_Matrix_Tree_CSR.pyx:132:66: Non-trivial type declarators in shared declaration (e.g. mix of pointers and values). Each pointer declaration should be on its own line.
-67.1s 72 warning: Sparse_Matrix_Tree_CSR.pyx:343:35: Non-trivial type declarators in shared declaration (e.g. mix of pointers and values). Each pointer declaration should be on its own line.
-67.1s 73 warning: Sparse_Matrix_Tree_CSR.pyx:343:52: Non-trivial type declarators in shared declaration (e.g. mix of pointers and values). Each pointer declaration should be on its own line.
-67.1s 74 warning: Sparse_Matrix_Tree_CSR.pyx:442:35: Non-trivial type declarators in shared declaration (e.g. mix of pointers and values). Each pointer declaration should be on its own line.
-67.1s 75 warning: Sparse_Matrix_Tree_CSR.pyx:442:53: Non-trivial type declarators in shared declaration (e.g. mix of pointers and values). Each pointer declaration should be on its own line.
-67.1s 76 warning: Sparse_Matrix_Tree_CSR.pyx:442:69: Non-trivial type declarators in shared declaration (e.g. mix of pointers and values). Each pointer declaration should be on its own line.
-67.1s 77 warning: Sparse_Matrix_Tree_CSR.pyx:577:35: Non-trivial type declarators in shared declaration (e.g. mix of pointers and values). Each pointer declaration should be on its own line.
-67.1s 78 warning: Sparse_Matrix_Tree_CSR.pyx:577:42: Non-trivial type declarators in shared declaration (e.g. mix of pointers and values). Each pointer declaration should be on its own line.
-67.1s 79 warning: Sparse_Matrix_Tree_CSR.pyx:578:35: Non-trivial type declarators in shared declaration (e.g. mix of pointers and values). Each pointer declaration should be on its own line.
-67.1s 80 warning: Sparse_Matrix_Tree_CSR.pyx:578:53: Non-trivial type declarators in shared declaration (e.g. mix of pointers and values). Each pointer declaration should be on its own line.
-67.2s 81 
-67.2s 82 Error compiling Cython file:
-67.2s 83 ------------------------------------------------------------
-67.2s 84 ...
-67.2s 85 vector_pointer_to_list_elements[index].head = current_element
-67.2s 86 current_element = current_element.higher
-67.2s 87 
-67.2s 88 
-67.2s 89 # Sort array elements on their data field
-67.2s 90 qsort(vector_pointer_to_list_elements, list_length, sizeof(head_pointer_tree_s), compare_struct_on_data)
-67.2s 91 ^
-67.2s 92 ------------------------------------------------------------
-67.2s 93 
-67.2s 94 Sparse_Matrix_Tree_CSR.pyx:516:89: Cannot assign type 'int (const void *, const void *) except? -1' to 'int (*)(const_void *, const_void *) noexcept'
-67.2s 95 
-67.2s 96 Error compiling Cython file:
-67.2s 97 ------------------------------------------------------------
-67.2s 98 ...
-67.2s 99 # Sort array elements on their data field
-67.2s 100 qsort(vector_pointer_to_list_elements, list_length, sizeof(head_pointer_tree_s), compare_struct_on_data)
-67.2s 101 
-67.2s 102 # Sort only the TopK according to their column field
-67.2s 103 # Sort is from lower to higher, therefore the elements to be considered are from len-topK to len
-67.2s 104 qsort(&vector_pointer_to_list_elements[list_length-TopK], TopK, sizeof(head_pointer_tree_s), compare_struct_on_column)
-67.2s 105 ^
-67.2s 106 ------------------------------------------------------------
-67.2s 107 
-67.2s 108 Sparse_Matrix_Tree_CSR.pyx:520:101: Cannot assign type 'int (const void *, const void *) except? -1' to 'int (*)(const_void *, const_void *) noexcept'
-67.2s 109 Traceback (most recent call last):
-67.2s 110 File "/kaggle/working/RecSys/CythonCompiler/compile_script.py", line 48, in <module>
-67.2s 111 setup(
-67.2s 112 File "/opt/conda/lib/python3.10/site-packages/setuptools/__init__.py", line 107, in setup
-67.2s 113 return distutils.core.setup(**attrs)
-67.2s 114 File "/opt/conda/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 185, in setup
-67.2s 115 return run_commands(dist)
-67.2s 116 File "/opt/conda/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 201, in run_commands
-67.2s 117 dist.run_commands()
-67.2s 118 File "/opt/conda/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 969, in run_commands
-67.2s 119 self.run_command(cmd)
-67.2s 120 File "/opt/conda/lib/python3.10/site-packages/setuptools/dist.py", line 1233, in run_command
-67.2s 121 super().run_command(command)
-67.2s 122 File "/opt/conda/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 988, in run_command
-67.2s 123 cmd_obj.run()
-67.2s 124 File "/opt/conda/lib/python3.10/site-packages/setuptools/_distutils/command/build_ext.py", line 345, in run
-67.2s 125 self.build_extensions()
-67.2s 126 File "/opt/conda/lib/python3.10/site-packages/setuptools/_distutils/command/build_ext.py", line 467, in build_extensions
-67.2s 127 self._build_extensions_serial()
-67.2s 128 File "/opt/conda/lib/python3.10/site-packages/setuptools/_distutils/command/build_ext.py", line 493, in _build_extensions_serial
-67.2s 129 self.build_extension(ext)
-67.2s 130 File "/opt/conda/lib/python3.10/site-packages/Cython/Distutils/build_ext.py", line 122, in build_extension
-67.2s 131 new_ext = cythonize(
-67.2s 132 File "/opt/conda/lib/python3.10/site-packages/Cython/Build/Dependencies.py", line 1134, in cythonize
-67.2s 133 cythonize_one(*args)
-67.2s 134 File "/opt/conda/lib/python3.10/site-packages/Cython/Build/Dependencies.py", line 1301, in cythonize_one
-67.2s 135 raise CompileError(None, pyx_file)
-67.2s 136 Cython.Compiler.Errors.CompileError: Sparse_Matrix_Tree_CSR.pyx
-67.5s 137 Traceback (most recent call last):
-67.5s 138 File "/kaggle/working/RecSys/run_compile_all_cython.py", line 59, in <module>
-67.5s 139 run_compile_subprocess(file_path, [file_name])
-67.5s 140 File "/kaggle/working/RecSys/CythonCompiler/run_compile_subprocess.py", line 51, in run_compile_subprocess
-67.5s 141 raise exc
-67.5s 142 File "/kaggle/working/RecSys/CythonCompiler/run_compile_subprocess.py", line 32, in run_compile_subprocess
-67.5s 143 output = subprocess.check_output(' '.join(command),
-67.5s 144 File "/opt/conda/lib/python3.10/subprocess.py", line 421, in check_output
-67.5s 145 return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
-67.5s 146 File "/opt/conda/lib/python3.10/subprocess.py", line 526, in run
-67.5s 147 raise CalledProcessError(retcode, process.args,
-67.5s 148 subprocess.CalledProcessError: Command '/opt/conda/bin/python /kaggle/working/RecSys/CythonCompiler/compile_script.py Sparse_Matrix_Tree_CSR.pyx build_ext --inplace' returned non-zero exit status 1.
-67.5s 149 Compiling [4/10]: Sparse_Matrix_Tree_CSR.pyx... FAIL: Command '/opt/conda/bin/python /kaggle/working/RecSys/CythonCompiler/compile_script.py Sparse_Matrix_Tree_CSR.pyx build_ext --inplace' returned non-zero exit status 1.
-67.5s 150 
-67.5s 151 Compiling [5/10]: SLIM_BPR_Cython_Epoch.pyx...
-68.7s 152 warning: SLIM_BPR_Cython_Epoch.pyx:24:0: The 'IF' statement is deprecated and will be removed in a future Cython version. Consider using runtime conditions or C macros instead. See https://github.com/cython/cython/issues/4310
-68.7s 153 warning: SLIM_BPR_Cython_Epoch.pyx:25:4: The 'DEF' statement is deprecated and will be removed in a future Cython version. Consider using global variables, constants, and in-place literals instead. See https://github.com/cython/cython/issues/4310
-68.7s 154 warning: SLIM_BPR_Cython_Epoch.pyx:27:4: The 'DEF' statement is deprecated and will be removed in a future Cython version. Consider using global variables, constants, and in-place literals instead. See https://github.com/cython/cython/issues/4310
-68.7s 155 warning: SLIM_BPR_Cython_Epoch.pyx:29:4: The 'DEF' statement is deprecated and will be removed in a future Cython version. Consider using global variables, constants, and in-place literals instead. See https://github.com/cython/cython/issues/4310
-69.4s 156 warning: SLIM_BPR_Cython_Epoch.pyx:632:34: Non-trivial type declarators in shared declaration (e.g. mix of pointers and values). Each pointer declaration should be on its own line.
-69.4s 157 warning: SLIM_BPR_Cython_Epoch.pyx:632:66: Non-trivial type declarators in shared declaration (e.g. mix of pointers and values). Each pointer declaration should be on its own line.
-69.4s 158 warning: SLIM_BPR_Cython_Epoch.pyx:817:35: Non-trivial type declarators in shared declaration (e.g. mix of pointers and values). Each pointer declaration should be on its own line.
-69.4s 159 warning: SLIM_BPR_Cython_Epoch.pyx:817:52: Non-trivial type declarators in shared declaration (e.g. mix of pointers and values). Each pointer declaration should be on its own line.
-69.4s 160 warning: SLIM_BPR_Cython_Epoch.pyx:916:35: Non-trivial type declarators in shared declaration (e.g. mix of pointers and values). Each pointer declaration should be on its own line.
-69.4s 161 warning: SLIM_BPR_Cython_Epoch.pyx:916:53: Non-trivial type declarators in shared declaration (e.g. mix of pointers and values). Each pointer declaration should be on its own line.
-69.4s 162 warning: SLIM_BPR_Cython_Epoch.pyx:916:69: Non-trivial type declarators in shared declaration (e.g. mix of pointers and values). Each pointer declaration should be on its own line.
-69.4s 163 warning: SLIM_BPR_Cython_Epoch.pyx:1051:35: Non-trivial type declarators in shared declaration (e.g. mix of pointers and values). Each pointer declaration should be on its own line.
-69.4s 164 warning: SLIM_BPR_Cython_Epoch.pyx:1051:42: Non-trivial type declarators in shared declaration (e.g. mix of pointers and values). Each pointer declaration should be on its own line.
-69.4s 165 warning: SLIM_BPR_Cython_Epoch.pyx:1052:35: Non-trivial type declarators in shared declaration (e.g. mix of pointers and values). Each pointer declaration should be on its own line.
-69.4s 166 warning: SLIM_BPR_Cython_Epoch.pyx:1052:53: Non-trivial type declarators in shared declaration (e.g. mix of pointers and values). Each pointer declaration should be on its own line.
-69.5s 167 
-69.5s 168 Error compiling Cython file:
-69.5s 169 ------------------------------------------------------------
-69.5s 170 ...
-69.5s 171 vector_pointer_to_list_elements[index].head = current_element
-69.5s 172 current_element = current_element.higher
-69.5s 173 
-69.5s 174 
-69.5s 175 # Sort array elements on their data field
-69.5s 176 qsort(vector_pointer_to_list_elements, list_length, sizeof(head_pointer_tree_s), compare_struct_on_data)
-69.5s 177 ^
-69.5s 178 ------------------------------------------------------------
-69.5s 179 
-69.5s 180 SLIM_BPR_Cython_Epoch.pyx:990:89: Cannot assign type 'int (const void *, const void *) except? -1' to 'int (*)(const_void *, const_void *) noexcept'
-69.5s 181 
-69.5s 182 Error compiling Cython file:
-69.5s 183 ------------------------------------------------------------
-69.5s 184 ...
-69.5s 185 # Sort array elements on their data field
-69.5s 186 qsort(vector_pointer_to_list_elements, list_length, sizeof(head_pointer_tree_s), compare_struct_on_data)
-69.5s 187 
-69.5s 188 # Sort only the TopK according to their column field
-69.5s 189 # Sort is from lower to higher, therefore the elements to be considered are from len-topK to len
-69.5s 190 qsort(&vector_pointer_to_list_elements[list_length-TopK], TopK, sizeof(head_pointer_tree_s), compare_struct_on_column)
-69.5s 191 ^
-69.5s 192 ------------------------------------------------------------
-69.5s 193 
-69.5s 194 SLIM_BPR_Cython_Epoch.pyx:994:101: Cannot assign type 'int (const void *, const void *) except? -1' to 'int (*)(const_void *, const_void *) noexcept'
-70.0s 195 Traceback (most recent call last):
-70.0s 196 File "/kaggle/working/RecSys/CythonCompiler/compile_script.py", line 48, in <module>
-70.0s 197 setup(
-70.0s 198 File "/opt/conda/lib/python3.10/site-packages/setuptools/__init__.py", line 107, in setup
-70.0s 199 return distutils.core.setup(**attrs)
-70.0s 200 File "/opt/conda/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 185, in setup
-70.0s 201 return run_commands(dist)
-70.0s 202 File "/opt/conda/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 201, in run_commands
-70.0s 203 dist.run_commands()
-70.0s 204 File "/opt/conda/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 969, in run_commands
-70.0s 205 self.run_command(cmd)
-70.0s 206 File "/opt/conda/lib/python3.10/site-packages/setuptools/dist.py", line 1233, in run_command
-70.0s 207 super().run_command(command)
-70.0s 208 File "/opt/conda/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 988, in run_command
-70.0s 209 cmd_obj.run()
-70.0s 210 File "/opt/conda/lib/python3.10/site-packages/setuptools/_distutils/command/build_ext.py", line 345, in run
-70.0s 211 self.build_extensions()
-70.0s 212 File "/opt/conda/lib/python3.10/site-packages/setuptools/_distutils/command/build_ext.py", line 467, in build_extensions
-70.0s 213 self._build_extensions_serial()
-70.0s 214 File "/opt/conda/lib/python3.10/site-packages/setuptools/_distutils/command/build_ext.py", line 493, in _build_extensions_serial
-70.0s 215 self.build_extension(ext)
-70.0s 216 File "/opt/conda/lib/python3.10/site-packages/Cython/Distutils/build_ext.py", line 122, in build_extension
-70.0s 217 new_ext = cythonize(
-70.0s 218 File "/opt/conda/lib/python3.10/site-packages/Cython/Build/Dependencies.py", line 1134, in cythonize
-70.0s 219 cythonize_one(*args)
-70.0s 220 File "/opt/conda/lib/python3.10/site-packages/Cython/Build/Dependencies.py", line 1301, in cythonize_one
-70.0s 221 raise CompileError(None, pyx_file)
-70.0s 222 Cython.Compiler.Errors.CompileError: SLIM_BPR_Cython_Epoch.pyx
-70.4s 223 Traceback (most recent call last):
-70.4s 224 File "/kaggle/working/RecSys/run_compile_all_cython.py", line 59, in <module>
-70.4s 225 run_compile_subprocess(file_path, [file_name])
-70.4s 226 File "/kaggle/working/RecSys/CythonCompiler/run_compile_subprocess.py", line 51, in run_compile_subprocess
-70.4s 227 raise exc
-70.4s 228 File "/kaggle/working/RecSys/CythonCompiler/run_compile_subprocess.py", line 32, in run_compile_subprocess
-70.4s 229 output = subprocess.check_output(' '.join(command),
-70.4s 230 File "/opt/conda/lib/python3.10/subprocess.py", line 421, in check_output
-70.4s 231 return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
-70.4s 232 File "/opt/conda/lib/python3.10/subprocess.py", line 526, in run
-70.4s 233 raise CalledProcessError(retcode, process.args,
-70.4s 234 subprocess.CalledProcessError: Command '/opt/conda/bin/python /kaggle/working/RecSys/CythonCompiler/compile_script.py SLIM_BPR_Cython_Epoch.pyx build_ext --inplace' returned non-zero exit status 1.
-70.4s 235 Compiling [5/10]: SLIM_BPR_Cython_Epoch.pyx... FAIL: Command '/opt/conda/bin/python /kaggle/working/RecSys/CythonCompiler/compile_script.py SLIM_BPR_Cython_Epoch.pyx build_ext --inplace' returned non-zero exit status 1.
-70.4s 236 
-70.4s 237 Compiling [6/10]: Triangular_Matrix.pyx...
-71.6s 238 warning: Triangular_Matrix.pyx:22:0: The 'IF' statement is deprecated and will be removed in a future Cython version. Consider using runtime conditions or C macros instead. See https://github.com/cython/cython/issues/4310
-71.6s 239 warning: Triangular_Matrix.pyx:23:4: The 'DEF' statement is deprecated and will be removed in a future Cython version. Consider using global variables, constants, and in-place literals instead. See https://github.com/cython/cython/issues/4310
-71.6s 240 warning: Triangular_Matrix.pyx:25:4: The 'DEF' statement is deprecated and will be removed in a future Cython version. Consider using global variables, constants, and in-place literals instead. See https://github.com/cython/cython/issues/4310
-71.6s 241 warning: Triangular_Matrix.pyx:27:4: The 'DEF' statement is deprecated and will be removed in a future Cython version. Consider using global variables, constants, and in-place literals instead. See https://github.com/cython/cython/issues/4310
-72.2s 242 In file included from [01m[K/opt/conda/lib/python3.10/site-packages/numpy/core/include/numpy/ndarraytypes.h:1940[m[K,
-72.2s 243 from [01m[K/opt/conda/lib/python3.10/site-packages/numpy/core/include/numpy/ndarrayobject.h:12[m[K,
-72.2s 244 from [01m[K/opt/conda/lib/python3.10/site-packages/numpy/core/include/numpy/arrayobject.h:5[m[K,
-72.2s 245 from [01m[KTriangular_Matrix.c:1109[m[K:
-72.2s 246 [01m[K/opt/conda/lib/python3.10/site-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:17:2:[m[K [01;35m[Kwarning: [m[K#warning "Using deprecated NumPy API, disable it with " "#define NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [[01;35m[K-Wcpp[m[K]
-72.2s 247 17 | #[01;35m[Kwarning[m[K "Using deprecated NumPy API, disable it with " \
-72.2s 248 |  [01;35m[K^~~~~~~[m[K
-75.7s 249 /opt/conda/lib/python3.10/site-packages/Cython/Compiler/Main.py:381: FutureWarning: Cython directive 'language_level' not set, using '3str' for now (Py3). This has changed from earlier releases! File: /kaggle/working/RecSys/Recommenders/SLIM/Cython/Triangular_Matrix.pyx
-75.7s 250 tree = Parsing.p_module(s, pxd, full_module_name)
-75.7s 251 warning: Triangular_Matrix.pyx:22:0: The 'IF' statement is deprecated and will be removed in a future Cython version. Consider using runtime conditions or C macros instead. See https://github.com/cython/cython/issues/4310
-75.7s 252 warning: Triangular_Matrix.pyx:23:4: The 'DEF' statement is deprecated and will be removed in a future Cython version. Consider using global variables, constants, and in-place literals instead. See https://github.com/cython/cython/issues/4310
-75.7s 253 warning: Triangular_Matrix.pyx:25:4: The 'DEF' statement is deprecated and will be removed in a future Cython version. Consider using global variables, constants, and in-place literals instead. See https://github.com/cython/cython/issues/4310
-75.7s 254 warning: Triangular_Matrix.pyx:27:4: The 'DEF' statement is deprecated and will be removed in a future Cython version. Consider using global variables, constants, and in-place literals instead. See https://github.com/cython/cython/issues/4310
-76.3s 255 Compiling [6/10]: Triangular_Matrix.pyx... PASS
-76.3s 256 
-76.3s 257 Compiling [7/10]: CFW_D_Similarity_Cython_SGD.pyx...
-78.9s 258 In file included from [01m[K/opt/conda/lib/python3.10/site-packages/numpy/core/include/numpy/ndarraytypes.h:1940[m[K,
-78.9s 259 from [01m[K/opt/conda/lib/python3.10/site-packages/numpy/core/include/numpy/ndarrayobject.h:12[m[K,
-78.9s 260 from [01m[K/opt/conda/lib/python3.10/site-packages/numpy/core/include/numpy/arrayobject.h:5[m[K,
-78.9s 261 from [01m[KCFW_D_Similarity_Cython_SGD.c:1109[m[K:
-78.9s 262 [01m[K/opt/conda/lib/python3.10/site-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:17:2:[m[K [01;35m[Kwarning: [m[K#warning "Using deprecated NumPy API, disable it with " "#define NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [[01;35m[K-Wcpp[m[K]
-78.9s 263 17 | #[01;35m[Kwarning[m[K "Using deprecated NumPy API, disable it with " \
-78.9s 264 |  [01;35m[K^~~~~~~[m[K
-89.1s 265 [01m[KCFW_D_Similarity_Cython_SGD.c:[m[K In function '[01m[K__pyx_pf_27CFW_D_Similarity_Cython_SGD_27CFW_D_Similarity_Cython_SGD_6fit[m[K':
-89.1s 266 [01m[KCFW_D_Similarity_Cython_SGD.c:22766:55:[m[K [01;35m[Kwarning: [m[K'[01m[K__pyx_v_sample_num[m[K' may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
-89.1s 267 22766 |   __pyx_t_3 = PyFloat_FromDouble((__pyx_v_cum_loss / [01;35m[K((double)__pyx_v_sample_num)[m[K)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 290, __pyx_L1_error)
-89.1s 268 |                                                      [01;35m[K~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-91.8s 269 /opt/conda/lib/python3.10/site-packages/Cython/Compiler/Main.py:381: FutureWarning: Cython directive 'language_level' not set, using '3str' for now (Py3). This has changed from earlier releases! File: /kaggle/working/RecSys/Recommenders/FeatureWeighting/Cython/CFW_D_Similarity_Cython_SGD.pyx
-91.8s 270 tree = Parsing.p_module(s, pxd, full_module_name)
-93.5s 271 Compiling [7/10]: CFW_D_Similarity_Cython_SGD.pyx... PASS
-93.5s 272 
-93.5s 273 Compiling [8/10]: CFW_DVV_Similarity_Cython_SGD.pyx...
-96.3s 274 In file included from [01m[K/opt/conda/lib/python3.10/site-packages/numpy/core/include/numpy/ndarraytypes.h:1940[m[K,
-96.3s 275 from [01m[K/opt/conda/lib/python3.10/site-packages/numpy/core/include/numpy/ndarrayobject.h:12[m[K,
-96.3s 276 from [01m[K/opt/conda/lib/python3.10/site-packages/numpy/core/include/numpy/arrayobject.h:5[m[K,
-96.3s 277 from [01m[KCFW_DVV_Similarity_Cython_SGD.c:1109[m[K:
-96.3s 278 [01m[K/opt/conda/lib/python3.10/site-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:17:2:[m[K [01;35m[Kwarning: [m[K#warning "Using deprecated NumPy API, disable it with " "#define NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [[01;35m[K-Wcpp[m[K]
-96.3s 279 17 | #[01;35m[Kwarning[m[K "Using deprecated NumPy API, disable it with " \
-96.3s 280 |  [01;35m[K^~~~~~~[m[K
-111.6s 281 /opt/conda/lib/python3.10/site-packages/Cython/Compiler/Main.py:381: FutureWarning: Cython directive 'language_level' not set, using '3str' for now (Py3). This has changed from earlier releases! File: /kaggle/working/RecSys/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx
-111.6s 282 tree = Parsing.p_module(s, pxd, full_module_name)
-113.8s 283 Compiling [8/10]: CFW_DVV_Similarity_Cython_SGD.pyx... PASS
-113.8s 284 
-113.8s 285 Compiling [9/10]: HP3_Similarity_Cython_SGD.pyx...
-115.6s 286 warning: HP3_Similarity_Cython_SGD.pyx:113:40: Index should be typed for more efficient access
-116.4s 287 In file included from [01m[K/opt/conda/lib/python3.10/site-packages/numpy/core/include/numpy/ndarraytypes.h:1940[m[K,
-116.4s 288 from [01m[K/opt/conda/lib/python3.10/site-packages/numpy/core/include/numpy/ndarrayobject.h:12[m[K,
-116.4s 289 from [01m[K/opt/conda/lib/python3.10/site-packages/numpy/core/include/numpy/arrayobject.h:5[m[K,
-116.4s 290 from [01m[KHP3_Similarity_Cython_SGD.c:1109[m[K:
-116.4s 291 [01m[K/opt/conda/lib/python3.10/site-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:17:2:[m[K [01;35m[Kwarning: [m[K#warning "Using deprecated NumPy API, disable it with " "#define NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [[01;35m[K-Wcpp[m[K]
-116.4s 292 17 | #[01;35m[Kwarning[m[K "Using deprecated NumPy API, disable it with " \
-116.4s 293 |  [01;35m[K^~~~~~~[m[K
-124.5s 294 [01m[KHP3_Similarity_Cython_SGD.c:[m[K In function '[01m[K__pyx_pf_25HP3_Similarity_Cython_SGD_25HP3_Similarity_Cython_SGD_4fit[m[K':
-124.5s 295 [01m[KHP3_Similarity_Cython_SGD.c:23024:55:[m[K [01;35m[Kwarning: [m[K'[01m[K__pyx_v_sample_num[m[K' may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
-124.5s 296 23024 |   __pyx_t_1 = PyFloat_FromDouble((__pyx_v_cum_loss / [01;35m[K((double)__pyx_v_sample_num)[m[K)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 291, __pyx_L1_error)
-124.5s 297 |                                                      [01;35m[K~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-129.7s 298 /opt/conda/lib/python3.10/site-packages/Cython/Compiler/Main.py:381: FutureWarning: Cython directive 'language_level' not set, using '3str' for now (Py3). This has changed from earlier releases! File: /kaggle/working/RecSys/Recommenders/FeatureWeighting/Cython/HP3_Similarity_Cython_SGD.pyx
-129.7s 299 tree = Parsing.p_module(s, pxd, full_module_name)
-130.3s 300 warning: HP3_Similarity_Cython_SGD.pyx:113:40: Index should be typed for more efficient access
-131.4s 301 Compiling [9/10]: HP3_Similarity_Cython_SGD.pyx... PASS
-131.4s 302 
-131.4s 303 Compiling [10/10]: FBSM_Rating_Cython_SGD.pyx...
-134.3s 304 In file included from [01m[K/opt/conda/lib/python3.10/site-packages/numpy/core/include/numpy/ndarraytypes.h:1940[m[K,
-134.3s 305 from [01m[K/opt/conda/lib/python3.10/site-packages/numpy/core/include/numpy/ndarrayobject.h:12[m[K,
-134.3s 306 from [01m[K/opt/conda/lib/python3.10/site-packages/numpy/core/include/numpy/arrayobject.h:5[m[K,
-134.3s 307 from [01m[KFBSM_Rating_Cython_SGD.c:1109[m[K:
-134.3s 308 [01m[K/opt/conda/lib/python3.10/site-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:17:2:[m[K [01;35m[Kwarning: [m[K#warning "Using deprecated NumPy API, disable it with " "#define NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [[01;35m[K-Wcpp[m[K]
-134.3s 309 17 | #[01;35m[Kwarning[m[K "Using deprecated NumPy API, disable it with " \
-134.3s 310 |  [01;35m[K^~~~~~~[m[K
-143.3s 311 [01m[KFBSM_Rating_Cython_SGD.c:[m[K In function '[01m[K__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit[m[K':
-143.3s 312 [01m[KFBSM_Rating_Cython_SGD.c:26038:55:[m[K [01;35m[Kwarning: [m[K'[01m[K__pyx_v_num_sample[m[K' may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
-143.3s 313 26038 |   __pyx_t_5 = PyFloat_FromDouble((__pyx_v_cum_loss / [01;35m[K((double)__pyx_v_num_sample)[m[K)); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 551, __pyx_L1_error)
-143.3s 314 |                                                      [01;35m[K~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-147.6s 315 /opt/conda/lib/python3.10/site-packages/Cython/Compiler/Main.py:381: FutureWarning: Cython directive 'language_level' not set, using '3str' for now (Py3). This has changed from earlier releases! File: /kaggle/working/RecSys/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx
-147.6s 316 tree = Parsing.p_module(s, pxd, full_module_name)
-149.5s 317 Compiling [10/10]: FBSM_Rating_Cython_SGD.pyx... PASS
-149.5s 318 
-149.5s 319 run_compile_all_cython: Compilation finished. FAILS 2/10.
-149.5s 320 Compilation log can be found here: './result_experiments/run_compile_all_cython.txt'
-154.5s 321 Number of items	 22222, Number of users	 12638
-154.5s 322 Max ID items	 22347, Max Id users	 13024
-154.5s 323 
-156.0s 324 Warning: 164 (1.30 %) of 12638 users have no train items
-156.0s 325 Warning: 2745 (21.72 %) of 12638 users have no sampled items
-156.6s 326 Warning: 323 (2.56 %) of 12638 users have no train items
-156.6s 327 Warning: 3118 (24.67 %) of 12638 users have no sampled items
-158.5s 328 [I 2024-01-06 10:29:03,532] A new study created in memory with name: no-name-6ec2a134-a86a-4055-a958-3198fe8a16f3
-158.7s 329 SLIMElasticNetRecommender: URM Detected 323 ( 2.6%) users with no interactions.
-158.7s 330 SLIMElasticNetRecommender: URM Detected 187 ( 0.8%) items with no interactions.
-458.5s 331 SLIMElasticNetRecommender: Processed 9749 (43.9%) in 5.00 min. Items per second: 32.49
-758.5s 332 SLIMElasticNetRecommender: Processed 20270 (91.2%) in 10.00 min. Items per second: 33.78
-824.6s 333 SLIMElasticNetRecommender: Processed 22222 (100.0%) in 11.10 min. Items per second: 33.36
-838.6s 334 [I 2024-01-06 10:40:23,660] Trial 0 finished with value: 0.43182836546193465 and parameters: {'topK': 1421, 'l1_ratio': 0.0003368120778609152, 'alpha': 0.029412588869919515}. Best is trial 0 with value: 0.43182836546193465.
-838.8s 335 SLIMElasticNetRecommender: URM Detected 323 ( 2.6%) users with no interactions.
-838.8s 336 SLIMElasticNetRecommender: URM Detected 187 ( 0.8%) items with no interactions.
-1138.6s 337 SLIMElasticNetRecommender: Processed 9586 (43.1%) in 5.00 min. Items per second: 31.95
-1438.6s 338 SLIMElasticNetRecommender: Processed 20000 (90.0%) in 10.00 min. Items per second: 33.33
-1511.9s 339 SLIMElasticNetRecommender: Processed 22222 (100.0%) in 11.22 min. Items per second: 33.00
-1525.8s 340 [I 2024-01-06 10:51:50,844] Trial 1 finished with value: 0.43224775231866247 and parameters: {'topK': 1444, 'l1_ratio': 8.487251969438844e-05, 'alpha': 0.02620278860766713}. Best is trial 1 with value: 0.43224775231866247.
-1526.0s 341 SLIMElasticNetRecommender: URM Detected 323 ( 2.6%) users with no interactions.
-1526.0s 342 SLIMElasticNetRecommender: URM Detected 187 ( 0.8%) items with no interactions.
-1825.8s 343 SLIMElasticNetRecommender: Processed 9894 (44.5%) in 5.00 min. Items per second: 32.97
-2125.8s 344 SLIMElasticNetRecommender: Processed 20475 (92.1%) in 10.00 min. Items per second: 34.12
-2186.5s 345 SLIMElasticNetRecommender: Processed 22222 (100.0%) in 11.01 min. Items per second: 33.63
-2200.3s 346 [I 2024-01-06 11:03:05,348] Trial 2 finished with value: 0.43234030907061144 and parameters: {'topK': 1333, 'l1_ratio': 0.00042124187439817343, 'alpha': 0.025653231329091808}. Best is trial 2 with value: 0.43234030907061144.
-2200.5s 347 SLIMElasticNetRecommender: URM Detected 323 ( 2.6%) users with no interactions.
-2200.5s 348 SLIMElasticNetRecommender: URM Detected 187 ( 0.8%) items with no interactions.
-2500.3s 349 SLIMElasticNetRecommender: Processed 9366 (42.1%) in 5.00 min. Items per second: 31.21
-2800.4s 350 SLIMElasticNetRecommender: Processed 19548 (88.0%) in 10.00 min. Items per second: 32.58
-2889.1s 351 SLIMElasticNetRecommender: Processed 22222 (100.0%) in 11.48 min. Items per second: 32.26
-2903.9s 352 [I 2024-01-06 11:14:48,938] Trial 3 finished with value: 0.4294759896599962 and parameters: {'topK': 2345, 'l1_ratio': 0.00044556791523338735, 'alpha': 0.0346411982448424}. Best is trial 2 with value: 0.43234030907061144.
-2904.1s 353 SLIMElasticNetRecommender: URM Detected 323 ( 2.6%) users with no interactions.
-2904.1s 354 SLIMElasticNetRecommender: URM Detected 187 ( 0.8%) items with no interactions.
-3203.9s 355 SLIMElasticNetRecommender: Processed 9269 (41.7%) in 5.00 min. Items per second: 30.89
-3503.9s 356 SLIMElasticNetRecommender: Processed 19317 (86.9%) in 10.00 min. Items per second: 32.19
-3601.7s 357 SLIMElasticNetRecommender: Processed 22222 (100.0%) in 11.63 min. Items per second: 31.84
-3615.1s 358 [I 2024-01-06 11:26:40,130] Trial 4 finished with value: 0.4279349164034431 and parameters: {'topK': 6723, 'l1_ratio': 0.00015670386438598153, 'alpha': 0.01329188755025942}. Best is trial 2 with value: 0.43234030907061144.
-3615.3s 359 SLIMElasticNetRecommender: URM Detected 323 ( 2.6%) users with no interactions.
-3615.3s 360 SLIMElasticNetRecommender: URM Detected 187 ( 0.8%) items with no interactions.
-3915.1s 361 SLIMElasticNetRecommender: Processed 9337 (42.0%) in 5.00 min. Items per second: 31.12
-4215.1s 362 SLIMElasticNetRecommender: Processed 19505 (87.8%) in 10.00 min. Items per second: 32.51
-4305.3s 363 SLIMElasticNetRecommender: Processed 22222 (100.0%) in 11.50 min. Items per second: 32.19
-4319.6s 364 [I 2024-01-06 11:38:24,720] Trial 5 finished with value: 0.43279612330481937 and parameters: {'topK': 6694, 'l1_ratio': 0.00013045499205925352, 'alpha': 0.023804011567620346}. Best is trial 5 with value: 0.43279612330481937.
-4319.8s 365 SLIMElasticNetRecommender: URM Detected 323 ( 2.6%) users with no interactions.
-4319.8s 366 SLIMElasticNetRecommender: URM Detected 187 ( 0.8%) items with no interactions.
-4619.7s 367 SLIMElasticNetRecommender: Processed 9430 (42.4%) in 5.00 min. Items per second: 31.43
-4919.7s 368 SLIMElasticNetRecommender: Processed 19633 (88.3%) in 10.00 min. Items per second: 32.72
-5006.6s 369 SLIMElasticNetRecommender: Processed 22222 (100.0%) in 11.45 min. Items per second: 32.35
-5020.4s 370 [I 2024-01-06 11:50:05,507] Trial 6 finished with value: 0.4308648672534142 and parameters: {'topK': 6525, 'l1_ratio': 0.00022620485743588898, 'alpha': 0.0193330378986705}. Best is trial 5 with value: 0.43279612330481937.
-5020.6s 371 SLIMElasticNetRecommender: URM Detected 323 ( 2.6%) users with no interactions.
-5020.6s 372 SLIMElasticNetRecommender: URM Detected 187 ( 0.8%) items with no interactions.
-5320.5s 373 SLIMElasticNetRecommender: Processed 9064 (40.8%) in 5.00 min. Items per second: 30.21
-5620.5s 374 SLIMElasticNetRecommender: Processed 19040 (85.7%) in 10.00 min. Items per second: 31.73
-5726.9s 375 SLIMElasticNetRecommender: Processed 22222 (100.0%) in 11.77 min. Items per second: 31.45
-5741.1s 376 [I 2024-01-06 12:02:06,218] Trial 7 finished with value: 0.43103165886121797 and parameters: {'topK': 4647, 'l1_ratio': 4.6396492505278836e-05, 'alpha': 0.021638996944328068}. Best is trial 5 with value: 0.43279612330481937.
-5741.3s 377 SLIMElasticNetRecommender: URM Detected 323 ( 2.6%) users with no interactions.
-5741.3s 378 SLIMElasticNetRecommender: URM Detected 187 ( 0.8%) items with no interactions.
-6041.2s 379 SLIMElasticNetRecommender: Processed 9194 (41.4%) in 5.00 min. Items per second: 30.64
-6341.2s 380 SLIMElasticNetRecommender: Processed 19351 (87.1%) in 10.00 min. Items per second: 32.25
-6436.5s 381 SLIMElasticNetRecommender: Processed 22222 (100.0%) in 11.59 min. Items per second: 31.96
-6451.6s 382 [I 2024-01-06 12:13:56,723] Trial 8 finished with value: 0.43035621276590663 and parameters: {'topK': 5778, 'l1_ratio': 8.336599714871639e-05, 'alpha': 0.03467187465483611}. Best is trial 5 with value: 0.43279612330481937.
-6451.9s 383 SLIMElasticNetRecommender: URM Detected 323 ( 2.6%) users with no interactions.
-6451.9s 384 SLIMElasticNetRecommender: URM Detected 187 ( 0.8%) items with no interactions.
-6751.7s 385 SLIMElasticNetRecommender: Processed 9292 (41.8%) in 5.00 min. Items per second: 30.97
-7051.7s 386 SLIMElasticNetRecommender: Processed 19417 (87.4%) in 10.00 min. Items per second: 32.36
-7145.7s 387 SLIMElasticNetRecommender: Processed 22222 (100.0%) in 11.57 min. Items per second: 32.02
-7159.7s 388 [I 2024-01-06 12:25:44,786] Trial 9 finished with value: 0.4308493569471204 and parameters: {'topK': 5311, 'l1_ratio': 0.0003261452238040304, 'alpha': 0.0195941583232826}. Best is trial 5 with value: 0.43279612330481937.
-7159.9s 389 SLIMElasticNetRecommender: URM Detected 323 ( 2.6%) users with no interactions.
-7159.9s 390 SLIMElasticNetRecommender: URM Detected 187 ( 0.8%) items with no interactions.
-7459.8s 391 SLIMElasticNetRecommender: Processed 9353 (42.1%) in 5.00 min. Items per second: 31.17
-7759.8s 392 SLIMElasticNetRecommender: Processed 19402 (87.3%) in 10.00 min. Items per second: 32.33
-7855.0s 393 SLIMElasticNetRecommender: Processed 22222 (100.0%) in 11.59 min. Items per second: 31.96
-7868.1s 394 [I 2024-01-06 12:37:33,173] Trial 10 finished with value: 0.4248611598013252 and parameters: {'topK': 3536, 'l1_ratio': 0.0001949509351422953, 'alpha': 0.011411266544061608}. Best is trial 5 with value: 0.43279612330481937.
-7868.3s 395 SLIMElasticNetRecommender: URM Detected 323 ( 2.6%) users with no interactions.
-7868.3s 396 SLIMElasticNetRecommender: URM Detected 187 ( 0.8%) items with no interactions.
-8168.2s 397 SLIMElasticNetRecommender: Processed 9453 (42.5%) in 5.00 min. Items per second: 31.51
-8468.2s 398 SLIMElasticNetRecommender: Processed 19759 (88.9%) in 10.00 min. Items per second: 32.93
-8550.7s 399 SLIMElasticNetRecommender: Processed 22222 (100.0%) in 11.38 min. Items per second: 32.56
-8565.0s 400 [I 2024-01-06 12:49:10,101] Trial 11 finished with value: 0.4313828758081089 and parameters: {'topK': 3106, 'l1_ratio': 0.00046874136728401603, 'alpha': 0.02741721455481865}. Best is trial 5 with value: 0.43279612330481937.
-8565.2s 401 SLIMElasticNetRecommender: URM Detected 323 ( 2.6%) users with no interactions.
-8565.2s 402 SLIMElasticNetRecommender: URM Detected 187 ( 0.8%) items with no interactions.
-8865.1s 403 SLIMElasticNetRecommender: Processed 9588 (43.1%) in 5.00 min. Items per second: 31.95
-9165.1s 404 SLIMElasticNetRecommender: Processed 19769 (89.0%) in 10.00 min. Items per second: 32.94
-9248.8s 405 SLIMElasticNetRecommender: Processed 22222 (100.0%) in 11.39 min. Items per second: 32.50
-9261.8s 406 [I 2024-01-06 13:00:46,928] Trial 12 finished with value: 0.4294386367052493 and parameters: {'topK': 806, 'l1_ratio': 0.00032216678402457294, 'alpha': 0.02344751735508514}. Best is trial 5 with value: 0.43279612330481937.
-9262.1s 407 SLIMElasticNetRecommender: URM Detected 323 ( 2.6%) users with no interactions.
-9262.1s 408 SLIMElasticNetRecommender: URM Detected 187 ( 0.8%) items with no interactions.
-9561.9s 409 SLIMElasticNetRecommender: Processed 9162 (41.2%) in 5.00 min. Items per second: 30.54
-9862.0s 410 SLIMElasticNetRecommender: Processed 19158 (86.2%) in 10.00 min. Items per second: 31.93
-9965.5s 411 SLIMElasticNetRecommender: Processed 22222 (100.0%) in 11.73 min. Items per second: 31.58
-9979.1s 412 [I 2024-01-06 13:12:44,191] Trial 13 finished with value: 0.42903104555784355 and parameters: {'topK': 4404, 'l1_ratio': 0.0001392944523632681, 'alpha': 0.016423144364480703}. Best is trial 5 with value: 0.43279612330481937.
-9979.3s 413 SLIMElasticNetRecommender: URM Detected 323 ( 2.6%) users with no interactions.
-9979.3s 414 SLIMElasticNetRecommender: URM Detected 187 ( 0.8%) items with no interactions.
-10279.2s 415 SLIMElasticNetRecommender: Processed 9273 (41.7%) in 5.00 min. Items per second: 30.91
-10579.3s 416 SLIMElasticNetRecommender: Processed 19436 (87.5%) in 10.00 min. Items per second: 32.38
-10672.0s 417 SLIMElasticNetRecommender: Processed 22222 (100.0%) in 11.55 min. Items per second: 32.07
-10686.7s 418 [I 2024-01-06 13:24:31,748] Trial 14 finished with value: 0.42953140390188943 and parameters: {'topK': 2930, 'l1_ratio': 0.0003815983548181886, 'alpha': 0.03092515627756532}. Best is trial 5 with value: 0.43279612330481937.
-10686.9s 419 SLIMElasticNetRecommender: URM Detected 323 ( 2.6%) users with no interactions.
-10686.9s 420 SLIMElasticNetRecommender: URM Detected 187 ( 0.8%) items with no interactions.
-10986.7s 421 SLIMElasticNetRecommender: Processed 9291 (41.8%) in 5.00 min. Items per second: 30.97
-11286.8s 422 SLIMElasticNetRecommender: Processed 19419 (87.4%) in 10.00 min. Items per second: 32.36
-11380.8s 423 SLIMElasticNetRecommender: Processed 22222 (100.0%) in 11.57 min. Items per second: 32.01
-11395.0s 424 [I 2024-01-06 13:36:20,050] Trial 15 finished with value: 0.4319224897116453 and parameters: {'topK': 2258, 'l1_ratio': 0.0002644936762263956, 'alpha': 0.024349213115333963}. Best is trial 5 with value: 0.43279612330481937.
-11395.2s 425 SLIMElasticNetRecommender: URM Detected 323 ( 2.6%) users with no interactions.
-11395.2s 426 SLIMElasticNetRecommender: URM Detected 187 ( 0.8%) items with no interactions.
-11695.1s 427 SLIMElasticNetRecommender: Processed 9308 (41.9%) in 5.00 min. Items per second: 31.02
-11995.1s 428 SLIMElasticNetRecommender: Processed 19532 (87.9%) in 10.00 min. Items per second: 32.55
-12084.1s 429 SLIMElasticNetRecommender: Processed 22222 (100.0%) in 11.48 min. Items per second: 32.25
-12099.0s 430 [I 2024-01-06 13:48:04,057] Trial 16 finished with value: 0.4296979504784688 and parameters: {'topK': 5873, 'l1_ratio': 0.00041645475230272795, 'alpha': 0.030455777245443492}. Best is trial 5 with value: 0.43279612330481937.
-12099.2s 431 SLIMElasticNetRecommender: URM Detected 323 ( 2.6%) users with no interactions.
-12099.2s 432 SLIMElasticNetRecommender: URM Detected 187 ( 0.8%) items with no interactions.
-12399.0s 433 SLIMElasticNetRecommender: Processed 9294 (41.8%) in 5.00 min. Items per second: 30.98
-12699.1s 434 SLIMElasticNetRecommender: Processed 19342 (87.0%) in 10.00 min. Items per second: 32.23
-12796.4s 435 SLIMElasticNetRecommender: Processed 22222 (100.0%) in 11.62 min. Items per second: 31.87
-12810.0s 436 [I 2024-01-06 13:59:55,086] Trial 17 finished with value: 0.42948446602687407 and parameters: {'topK': 4056, 'l1_ratio': 0.0002654023217683654, 'alpha': 0.01698089436683235}. Best is trial 5 with value: 0.43279612330481937.
-12810.2s 437 SLIMElasticNetRecommender: URM Detected 323 ( 2.6%) users with no interactions.
-12810.2s 438 SLIMElasticNetRecommender: URM Detected 187 ( 0.8%) items with no interactions.
-13110.1s 439 SLIMElasticNetRecommender: Processed 9216 (41.5%) in 5.00 min. Items per second: 30.71
-13410.1s 440 SLIMElasticNetRecommender: Processed 19360 (87.1%) in 10.00 min. Items per second: 32.26
-13505.7s 441 SLIMElasticNetRecommender: Processed 22222 (100.0%) in 11.59 min. Items per second: 31.94
-13520.2s 442 [I 2024-01-06 14:11:45,255] Trial 18 finished with value: 0.4319746203209362 and parameters: {'topK': 6991, 'l1_ratio': 0.0001387996427576088, 'alpha': 0.026763578293228743}. Best is trial 5 with value: 0.43279612330481937.
-13520.4s 443 SLIMElasticNetRecommender: URM Detected 323 ( 2.6%) users with no interactions.
-13520.4s 444 SLIMElasticNetRecommender: URM Detected 187 ( 0.8%) items with no interactions.
-13820.3s 445 SLIMElasticNetRecommender: Processed 8283 (37.3%) in 5.00 min. Items per second: 27.60
-14120.3s 446 SLIMElasticNetRecommender: Processed 17660 (79.5%) in 10.00 min. Items per second: 29.43
-14276.3s 447 SLIMElasticNetRecommender: Processed 22222 (100.0%) in 12.60 min. Items per second: 29.39
-14290.5s 448 [I 2024-01-06 14:24:35,584] Trial 19 finished with value: 0.4304434244482554 and parameters: {'topK': 4745, 'l1_ratio': 9.425035715054217e-06, 'alpha': 0.021170544175979886}. Best is trial 5 with value: 0.43279612330481937.
-14290.7s 449 SLIMElasticNetRecommender: URM Detected 323 ( 2.6%) users with no interactions.
-14290.7s 450 SLIMElasticNetRecommender: URM Detected 187 ( 0.8%) items with no interactions.
-14590.6s 451 SLIMElasticNetRecommender: Processed 9475 (42.6%) in 5.00 min. Items per second: 31.58
-14890.6s 452 SLIMElasticNetRecommender: Processed 19563 (88.0%) in 10.00 min. Items per second: 32.60
-14980.2s 453 SLIMElasticNetRecommender: Processed 22222 (100.0%) in 11.49 min. Items per second: 32.22
-14994.7s 454 [I 2024-01-06 14:36:19,764] Trial 20 finished with value: 0.4320802893797146 and parameters: {'topK': 2229, 'l1_ratio': 0.0003905583419670769, 'alpha': 0.024637807661616655}. Best is trial 5 with value: 0.43279612330481937.
-14994.9s 455 SLIMElasticNetRecommender: URM Detected 323 ( 2.6%) users with no interactions.
-14994.9s 456 SLIMElasticNetRecommender: URM Detected 187 ( 0.8%) items with no interactions.
-15294.8s 457 SLIMElasticNetRecommender: Processed 9158 (41.2%) in 5.00 min. Items per second: 30.52
-15594.8s 458 SLIMElasticNetRecommender: Processed 19093 (85.9%) in 10.00 min. Items per second: 31.82
-15699.2s 459 SLIMElasticNetRecommender: Processed 22222 (100.0%) in 11.74 min. Items per second: 31.54
-15713.0s 460 [I 2024-01-06 14:48:18,043] Trial 21 finished with value: 0.4326242274787117 and parameters: {'topK': 1272, 'l1_ratio': 8.252886204221298e-05, 'alpha': 0.02692338187662506}. Best is trial 5 with value: 0.43279612330481937.
-15713.2s 461 SLIMElasticNetRecommender: URM Detected 323 ( 2.6%) users with no interactions.
-15713.2s 462 SLIMElasticNetRecommender: URM Detected 187 ( 0.8%) items with no interactions.
-16013.0s 463 SLIMElasticNetRecommender: Processed 9363 (42.1%) in 5.00 min. Items per second: 31.20
-16313.1s 464 SLIMElasticNetRecommender: Processed 19494 (87.7%) in 10.00 min. Items per second: 32.49
-16404.0s 465 SLIMElasticNetRecommender: Processed 22222 (100.0%) in 11.52 min. Items per second: 32.16
-16417.5s 466 [I 2024-01-06 15:00:02,556] Trial 22 finished with value: 0.4298796169385043 and parameters: {'topK': 813, 'l1_ratio': 9.071485627846473e-05, 'alpha': 0.02906109720603651}. Best is trial 5 with value: 0.43279612330481937.
-16417.7s 467 SLIMElasticNetRecommender: URM Detected 323 ( 2.6%) users with no interactions.
-16417.7s 468 SLIMElasticNetRecommender: URM Detected 187 ( 0.8%) items with no interactions.
-16717.6s 469 SLIMElasticNetRecommender: Processed 9369 (42.2%) in 5.00 min. Items per second: 31.22
-17017.6s 470 SLIMElasticNetRecommender: Processed 19507 (87.8%) in 10.00 min. Items per second: 32.51
-17109.0s 471 SLIMElasticNetRecommender: Processed 22222 (100.0%) in 11.52 min. Items per second: 32.14
-17123.8s 472 [I 2024-01-06 15:11:48,922] Trial 23 finished with value: 0.4294274656495047 and parameters: {'topK': 1648, 'l1_ratio': 0.0004954181408404914, 'alpha': 0.0319148417035993}. Best is trial 5 with value: 0.43279612330481937.
-17124.1s 473 SLIMElasticNetRecommender: URM Detected 323 ( 2.6%) users with no interactions.
-17124.1s 474 SLIMElasticNetRecommender: URM Detected 187 ( 0.8%) items with no interactions.
-17423.9s 475 SLIMElasticNetRecommender: Processed 9141 (41.1%) in 5.00 min. Items per second: 30.46
-17723.9s 476 SLIMElasticNetRecommender: Processed 19072 (85.8%) in 10.00 min. Items per second: 31.78
-17829.9s 477 SLIMElasticNetRecommender: Processed 22222 (100.0%) in 11.77 min. Items per second: 31.47
-17844.6s 478 [I 2024-01-06 15:23:49,653] Trial 24 finished with value: 0.43193974917915656 and parameters: {'topK': 2985, 'l1_ratio': 0.00018679030191745706, 'alpha': 0.025679600073716755}. Best is trial 5 with value: 0.43279612330481937.
-17844.8s 479 SLIMElasticNetRecommender: URM Detected 323 ( 2.6%) users with no interactions.
-17844.8s 480 SLIMElasticNetRecommender: URM Detected 187 ( 0.8%) items with no interactions.
-18144.6s 481 SLIMElasticNetRecommender: Processed 8014 (36.1%) in 5.00 min. Items per second: 26.71
-18444.7s 482 SLIMElasticNetRecommender: Processed 17119 (77.0%) in 10.00 min. Items per second: 28.53
-18621.3s 483 SLIMElasticNetRecommender: Processed 22222 (100.0%) in 12.95 min. Items per second: 28.61
-18635.8s 484 [I 2024-01-06 15:37:00,900] Trial 25 finished with value: 0.43278737174748794 and parameters: {'topK': 1660, 'l1_ratio': 5.617681568500013e-06, 'alpha': 0.027748252870859497}. Best is trial 5 with value: 0.43279612330481937.
-18636.0s 485 SLIMElasticNetRecommender: URM Detected 323 ( 2.6%) users with no interactions.
-18636.0s 486 SLIMElasticNetRecommender: URM Detected 187 ( 0.8%) items with no interactions.
-18936.0s 487 SLIMElasticNetRecommender: Processed 8669 (39.0%) in 5.00 min. Items per second: 28.88
-19236.0s 488 SLIMElasticNetRecommender: Processed 18341 (82.5%) in 10.00 min. Items per second: 30.56
-19366.1s 489 SLIMElasticNetRecommender: Processed 22222 (100.0%) in 12.17 min. Items per second: 30.43
-19380.4s 490 [I 2024-01-06 15:49:25,485] Trial 26 finished with value: 0.43274373910384273 and parameters: {'topK': 1779, 'l1_ratio': 2.2556142498973747e-05, 'alpha': 0.027626828417093335}. Best is trial 5 with value: 0.43279612330481937.
-19380.6s 491 SLIMElasticNetRecommender: URM Detected 323 ( 2.6%) users with no interactions.
-19380.6s 492 SLIMElasticNetRecommender: URM Detected 187 ( 0.8%) items with no interactions.
-19680.5s 493 SLIMElasticNetRecommender: Processed 7979 (35.9%) in 5.00 min. Items per second: 26.59
-19980.5s 494 SLIMElasticNetRecommender: Processed 17072 (76.8%) in 10.00 min. Items per second: 28.45
-20157.9s 495 SLIMElasticNetRecommender: Processed 22222 (100.0%) in 12.96 min. Items per second: 28.58
-20172.1s 496 [I 2024-01-06 16:02:37,219] Trial 27 finished with value: 0.43221786061943285 and parameters: {'topK': 1993, 'l1_ratio': 5.172795773639052e-06, 'alpha': 0.02814597200626133}. Best is trial 5 with value: 0.43279612330481937.
-20172.4s 497 SLIMElasticNetRecommender: URM Detected 323 ( 2.6%) users with no interactions.
-20172.4s 498 SLIMElasticNetRecommender: URM Detected 187 ( 0.8%) items with no interactions.
-20472.2s 499 SLIMElasticNetRecommender: Processed 9015 (40.6%) in 5.00 min. Items per second: 30.05
-20772.2s 500 SLIMElasticNetRecommender: Processed 18997 (85.5%) in 10.00 min. Items per second: 31.66
-20879.1s 501 SLIMElasticNetRecommender: Processed 22222 (100.0%) in 11.78 min. Items per second: 31.44
-20893.8s 502 [I 2024-01-06 16:14:38,888] Trial 28 finished with value: 0.43115158133165254 and parameters: {'topK': 3455, 'l1_ratio': 4.594368263173319e-05, 'alpha': 0.03209478396026479}. Best is trial 5 with value: 0.43279612330481937.
-20894.0s 503 SLIMElasticNetRecommender: URM Detected 323 ( 2.6%) users with no interactions.
-20894.0s 504 SLIMElasticNetRecommender: URM Detected 187 ( 0.8%) items with no interactions.
-21193.9s 505 SLIMElasticNetRecommender: Processed 8993 (40.5%) in 5.00 min. Items per second: 29.97
-21493.9s 506 SLIMElasticNetRecommender: Processed 18943 (85.2%) in 10.00 min. Items per second: 31.57
-21604.6s 507 SLIMElasticNetRecommender: Processed 22222 (100.0%) in 11.85 min. Items per second: 31.26
-21619.0s 508 [I 2024-01-06 16:26:44,045] Trial 29 finished with value: 0.4312411987405785 and parameters: {'topK': 2645, 'l1_ratio': 4.375883309577427e-05, 'alpha': 0.02257010087719728}. Best is trial 5 with value: 0.43279612330481937.
-21619.2s 509 SLIMElasticNetRecommender: URM Detected 323 ( 2.6%) users with no interactions.
-21619.2s 510 SLIMElasticNetRecommender: URM Detected 187 ( 0.8%) items with no interactions.
-21919.0s 511 SLIMElasticNetRecommender: Processed 9228 (41.5%) in 5.00 min. Items per second: 30.76
-22219.0s 512 SLIMElasticNetRecommender: Processed 19384 (87.2%) in 10.00 min. Items per second: 32.30
-22313.8s 513 SLIMElasticNetRecommender: Processed 22222 (100.0%) in 11.58 min. Items per second: 31.99
-22328.1s 514 [I 2024-01-06 16:38:33,186] Trial 30 finished with value: 0.43238315021313606 and parameters: {'topK': 1827, 'l1_ratio': 0.00011036277971148445, 'alpha': 0.02920695071179151}. Best is trial 5 with value: 0.43279612330481937.
-22328.3s 515 SLIMElasticNetRecommender: URM Detected 323 ( 2.6%) users with no interactions.
-22328.3s 516 SLIMElasticNetRecommender: URM Detected 187 ( 0.8%) items with no interactions.
-22628.2s 517 SLIMElasticNetRecommender: Processed 9102 (41.0%) in 5.00 min. Items per second: 30.34
-22928.2s 518 SLIMElasticNetRecommender: Processed 19088 (85.9%) in 10.00 min. Items per second: 31.81
-23032.7s 519 SLIMElasticNetRecommender: Processed 22222 (100.0%) in 11.74 min. Items per second: 31.54
-23046.4s 520 [I 2024-01-06 16:50:31,503] Trial 31 finished with value: 0.43223804617918477 and parameters: {'topK': 1096, 'l1_ratio': 3.95734491059831e-05, 'alpha': 0.028491648689873646}. Best is trial 5 with value: 0.43279612330481937.
-23046.7s 521 SLIMElasticNetRecommender: URM Detected 323 ( 2.6%) users with no interactions.
-23046.7s 522 SLIMElasticNetRecommender: URM Detected 187 ( 0.8%) items with no interactions.
-23346.5s 523 SLIMElasticNetRecommender: Processed 9298 (41.8%) in 5.00 min. Items per second: 30.99
-23646.5s 524 SLIMElasticNetRecommender: Processed 19410 (87.3%) in 10.00 min. Items per second: 32.35
-23740.8s 525 SLIMElasticNetRecommender: Processed 22222 (100.0%) in 11.57 min. Items per second: 32.00
-23754.5s 526 [I 2024-01-06 17:02:19,623] Trial 32 finished with value: 0.4312018101545651 and parameters: {'topK': 1351, 'l1_ratio': 7.705532866784798e-05, 'alpha': 0.02425849062318078}. Best is trial 5 with value: 0.43279612330481937.
-23754.8s 527 SLIMElasticNetRecommender: URM Detected 323 ( 2.6%) users with no interactions.
-23754.8s 528 SLIMElasticNetRecommender: URM Detected 187 ( 0.8%) items with no interactions.
-24054.6s 529 SLIMElasticNetRecommender: Processed 9365 (42.1%) in 5.00 min. Items per second: 31.21
-24354.6s 530 SLIMElasticNetRecommender: Processed 19502 (87.8%) in 10.00 min. Items per second: 32.50
-24445.4s 531 SLIMElasticNetRecommender: Processed 22222 (100.0%) in 11.51 min. Items per second: 32.17
-24459.6s 532 [I 2024-01-06 17:14:04,636] Trial 33 finished with value: 0.4319458816455168 and parameters: {'topK': 1462, 'l1_ratio': 0.00011219384935341964, 'alpha': 0.02655154516929584}. Best is trial 5 with value: 0.43279612330481937.
-24459.8s 533 SLIMElasticNetRecommender: URM Detected 323 ( 2.6%) users with no interactions.
-24459.8s 534 SLIMElasticNetRecommender: URM Detected 187 ( 0.8%) items with no interactions.
-24759.7s 535 SLIMElasticNetRecommender: Processed 8850 (39.8%) in 5.00 min. Items per second: 29.49
-25059.7s 536 SLIMElasticNetRecommender: Processed 18680 (84.1%) in 10.00 min. Items per second: 31.13
-25177.7s 537 SLIMElasticNetRecommender: Processed 22222 (100.0%) in 11.97 min. Items per second: 30.95
-25192.4s 538 [I 2024-01-06 17:26:17,505] Trial 34 finished with value: 0.4311127981247883 and parameters: {'topK': 2595, 'l1_ratio': 2.1725206135634894e-05, 'alpha': 0.032811522674867095}. Best is trial 5 with value: 0.43279612330481937.
-25192.7s 539 SLIMElasticNetRecommender: URM Detected 323 ( 2.6%) users with no interactions.
-25192.7s 540 SLIMElasticNetRecommender: URM Detected 187 ( 0.8%) items with no interactions.
-25492.5s 541 SLIMElasticNetRecommender: Processed 9160 (41.2%) in 5.00 min. Items per second: 30.53
-25792.5s 542 SLIMElasticNetRecommender: Processed 19188 (86.3%) in 10.00 min. Items per second: 31.98
-25893.3s 543 SLIMElasticNetRecommender: Processed 22222 (100.0%) in 11.68 min. Items per second: 31.71
-25907.4s 544 [I 2024-01-06 17:38:12,508] Trial 35 finished with value: 0.43205676639294543 and parameters: {'topK': 1964, 'l1_ratio': 6.838405518898408e-05, 'alpha': 0.025331208932732358}. Best is trial 5 with value: 0.43279612330481937.
-25907.7s 545 SLIMElasticNetRecommender: URM Detected 323 ( 2.6%) users with no interactions.
-25907.7s 546 SLIMElasticNetRecommender: URM Detected 187 ( 0.8%) items with no interactions.
-26207.5s 547 SLIMElasticNetRecommender: Processed 9366 (42.1%) in 5.00 min. Items per second: 31.21
-26507.5s 548 SLIMElasticNetRecommender: Processed 19520 (87.8%) in 10.00 min. Items per second: 32.53
-26598.0s 549 SLIMElasticNetRecommender: Processed 22222 (100.0%) in 11.51 min. Items per second: 32.18
-26612.2s 550 [I 2024-01-06 17:49:57,262] Trial 36 finished with value: 0.43224456984762333 and parameters: {'topK': 1280, 'l1_ratio': 0.00011569551217242164, 'alpha': 0.02746420988139797}. Best is trial 5 with value: 0.43279612330481937.
-26612.4s 551 SLIMElasticNetRecommender: URM Detected 323 ( 2.6%) users with no interactions.
-26612.4s 552 SLIMElasticNetRecommender: URM Detected 187 ( 0.8%) items with no interactions.
-26912.3s 553 SLIMElasticNetRecommender: Processed 9287 (41.8%) in 5.00 min. Items per second: 30.95
-27212.3s 554 SLIMElasticNetRecommender: Processed 19456 (87.6%) in 10.00 min. Items per second: 32.42
-27304.2s 555 SLIMElasticNetRecommender: Processed 22222 (100.0%) in 11.53 min. Items per second: 32.11
-27319.1s 556 [I 2024-01-06 18:01:44,168] Trial 37 finished with value: 0.43058813323003886 and parameters: {'topK': 6026, 'l1_ratio': 0.0001873547074496004, 'alpha': 0.03003414290675192}. Best is trial 5 with value: 0.43279612330481937.
-27319.3s 557 SLIMElasticNetRecommender: URM Detected 323 ( 2.6%) users with no interactions.
-27319.3s 558 SLIMElasticNetRecommender: URM Detected 187 ( 0.8%) items with no interactions.
-27619.3s 559 SLIMElasticNetRecommender: Processed 9126 (41.1%) in 5.00 min. Items per second: 30.41
-27919.2s 560 SLIMElasticNetRecommender: Processed 19206 (86.4%) in 10.00 min. Items per second: 32.01
-28019.0s 561 SLIMElasticNetRecommender: Processed 22222 (100.0%) in 11.66 min. Items per second: 31.75
-28033.1s 562 [I 2024-01-06 18:13:38,133] Trial 38 finished with value: 0.4318069992612266 and parameters: {'topK': 5182, 'l1_ratio': 6.738943569485221e-05, 'alpha': 0.022849816901020153}. Best is trial 5 with value: 0.43279612330481937.
-28033.3s 563 SLIMElasticNetRecommender: URM Detected 323 ( 2.6%) users with no interactions.
-28033.3s 564 SLIMElasticNetRecommender: URM Detected 187 ( 0.8%) items with no interactions.
-28333.1s 565 SLIMElasticNetRecommender: Processed 9596 (43.2%) in 5.00 min. Items per second: 31.98
-28633.1s 566 SLIMElasticNetRecommender: Processed 19831 (89.2%) in 10.00 min. Items per second: 33.05
-28713.9s 567 SLIMElasticNetRecommender: Processed 22222 (100.0%) in 11.35 min. Items per second: 32.64
-28727.0s 568 [I 2024-01-06 18:25:12,066] Trial 39 finished with value: 0.4296105563642463 and parameters: {'topK': 1084, 'l1_ratio': 0.0001566439322467639, 'alpha': 0.019829920322257846}. Best is trial 5 with value: 0.43279612330481937.
-28727.2s 569 SLIMElasticNetRecommender: URM Detected 323 ( 2.6%) users with no interactions.
-28727.2s 570 SLIMElasticNetRecommender: URM Detected 187 ( 0.8%) items with no interactions.
-29027.1s 571 SLIMElasticNetRecommender: Processed 8988 (40.4%) in 5.00 min. Items per second: 29.96
-29327.1s 572 SLIMElasticNetRecommender: Processed 19017 (85.6%) in 10.00 min. Items per second: 31.69
-29433.1s 573 SLIMElasticNetRecommender: Processed 22222 (100.0%) in 11.77 min. Items per second: 31.47
-29447.4s 574 [I 2024-01-06 18:37:12,499] Trial 40 finished with value: 0.43259394025457387 and parameters: {'topK': 6289, 'l1_ratio': 3.2914856525374874e-05, 'alpha': 0.025757310226752456}. Best is trial 5 with value: 0.43279612330481937.
-29447.6s 575 SLIMElasticNetRecommender: URM Detected 323 ( 2.6%) users with no interactions.
-29447.6s 576 SLIMElasticNetRecommender: URM Detected 187 ( 0.8%) items with no interactions.
-29747.6s 577 SLIMElasticNetRecommender: Processed 8964 (40.3%) in 5.00 min. Items per second: 29.87
-30047.6s 578 SLIMElasticNetRecommender: Processed 18948 (85.3%) in 10.00 min. Items per second: 31.57
-30155.8s 579 SLIMElasticNetRecommender: Processed 22222 (100.0%) in 11.80 min. Items per second: 31.37
-30170.2s 580 [I 2024-01-06 18:49:15,232] Trial 41 finished with value: 0.4327709677375616 and parameters: {'topK': 6466, 'l1_ratio': 2.6306947189050255e-05, 'alpha': 0.025587622166106355}. Best is trial 5 with value: 0.43279612330481937.
-30170.4s 581 SLIMElasticNetRecommender: URM Detected 323 ( 2.6%) users with no interactions.
-30170.4s 582 SLIMElasticNetRecommender: URM Detected 187 ( 0.8%) items with no interactions.
-30470.2s 583 SLIMElasticNetRecommender: Processed 9212 (41.5%) in 5.00 min. Items per second: 30.70
-30770.2s 584 SLIMElasticNetRecommender: Processed 19408 (87.3%) in 10.00 min. Items per second: 32.34
-30863.9s 585 SLIMElasticNetRecommender: Processed 22222 (100.0%) in 11.56 min. Items per second: 32.03
-30878.4s 586 [I 2024-01-06 19:01:03,452] Trial 42 finished with value: 0.43184063007228457 and parameters: {'topK': 6593, 'l1_ratio': 6.663716559730782e-05, 'alpha': 0.027719867282801725}. Best is trial 5 with value: 0.43279612330481937.
-30878.6s 587 SLIMElasticNetRecommender: URM Detected 323 ( 2.6%) users with no interactions.
-30878.6s 588 SLIMElasticNetRecommender: URM Detected 187 ( 0.8%) items with no interactions.
-31178.4s 589 SLIMElasticNetRecommender: Processed 9360 (42.1%) in 5.00 min. Items per second: 31.20
-31478.5s 590 SLIMElasticNetRecommender: Processed 19556 (88.0%) in 10.00 min. Items per second: 32.59
-31567.1s 591 SLIMElasticNetRecommender: Processed 22222 (100.0%) in 11.48 min. Items per second: 32.27
-31581.0s 592 [I 2024-01-06 19:12:46,100] Trial 43 finished with value: 0.43067467057687203 and parameters: {'topK': 5410, 'l1_ratio': 9.985994481831383e-05, 'alpha': 0.020469601491583975}. Best is trial 5 with value: 0.43279612330481937.
-31581.3s 593 SLIMElasticNetRecommender: URM Detected 323 ( 2.6%) users with no interactions.
-31581.3s 594 SLIMElasticNetRecommender: URM Detected 187 ( 0.8%) items with no interactions.
-31881.1s 595 SLIMElasticNetRecommender: Processed 8747 (39.4%) in 5.00 min. Items per second: 29.15
-32181.1s 596 SLIMElasticNetRecommender: Processed 18527 (83.4%) in 10.00 min. Items per second: 30.87
-32305.1s 597 SLIMElasticNetRecommender: Processed 22222 (100.0%) in 12.07 min. Items per second: 30.69
-32318.8s 598 [I 2024-01-06 19:25:03,902] Trial 44 finished with value: 0.4301982885411264 and parameters: {'topK': 6158, 'l1_ratio': 2.171371823656072e-05, 'alpha': 0.018158799759979062}. Best is trial 5 with value: 0.43279612330481937.
-32319.1s 599 SLIMElasticNetRecommender: URM Detected 323 ( 2.6%) users with no interactions.
-32319.1s 600 SLIMElasticNetRecommender: URM Detected 187 ( 0.8%) items with no interactions.
-32618.9s 601 SLIMElasticNetRecommender: Processed 9230 (41.5%) in 5.00 min. Items per second: 30.76
-32918.9s 602 SLIMElasticNetRecommender: Processed 19327 (87.0%) in 10.00 min. Items per second: 32.21
-33015.8s 603 SLIMElasticNetRecommender: Processed 22222 (100.0%) in 11.62 min. Items per second: 31.88
-33030.1s 604 [I 2024-01-06 19:36:55,211] Trial 45 finished with value: 0.4326878556097416 and parameters: {'topK': 6865, 'l1_ratio': 6.373985510085908e-05, 'alpha': 0.023526116497838853}. Best is trial 5 with value: 0.43279612330481937.
-33030.4s 605 SLIMElasticNetRecommender: URM Detected 323 ( 2.6%) users with no interactions.
-33030.4s 606 SLIMElasticNetRecommender: URM Detected 187 ( 0.8%) items with no interactions.
-33330.2s 607 SLIMElasticNetRecommender: Processed 9200 (41.4%) in 5.00 min. Items per second: 30.66
-33630.3s 608 SLIMElasticNetRecommender: Processed 19364 (87.1%) in 10.00 min. Items per second: 32.27
-33724.8s 609 SLIMElasticNetRecommender: Processed 22222 (100.0%) in 11.58 min. Items per second: 31.99
-33738.8s 610 [I 2024-01-06 19:48:43,900] Trial 46 finished with value: 0.4315511875853608 and parameters: {'topK': 6921, 'l1_ratio': 6.173522503605552e-05, 'alpha': 0.02176229515215827}. Best is trial 5 with value: 0.43279612330481937.
-33739.1s 611 SLIMElasticNetRecommender: URM Detected 323 ( 2.6%) users with no interactions.
-33739.1s 612 SLIMElasticNetRecommender: URM Detected 187 ( 0.8%) items with no interactions.
-34038.9s 613 SLIMElasticNetRecommender: Processed 8349 (37.6%) in 5.00 min. Items per second: 27.83
-34338.9s 614 SLIMElasticNetRecommender: Processed 17810 (80.1%) in 10.00 min. Items per second: 29.68
-34488.1s 615 SLIMElasticNetRecommender: Processed 22222 (100.0%) in 12.49 min. Items per second: 29.66
-34502.3s 616 [I 2024-01-06 20:01:27,403] Trial 47 finished with value: 0.4324510163545934 and parameters: {'topK': 6413, 'l1_ratio': 8.11430429960889e-06, 'alpha': 0.02371091831961522}. Best is trial 5 with value: 0.43279612330481937.
-34502.6s 617 SLIMElasticNetRecommender: URM Detected 323 ( 2.6%) users with no interactions.
-34502.6s 618 SLIMElasticNetRecommender: URM Detected 187 ( 0.8%) items with no interactions.
-34802.4s 619 SLIMElasticNetRecommender: Processed 9417 (42.4%) in 5.00 min. Items per second: 31.38
-35102.5s 620 SLIMElasticNetRecommender: Processed 19695 (88.6%) in 10.00 min. Items per second: 32.82
-35186.4s 621 SLIMElasticNetRecommender: Processed 22222 (100.0%) in 11.40 min. Items per second: 32.49
-35200.6s 622 [I 2024-01-06 20:13:05,642] Trial 48 finished with value: 0.4323682575813606 and parameters: {'topK': 5611, 'l1_ratio': 0.0001295260575133137, 'alpha': 0.02491371983708294}. Best is trial 5 with value: 0.43279612330481937.
-35200.8s 623 SLIMElasticNetRecommender: URM Detected 323 ( 2.6%) users with no interactions.
-35200.8s 624 SLIMElasticNetRecommender: URM Detected 187 ( 0.8%) items with no interactions.
-35500.6s 625 SLIMElasticNetRecommender: Processed 9489 (42.7%) in 5.00 min. Items per second: 31.63
-35800.7s 626 SLIMElasticNetRecommender: Processed 19864 (89.4%) in 10.00 min. Items per second: 33.10
-35879.7s 627 SLIMElasticNetRecommender: Processed 22222 (100.0%) in 11.32 min. Items per second: 32.73
-35893.8s 628 [I 2024-01-06 20:24:38,874] Trial 49 finished with value: 0.43227240221462815 and parameters: {'topK': 6826, 'l1_ratio': 0.00023096804540212256, 'alpha': 0.02322168821493594}. Best is trial 5 with value: 0.43279612330481937.
-35894.0s 629 SLIMElasticNetRecommender: URM Detected 323 ( 2.6%) users with no interactions.
-35894.0s 630 SLIMElasticNetRecommender: URM Detected 187 ( 0.8%) items with no interactions.
-36193.9s 631 SLIMElasticNetRecommender: Processed 8826 (39.7%) in 5.00 min. Items per second: 29.41
-36493.9s 632 SLIMElasticNetRecommender: Processed 18618 (83.8%) in 10.00 min. Items per second: 31.03
-36615.1s 633 SLIMElasticNetRecommender: Processed 22222 (100.0%) in 12.02 min. Items per second: 30.81
-36628.4s 634 [I 2024-01-06 20:36:53,432] Trial 50 finished with value: 0.4280614939381002 and parameters: {'topK': 4982, 'l1_ratio': 2.8964311060126684e-05, 'alpha': 0.013655446527733824}. Best is trial 5 with value: 0.43279612330481937.
-36628.6s 635 SLIMElasticNetRecommender: URM Detected 323 ( 2.6%) users with no interactions.
-36628.6s 636 SLIMElasticNetRecommender: URM Detected 187 ( 0.8%) items with no interactions.
-36928.4s 637 SLIMElasticNetRecommender: Processed 9324 (42.0%) in 5.00 min. Items per second: 31.08
-37228.5s 638 SLIMElasticNetRecommender: Processed 19566 (88.0%) in 10.00 min. Items per second: 32.61
-37316.2s 639 SLIMElasticNetRecommender: Processed 22222 (100.0%) in 11.46 min. Items per second: 32.31
-37330.6s 640 [I 2024-01-06 20:48:35,694] Trial 51 finished with value: 0.4322282023146524 and parameters: {'topK': 6368, 'l1_ratio': 8.82911022104817e-05, 'alpha': 0.026518894461387242}. Best is trial 5 with value: 0.43279612330481937.
-37330.9s 641 SLIMElasticNetRecommender: URM Detected 323 ( 2.6%) users with no interactions.
-37330.9s 642 SLIMElasticNetRecommender: URM Detected 187 ( 0.8%) items with no interactions.
-37630.7s 643 SLIMElasticNetRecommender: Processed 9195 (41.4%) in 5.00 min. Items per second: 30.65
-37930.7s 644 SLIMElasticNetRecommender: Processed 19360 (87.1%) in 10.00 min. Items per second: 32.26
-38025.5s 645 SLIMElasticNetRecommender: Processed 22222 (100.0%) in 11.58 min. Items per second: 31.98
-38039.8s 646 [I 2024-01-06 21:00:24,871] Trial 52 finished with value: 0.43218377154759874 and parameters: {'topK': 6624, 'l1_ratio': 5.107851881790693e-05, 'alpha': 0.02665441145472564}. Best is trial 5 with value: 0.43279612330481937.
-38040.0s 647 SLIMElasticNetRecommender: URM Detected 323 ( 2.6%) users with no interactions.
-38040.0s 648 SLIMElasticNetRecommender: URM Detected 187 ( 0.8%) items with no interactions.
-38339.9s 649 SLIMElasticNetRecommender: Processed 9447 (42.5%) in 5.00 min. Items per second: 31.48
-38639.9s 650 SLIMElasticNetRecommender: Processed 19800 (89.1%) in 10.00 min. Items per second: 33.00
-38720.5s 651 SLIMElasticNetRecommender: Processed 22222 (100.0%) in 11.34 min. Items per second: 32.65
-38735.2s 652 [I 2024-01-06 21:12:00,280] Trial 53 finished with value: 0.43104683664828486 and parameters: {'topK': 4083, 'l1_ratio': 0.00016899731157462113, 'alpha': 0.029739372627218395}. Best is trial 5 with value: 0.43279612330481937.
-38735.4s 653 SLIMElasticNetRecommender: URM Detected 323 ( 2.6%) users with no interactions.
-38735.4s 654 SLIMElasticNetRecommender: URM Detected 187 ( 0.8%) items with no interactions.
-39035.4s 655 SLIMElasticNetRecommender: Processed 9235 (41.6%) in 5.00 min. Items per second: 30.78
-39335.5s 656 SLIMElasticNetRecommender: Processed 19338 (87.0%) in 10.00 min. Items per second: 32.22
-39432.5s 657 SLIMElasticNetRecommender: Processed 22222 (100.0%) in 11.62 min. Items per second: 31.87
-39446.3s 658 [I 2024-01-06 21:23:51,387] Trial 54 finished with value: 0.4300827141542866 and parameters: {'topK': 1760, 'l1_ratio': 5.048341390044041e-05, 'alpha': 0.02157436298755222}. Best is trial 5 with value: 0.43279612330481937.
-39446.5s 659 SLIMElasticNetRecommender: URM Detected 323 ( 2.6%) users with no interactions.
-39446.5s 660 SLIMElasticNetRecommender: URM Detected 187 ( 0.8%) items with no interactions.
-39746.4s 661 SLIMElasticNetRecommender: Processed 9302 (41.9%) in 5.00 min. Items per second: 31.00
-40046.4s 662 SLIMElasticNetRecommender: Processed 19576 (88.1%) in 10.00 min. Items per second: 32.62
-40133.1s 663 SLIMElasticNetRecommender: Processed 22222 (100.0%) in 11.45 min. Items per second: 32.36
-40148.1s 664 [I 2024-01-06 21:35:33,135] Trial 55 finished with value: 0.4304345255301771 and parameters: {'topK': 5853, 'l1_ratio': 8.838721047937165e-05, 'alpha': 0.030903631962214982}. Best is trial 5 with value: 0.43279612330481937.
-40148.3s 665 SLIMElasticNetRecommender: URM Detected 323 ( 2.6%) users with no interactions.
-40148.3s 666 SLIMElasticNetRecommender: URM Detected 187 ( 0.8%) items with no interactions.
-40448.2s 667 SLIMElasticNetRecommender: Processed 9575 (43.1%) in 5.00 min. Items per second: 31.91
-40748.2s 668 SLIMElasticNetRecommender: Processed 19977 (89.9%) in 10.00 min. Items per second: 33.29
-40823.0s 669 SLIMElasticNetRecommender: Processed 22222 (100.0%) in 11.25 min. Items per second: 32.92
-40837.2s 670 [I 2024-01-06 21:47:02,301] Trial 56 finished with value: 0.4323029079587417 and parameters: {'topK': 6723, 'l1_ratio': 0.00030394498804763514, 'alpha': 0.023990716981179647}. Best is trial 5 with value: 0.43279612330481937.
-40837.5s 671 SLIMElasticNetRecommender: URM Detected 323 ( 2.6%) users with no interactions.
-40837.5s 672 SLIMElasticNetRecommender: URM Detected 187 ( 0.8%) items with no interactions.
-41137.3s 673 SLIMElasticNetRecommender: Processed 9010 (40.5%) in 5.00 min. Items per second: 30.03
-41437.4s 674 SLIMElasticNetRecommender: Processed 19062 (85.8%) in 10.00 min. Items per second: 31.77
-41542.4s 675 SLIMElasticNetRecommender: Processed 22222 (100.0%) in 11.75 min. Items per second: 31.52
-41556.8s 676 [I 2024-01-06 21:59:01,865] Trial 57 finished with value: 0.43265476465368696 and parameters: {'topK': 3646, 'l1_ratio': 3.104827886725137e-05, 'alpha': 0.025269448543236293}. Best is trial 5 with value: 0.43279612330481937.
-41557.0s 677 SLIMElasticNetRecommender: URM Detected 323 ( 2.6%) users with no interactions.
-41557.0s 678 SLIMElasticNetRecommender: URM Detected 187 ( 0.8%) items with no interactions.
-41856.9s 679 SLIMElasticNetRecommender: Processed 8885 (40.0%) in 5.00 min. Items per second: 29.61
-42156.9s 680 SLIMElasticNetRecommender: Processed 18765 (84.4%) in 10.00 min. Items per second: 31.27
-42271.5s 681 SLIMElasticNetRecommender: Processed 22222 (100.0%) in 11.91 min. Items per second: 31.10
-42285.7s 682 [I 2024-01-06 22:11:10,754] Trial 58 finished with value: 0.4324822521331198 and parameters: {'topK': 3533, 'l1_ratio': 2.2203855131302927e-05, 'alpha': 0.025167858516045694}. Best is trial 5 with value: 0.43279612330481937.
-42285.9s 683 SLIMElasticNetRecommender: URM Detected 323 ( 2.6%) users with no interactions.
-42285.9s 684 SLIMElasticNetRecommender: URM Detected 187 ( 0.8%) items with no interactions.
-42585.8s 685 SLIMElasticNetRecommender: Processed 8405 (37.8%) in 5.00 min. Items per second: 28.01
-42885.8s 686 SLIMElasticNetRecommender: Processed 17936 (80.7%) in 10.00 min. Items per second: 29.89
-43028.8s 687 SLIMElasticNetRecommender: Processed 22222 (100.0%) in 12.38 min. Items per second: 29.90
-43043.4s 688 [I 2024-01-06 22:23:48,430] Trial 59 finished with value: 0.43179859630009243 and parameters: {'topK': 4451, 'l1_ratio': 8.414969653596541e-06, 'alpha': 0.02853824508772589}. Best is trial 5 with value: 0.43279612330481937.
-43044.1s 689 SLIMElasticNetRecommender: URM Detected 164 ( 1.3%) users with no interactions.
-43044.1s 690 SLIMElasticNetRecommender: URM Detected 70 ( 0.3%) items with no interactions.
