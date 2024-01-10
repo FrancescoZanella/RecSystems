@@ -15,8 +15,8 @@ best_pars_recall_dict = {
     'l2_norm': 505.36927044973623
   },
   'P3alphaRecommender': {
-    'topK': 1148,
-    'alpha': 0.3747336360484326,
+    'topK': 1000, 
+    'alpha': 0.3879460479349395,
     'normalize_similarity': True
   },
   'ItemKNNCFRecommender': {
