@@ -13,11 +13,6 @@ Slim weight: 0.4, Rp3beta weight: 0.0, knn weight: 0.1, p3alpha weight: 0.5
 KFOLD -> 0.48033249851326393
 KFOLD -> 0.47952965786860763
 
-Slim weight: 0.5, Rp3beta weight: 0.2, knn weight: 0.1, p3alpha weight: 0.2
-0.43774627251082254
-KFOLD -> 0.4822134118057746
-KFOLD -> 0.4814326304342721
-
 Slim weight: 0.2, Rp3beta weight: 0.0, knn weight: 0.1, p3alpha weight: 0.7
 0.4378052500828225
 KFOLD -> 0.4786091420069705
