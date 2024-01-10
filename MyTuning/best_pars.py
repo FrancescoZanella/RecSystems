@@ -32,6 +32,7 @@ best_pars_dict = {
     'topK':18
   },
   'IALSRecommender': {
+    'epochs': 10,
     'num_factors': 237,
     'confidence_scaling': 'log',
     'alpha': 0.8518168781047342,
