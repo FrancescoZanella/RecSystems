@@ -66,6 +66,7 @@ The hyperparameters tuning was done using:
 ## Contributors
 
 [Francesco Zanella](https://github.com/FrancescoZanella)
+
 [Federico CIliberto](https://github.com/FedericoCiliberto)
 
 ## Credits
