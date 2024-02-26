@@ -20,6 +20,7 @@ The goal is to recommend a list of 10 potentially relevant items for each user. 
 Deadline 2 (final):
  - Public leaderboard: 2th
  - Private leaderboard: 3th
+
 Deadline 1:
  - Public leaderboard: 2th
  - Private leaderboard: 2th
