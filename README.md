@@ -49,12 +49,24 @@ We used as features:
   - **Item popularity**
 
 This is a representation of the architecture:
-![image](https://github.com/FrancescoZanella/RecSystems/screenshoots/Immagine1.png).
+
+<p align="center">
+<img src="https://github.com/FrancescoZanella/RecSystems/blob/master/screenshoots/Immagine1.png" width="600" height="400">
+</p>
 
 N.B. the candidate generator we have used is strongly optimized on recall, no more on MAP.
 
 
 ## Hyperparameters tuning
+
+The hyperparameters tuning was done using:
+  - **Kaggle** free GPU plan
+  - **Asus Zenbook**
+
+## Contributors
+
+[Francesco Zanella](https://github.com/FrancescoZanella)
+[Federico CIliberto](https://github.com/FedericoCiliberto)
 
 ## Credits
 This repository is based on [Maurizio Ferrari Dacrema Repository](https://github.com/MaurizioFD/RecSys_Course_AT_PoliMi).
