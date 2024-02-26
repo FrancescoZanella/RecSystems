@@ -4,6 +4,8 @@
 <p align="center">
     <img src="https://i.imgur.com/mPb3Qbd.gif" width="180" alt="Politecnico di Milano"/>
 </p>
+
+
 # Recommender System Challenge 2023/2024 Polimi 
 This repository contains the data and the code used in [Polimi Kaggle competition](https://www.kaggle.com/competitions/recommender-system-2023-challenge-polimi)
 The application domain is book recommendation. The datasets provided contains interactions of users with books, in particular, if the user attributed to the book a rating of at least 4. 
