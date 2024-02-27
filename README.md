@@ -63,6 +63,9 @@ N.B. the candidate generator we have used is strongly optimized on recall, no mo
 The hyperparameters tuning was done using:
   - **Kaggle** free GPU plan
   - **Asus Zenbook**
+    
+## Presentation
+For further informations on how the tuning is been done and on how we have structured our work pipeline, you can read the [presentation](https://github.com/FrancescoZanella/RecSystems/blob/master/presentation.pptx).
 
 ## Contributors
 
